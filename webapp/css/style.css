@@ -1,0 +1,12 @@
+/* Enter your custom styles here */
+
+/* BankNotes */
+
+.customDialogClass section div div div form > div:first-child > div:first-child > div:first-child > div:nth-child(1) {
+  padding-left: 0.5rem;
+  padding-right: 0.25rem;
+}
+
+.customDialogClass section div div div form > div:first-child > div:first-child > div:first-child > div:nth-child(2) {
+  padding-right: 0.5rem;
+}

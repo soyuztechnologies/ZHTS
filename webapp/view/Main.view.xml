@@ -1,0 +1,33 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:tnt="sap.tnt" xmlns:form="sap.ui.layout.form" xmlns="sap.m"
+	controllerName="hts.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App id="idMain">
+		<Page title="{i18n>appTitle}">
+			<content>
+				<tnt:ToolHeader>
+					<Button icon="sap-icon://home" type="Transparent" press=".onHomePress">
+						<layoutData>
+							<OverflowToolbarLayoutData priority="NeverOverflow"/>
+						</layoutData>
+					</Button>
+					<IconTabHeader id="iconTabHeader" selectedKey="invalidKey" select=".onSelectTab" backgroundDesign="Transparent" mode="Inline">
+						<layoutData>
+							<OverflowToolbarLayoutData priority="NeverOverflow" shrinkable="true"/>
+						</layoutData>
+						<items>
+							<IconTabFilter text="Material" key="Material"/>
+							<IconTabFilter text="Planning Material" key="PlanningMaterial"/>
+							<IconTabFilter text="Work Queue" key="WorkQueue"/>
+							<IconTabFilter text="Preferences" key="Preferences"/>
+							<IconTabFilter text="Administration" key="Administration"/>
+						</items>
+					</IconTabHeader>
+					<Text text="{i18n>Version}"/>
+				</tnt:ToolHeader>
+				<Panel id="idMainPanel">
+					<core:Fragment fragmentName="hts.fragments.Home" type="XML"/>
+				</Panel>
+			</content>
+			<footer></footer>
+		</Page>
+	</App>
+</mvc:View>

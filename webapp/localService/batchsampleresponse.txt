@@ -1,0 +1,262 @@
+--A6A6FCEFC19FDF42B8DC96E08825B0D70
+Content-Type: application/http
+Content-Length: 12539
+content-transfer-encoding: binary
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 12346
+dataserviceversion: 2.0
+sap-metadata-last-modified: Mon, 21 Sep 2020 02:46:52 GMT
+cache-control: no-store, no-cache
+
+{
+	"d": {
+		"__count": "6737",
+		"results": [
+		  {
+         "DocEntry": 160,
+         "DocNum": "20000035",
+         "DocDate": "/Date(1594771200000)/",
+         "DocDueDate": "/Date(1594771200000)/",
+         "CardCode": "F000006",
+         "CardName": "SCHAEFFLER ITALIA S.R.L.",
+         "Address": "VIA GEORG SCHAEFFLER, 728015 MOMO ITALY",
+         "NumAtCard": "",
+         "DocTotal": 1494.50,
+         "TaxDate": "/Date(1594771200000)/",
+         "WarehouseCode_T": "Mc",
+		 "ENT_EMFCtrlFF_YesNo_T": "N",
+		 "ENT_EMF_FF_DocEntry_T": 72,
+		 "ENT_EMF_FF_LineNum_T": 0,  
+		 "ENT_EMF_FF_DocDate_T": "/Date(1594771200000)/",
+		 "EditableHeader": false,
+		 "DocumentLines": [
+            {
+               "LineNum": 0,
+               "ItemCode": "CHA-CCU101",
+               "ItemDescription": "BMW 3 (E46) M47 D20",
+               "Quantity": 50.0,
+               "ShipDate": null,
+               "Price": 10.0,
+               "PriceAfterVAT": 12.20,
+               "Currency": "EUR",
+               "Rate": 0.0,
+               "DiscountPercent": 0.0,
+               "LineTotal": 610.0,
+               "VendorNum": "CCU101",
+               "WarehouseCode": "Mc",
+			   "ENT_EMFCtrlFF_YesNo_R": "Y",
+			   "ENT_EMF_FF_DocEntry_R": 72,  
+			   "ENT_EMF_FF_LineNum_R": 0,   
+			   "ENT_EMF_FF_DocDate_R": "/Date(1594339200000)/"
+            },
+            {
+               "LineNum": 1,
+               "ItemCode": "CHA-CAF100101R",
+               "ItemDescription": "FILTRO ARIA",
+               "Quantity": 50.0,
+               "ShipDate": null,
+               "Price": 15.0,
+               "PriceAfterVAT": 18.30,
+               "Currency": "EUR",
+               "Rate": 0.0,
+               "DiscountPercent": 0.0,
+               "VendorNum": "CAF100101R",
+               "LineTotal": 915.0,
+               "WarehouseCode": "Mc",
+			   "ENT_EMFCtrlFF_YesNo_R": "Y",
+			   "ENT_EMF_FF_DocEntry_R": 72,  
+			   "ENT_EMF_FF_LineNum_R": 0,   
+			   "ENT_EMF_FF_DocDate_R": "/Date(1594339200000)/"
+            }
+         ]
+      },
+      {
+         "DocEntry": 154,
+         "DocNum": "20000033",
+         "DocDate": "/Date(1586476800000)/",
+         "DocDueDate": "/Date(1586476800000)/",
+         "CardCode": "F000195",
+         "CardName": "JAPANPARTS S.R.L.",
+         "Address": "VIA GEORG SCHAEFFLER, 728015 MOMO ITALY",
+         "NumAtCard": "006469",
+         "DocTotal": 1856.960,
+         "TaxDate": "/Date(1586476800000)/",
+         "WarehouseCode_T": "Mc",
+		 "ENT_EMFCtrlFF_YesNo_T": "Y",
+		 "ENT_EMF_FF_DocEntry_T": null, 
+		 "ENT_EMF_FF_LineNum_T": null,  
+		 "ENT_EMF_FF_DocDate_T": "/Date(1586476800000)/",
+		 "EditableHeader": true,
+		 "DocumentLines": [
+            {
+               "LineNum": 0,
+               "ItemCode": "JAP-KDD-009",
+               "ItemDescription": "KIT CINGHIE DISTRIBUZIONE",
+               "Quantity": 3.0,
+               "ShipDate": null,
+               "Price": 129.50,
+               "PriceAfterVAT": 157.990,
+               "Currency": "EUR",
+               "Rate": 0.0,
+               "DiscountPercent": 0.0,
+               "VendorNum": "KDD-009",
+               "WarehouseCode": "Mc",
+			   "ENT_EMFCtrlFF_YesNo_R": "Y",
+			   "ENT_EMF_FF_DocEntry_R": 67,  
+			   "ENT_EMF_FF_LineNum_R": 0,   
+			   "ENT_EMF_FF_DocDate_R": "/Date(1594339200000)/"
+            },
+            {
+               "LineNum": 1,
+               "ItemCode": "JAP-KDD-009",
+               "ItemDescription": "KIT CINGHIE DISTRIBUZIONE",
+               "Quantity": 1.0,
+               "ShipDate": null,
+               "Price": 129.50,
+               "PriceAfterVAT": 157.990,
+               "Currency": "EUR",
+               "Rate": 0.0,
+               "DiscountPercent": 0.0,
+               "VendorNum": "KDD-009",
+               "WarehouseCode": "Mc",
+			   "ENT_EMFCtrlFF_YesNo_R": "Y",
+			   "ENT_EMF_FF_DocEntry_R": 67,  
+			   "ENT_EMF_FF_LineNum_R": 0,   
+			   "ENT_EMF_FF_DocDate_R": "/Date(1594339200000)/"
+            },
+            {
+               "LineNum": 2,
+               "ItemCode": "JAP-KF-2014M",
+               "ItemDescription": "KIT FRIZIONE",
+               "Quantity": 2.0,
+               "ShipDate": null,
+               "Price": 203.40,
+               "PriceAfterVAT": 248.150,
+               "Currency": "EUR",
+               "Rate": 0.0,
+               "DiscountPercent": 0.0,
+               "VendorNum": "KF-2014M",
+               "WarehouseCode": "Mc",
+			   "ENT_EMFCtrlFF_YesNo_R": "Y",
+			   "ENT_EMF_FF_DocEntry_R": 67,  
+			   "ENT_EMF_FF_LineNum_R": 1,   
+			   "ENT_EMF_FF_DocDate_R": "/Date(1594339200000)/"
+            },
+            {
+               "LineNum": 3,
+               "ItemCode": "JAP-KDD-425",
+               "ItemDescription": "KIT CINGHIE DISTRIBUZIONE",
+               "Quantity": 2.0,
+               "ShipDate": null,
+               "Price": 48.50,
+               "PriceAfterVAT": 59.170,
+               "Currency": "EUR",
+               "Rate": 0.0,
+               "DiscountPercent": 0.0,
+               "WarehouseCode": "Mc",
+               "VendorNum": "KDD-425",
+			   "ENT_EMFCtrlFF_YesNo_R": "N",
+			   "ENT_EMF_FF_DocEntry_R": null,  
+			   "ENT_EMF_FF_LineNum_R": null,   
+			   "ENT_EMF_FF_DocDate_R": "/Date(1594339200000)/"
+            },
+            {
+               "LineNum": 4,
+               "ItemCode": "JAP-KDD-291",
+               "ItemDescription": "KIT CINGHIE DISTRIBUZIONE",
+               "Quantity": 2.0,
+               "ShipDate": null,
+               "Price": 170.0,
+               "PriceAfterVAT": 207.40,
+               "Currency": "EUR",
+               "Rate": 0.0,
+               "DiscountPercent": 0.0,
+               "VendorNum": "KDD-291",
+               "WarehouseCode": "Mc",
+			   "ENT_EMFCtrlFF_YesNo_R": "N",
+			   "ENT_EMF_FF_DocEntry_R": null,  
+			   "ENT_EMF_FF_LineNum_R": null,   
+			   "ENT_EMF_FF_DocDate_R": "/Date(1594339200000)/"
+            },
+            {
+               "LineNum": 5,
+               "ItemCode": "JAP-KDD-222",
+               "ItemDescription": "KIT CINGHIE DISTRIBUZIONE",
+               "Quantity": 2.0,
+               "ShipDate": null,
+               "Price": 52.40,
+               "PriceAfterVAT": 63.930,
+               "Currency": "EUR",
+               "Rate": 0.0,
+               "DiscountPercent": 0.0,
+               "VendorNum": "KDD-222",
+               "WarehouseCode": "Mc",
+			   "ENT_EMFCtrlFF_YesNo_R": "",
+			   "ENT_EMF_FF_DocEntry_R": null,  
+			   "ENT_EMF_FF_LineNum_R": null,   
+			   "ENT_EMF_FF_DocDate_R": "/Date(1594339200000)/"
+            },
+            {
+               "LineNum": 6,
+               "ItemCode": "JAP-KK-10018",
+               "ItemDescription": "MOZZO RUOTA",
+               "Quantity": 1.0,
+               "ShipDate": null,
+               "Price": 55.50,
+               "PriceAfterVAT": 67.710,
+               "Currency": "EUR",
+               "Rate": 0.0,
+               "DiscountPercent": 0.0,
+               "VendorNum": "KK-10018",
+               "WarehouseCode": "Mc",
+			   "ENT_EMFCtrlFF_YesNo_R": "",
+			   "ENT_EMF_FF_DocEntry_R": null,  
+			   "ENT_EMF_FF_LineNum_R": null   ,
+			   "ENT_EMF_FF_DocDate_R": "/Date(1594339200000)/"
+            }
+         ]
+      },
+      {
+         "DocEntry": 158,
+         "DocNum": "20000034",
+         "DocDate": "/Date(1594339200000)/",
+         "DocDueDate": "/Date(1594339200000)/",
+         "CardCode": "F000648",
+         "CardName": "3M ITALIA S.R.L.",
+         "Address": "VIA N. BOBBIO, 2120096 PIOLTELLO ITALY",
+         "NumAtCard": null,
+         "DocTotal": 1225.5,
+         "TaxDate": "/Date(1594339200000)/",
+         "WarehouseCode_T": "Mc",
+		 "ENT_EMFCtrlFF_YesNo_T": "N",
+		 "ENT_EMF_FF_DocEntry_T": null,
+		 "ENT_EMF_FF_LineNum_T": null  ,
+		 "ENT_EMF_FF_DocDate_T": "/Date(1594339200000)/",
+		 "EditableHeader": true,
+         "DocumentLines": [
+            {
+               "LineNum": 0,
+               "ItemCode": "3M-00400+",
+               "ItemDescription": "3M 400 prefiltro respiratore 4251 e 4255",
+               "Quantity": 500.0,
+               "ShipDate": null,
+               "Price": 0.0,
+               "PriceAfterVAT": 0.0,
+               "Currency": "",
+               "Rate": 0.0,
+               "DiscountPercent": 0.0,
+               "VendorNum": "7100113104",
+               "WarehouseCode": "Mc",
+			   "ENT_EMFCtrlFF_YesNo_R": "",
+			   "ENT_EMF_FF_DocEntry_R": null,  
+			   "ENT_EMF_FF_LineNum_R": null   ,
+			   "ENT_EMF_FF_DocDate_R": "/Date(1594339200000)/"
+            }
+         ]
+      }
+		]
+	}
+}
+--A6A6FCEFC19FDF42B8DC96E08825B0D70--

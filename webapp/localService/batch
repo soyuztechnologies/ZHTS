@@ -1,0 +1,29 @@
+		if(stat === "OK"){
+						var payload = {"values": []};
+						that.getView().getModel().setUseBatch(true);
+						// that.getView().getModel().setDeferredGroups(["batchrequest"]);
+						// var mParameters = {groupId:"batchrequest",
+						// success:function(odata, resp){ 
+						// 	debugger;
+						// 	that.getView().byId("idonSave").setEnabled(false);
+						// },error: function(odata, resp) { 
+						// 	debugger;
+						// 	console.log(resp); 
+						// }};
+
+						for(var key in that.changedContexts){
+							var record = that.getView().getModel().getProperty(that.changedContexts[key].context);
+							var oField = that.changedContexts[key].control;
+							var toBePosted = {
+												"DocEntry": record.DocEntry,
+												"ENT_EMFCtrlFF_YesNo_T": (record.ENT_EMFCtrlFF_YesNo_T === true) ? "Y" : "N",
+												"Invoices": [{
+							                        "ENT_EMF_FF_DocEntry_R": oField.getTokens()[0].getText()
+												}]
+							};
+							//payload.values.push(toBePosted);
+							that.getView().getModel().create(that.changedContexts[key].context, toBePosted);
+	 					}
+	 					//that.getView().getModel().submitChanges(mParameters);
+						
+					}

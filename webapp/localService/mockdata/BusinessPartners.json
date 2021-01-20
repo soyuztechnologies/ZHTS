@@ -1,0 +1,3682 @@
+{
+   "d":{
+	"results": [
+      {
+         "CardCode": "F000056",
+         "CardName": "Intesa San Paolo"
+      },
+      {
+         "CardCode": "F000116",
+         "CardName": "CREDEMTEL SPA GRUPPO BANCARIO CREDITO EMILIANO"
+      },
+      {
+         "CardCode": "F000706",
+         "CardName": "INDUSTRIAL DE TRANSFORMADOS S.A."
+      },
+      {
+         "CardCode": "F000886",
+         "CardName": "PROFERA TRASPORTI & C.SAS"
+      },
+      {
+         "CardCode": "F000933",
+         "CardName": "LORY EXPRESS SRL"
+      },
+      {
+         "CardCode": "F000336",
+         "CardName": "EURO STAMP S.R.L."
+      },
+      {
+         "CardCode": "F000007",
+         "CardName": "IVAS INDUSTRIA VERNICI S.p.A."
+      },
+      {
+         "CardCode": "F000013",
+         "CardName": "F.G.L. DI BALDI FERDINANDO"
+      },
+      {
+         "CardCode": "F000014",
+         "CardName": "ASSO MARMITTE S.R.L."
+      },
+      {
+         "CardCode": "F000017",
+         "CardName": "LAMCO SRL ELETTROMECCANICA"
+      },
+      {
+         "CardCode": "F000018",
+         "CardName": "O.Z. S.P.A."
+      },
+      {
+         "CardCode": "F000006",
+         "CardName": "SCHAEFFLER ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F000024",
+         "CardName": "COMPAGNIA NAPOLETANA GAS"
+      },
+      {
+         "CardCode": "F000027",
+         "CardName": "RAMOIL SPA"
+      },
+      {
+         "CardCode": "F000009",
+         "CardName": "SUSA S.P.A."
+      },
+      {
+         "CardCode": "F000031",
+         "CardName": "OFFICINE CELSI SNC DEI F.LLI BENEDETTI"
+      },
+      {
+         "CardCode": "F000036",
+         "CardName": "BRECAV SRL"
+      },
+      {
+         "CardCode": "F000037",
+         "CardName": "ZECA S.p.A."
+      },
+      {
+         "CardCode": "F000011",
+         "CardName": "S.I.R.A. SRL"
+      },
+      {
+         "CardCode": "F000042",
+         "CardName": "O.S.R.A.V. ALFEO MORET S.P.A."
+      },
+      {
+         "CardCode": "F000046",
+         "CardName": "DURALDUR S.p.A."
+      },
+      {
+         "CardCode": "F000047",
+         "CardName": "CALZARETTA PASQUALE & C. SNC"
+      },
+      {
+         "CardCode": "F000346",
+         "CardName": "FIAMM COMPONENTI ACCESSORI F.C.A. S.P.A."
+      },
+      {
+         "CardCode": "F000666",
+         "CardName": "ALKAR AUTOMOTIVE S.A."
+      },
+      {
+         "CardCode": "F000053",
+         "CardName": "S.I.A. SOC. ITALIANA ACCESSORI SRL"
+      },
+      {
+         "CardCode": "F000050",
+         "CardName": "AVA ITALIA S.R.L. EX   MOTOWERE EUROPA SRL"
+      },
+      {
+         "CardCode": "F000140",
+         "CardName": "COMMERCIALE LUCANA S.R.L. (UNIPERSONALE)"
+      },
+      {
+         "CardCode": "F000058",
+         "CardName": "DOMETIC ITALY SRL"
+      },
+      {
+         "CardCode": "F000059",
+         "CardName": "ROBERT BOSCH S.P.A."
+      },
+      {
+         "CardCode": "F000061",
+         "CardName": "MELCHIONI S.P.A."
+      },
+      {
+         "CardCode": "F000055",
+         "CardName": "FG DEVAB S.R.L."
+      },
+      {
+         "CardCode": "F000064",
+         "CardName": "MARIEL S.R.L"
+      },
+      {
+         "CardCode": "F000066",
+         "CardName": "NUOVA TECNODELTA SPA"
+      },
+      {
+         "CardCode": "F000070",
+         "CardName": "QUINTON HAZELL ITALIA SPA"
+      },
+      {
+         "CardCode": "F000072",
+         "CardName": "COSTRUZIONE MECCANICHE RHO SPA"
+      },
+      {
+         "CardCode": "F000075",
+         "CardName": "NEWFREN SRL"
+      },
+      {
+         "CardCode": "F000080",
+         "CardName": "CASTELLANO MARIO"
+      },
+      {
+         "CardCode": "F000081",
+         "CardName": "CASTELLANO AVV.GUIDO"
+      },
+      {
+         "CardCode": "F000085",
+         "CardName": "ALDO ROMEO S.R.L."
+      },
+      {
+         "CardCode": "F000088",
+         "CardName": "FAGIANI GIOVANNI"
+      },
+      {
+         "CardCode": "F000089",
+         "CardName": "TEAMSYSTEM S.p.A."
+      },
+      {
+         "CardCode": "F000093",
+         "CardName": "EUROGIELLE SRL"
+      },
+      {
+         "CardCode": "F000095",
+         "CardName": "SARAGONI S.R.L."
+      },
+      {
+         "CardCode": "F000097",
+         "CardName": "WORLD DATA BANK S.R.L"
+      },
+      {
+         "CardCode": "F000098",
+         "CardName": "C.S.C.  S.R.L."
+      },
+      {
+         "CardCode": "F000103",
+         "CardName": "INCAS SPA"
+      },
+      {
+         "CardCode": "F000105",
+         "CardName": "CIMM di Mazzola & c. s.n.c."
+      },
+      {
+         "CardCode": "F000109",
+         "CardName": "AUTOCHEM ITALIANA SRL"
+      },
+      {
+         "CardCode": "F000062",
+         "CardName": "OVAM S.p.A."
+      },
+      {
+         "CardCode": "F000118",
+         "CardName": "COMET SPA"
+      },
+      {
+         "CardCode": "F000119",
+         "CardName": "FILCAR S.P.A."
+      },
+      {
+         "CardCode": "F000124",
+         "CardName": "M.M.B. SRL UNIPERSONALE"
+      },
+      {
+         "CardCode": "F000129",
+         "CardName": "TEODORO GIANLUCA"
+      },
+      {
+         "CardCode": "F000015",
+         "CardName": "MIGLIONICO MICHELE"
+      },
+      {
+         "CardCode": "F000132",
+         "CardName": "ORIGINAL BIRTH S.P.A."
+      },
+      {
+         "CardCode": "F000135",
+         "CardName": "NETTUNO SRL"
+      },
+      {
+         "CardCode": "F000142",
+         "CardName": "MECARM S.R.L."
+      },
+      {
+         "CardCode": "F000145",
+         "CardName": "BOTTARI S.P.A."
+      },
+      {
+         "CardCode": "F000147",
+         "CardName": "TUNAP ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F000149",
+         "CardName": "TAVOLA S.P.A."
+      },
+      {
+         "CardCode": "F000150",
+         "CardName": "FRENAUTO SRL"
+      },
+      {
+         "CardCode": "F000532",
+         "CardName": "FGL SRL"
+      },
+      {
+         "CardCode": "F000154",
+         "CardName": "RAM APPARECCHI MEDICALI S.R.L."
+      },
+      {
+         "CardCode": "F000155",
+         "CardName": "DERBY DI RIGONI GIORGIO SNC"
+      },
+      {
+         "CardCode": "F000157",
+         "CardName": "POLIETIL-PLAST S.R.L."
+      },
+      {
+         "CardCode": "F000852",
+         "CardName": "MELCHIONI CAR SYSTEM S.R.L."
+      },
+      {
+         "CardCode": "F000163",
+         "CardName": "DJA SRL HOTEL IACONE"
+      },
+      {
+         "CardCode": "F000166",
+         "CardName": "OMCN S.P.A."
+      },
+      {
+         "CardCode": "F000054",
+         "CardName": "BASF ITALIA SPA"
+      },
+      {
+         "CardCode": "F000175",
+         "CardName": "WD-40 COMPANY Ltd"
+      },
+      {
+         "CardCode": "F000176",
+         "CardName": "AGENZIA DI RAPP. di FASCIANA RAFFAELLA"
+      },
+      {
+         "CardCode": "F000509",
+         "CardName": "COLDAIR S.R.L."
+      },
+      {
+         "CardCode": "F000181",
+         "CardName": "INPS ISTITUTO NAZIONALE PREVIDENZA SOCIALE"
+      },
+      {
+         "CardCode": "F000184",
+         "CardName": "DE BONIS VALERIO"
+      },
+      {
+         "CardCode": "F000187",
+         "CardName": "AD ITALIA SPA AUTODISTRIBUTION SPA"
+      },
+      {
+         "CardCode": "F000115",
+         "CardName": "CONTE GOMME S.R.L."
+      },
+      {
+         "CardCode": "F000263",
+         "CardName": "AURILIS GROUP ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F000629",
+         "CardName": "MURAMA S.R.L."
+      },
+      {
+         "CardCode": "F000200",
+         "CardName": "RIZZO ANTONIO"
+      },
+      {
+         "CardCode": "F000203",
+         "CardName": "TEXA SPA"
+      },
+      {
+         "CardCode": "F000211",
+         "CardName": "TAB ITALIA SPA"
+      },
+      {
+         "CardCode": "F000213",
+         "CardName": "CSC TIME SRLS"
+      },
+      {
+         "CardCode": "F000220",
+         "CardName": "MAHLE Aftermarket Italy S.p.A."
+      },
+      {
+         "CardCode": "F000222",
+         "CardName": "AR. TRADE SRL"
+      },
+      {
+         "CardCode": "F000223",
+         "CardName": "OROVIAGGI S.R.L."
+      },
+      {
+         "CardCode": "F000224",
+         "CardName": "SERVICAR S.R.L."
+      },
+      {
+         "CardCode": "F000225",
+         "CardName": "EXIDE TECHNOLOGIES SRL"
+      },
+      {
+         "CardCode": "F000228",
+         "CardName": "C. & C. DI CIFANI G. SAS"
+      },
+      {
+         "CardCode": "F000233",
+         "CardName": "TYRE RIM SAS"
+      },
+      {
+         "CardCode": "F000235",
+         "CardName": "SKF INDUSTRIE SPA DIV.VSM ITALIA"
+      },
+      {
+         "CardCode": "F000242",
+         "CardName": "GOVONI S.R.L."
+      },
+      {
+         "CardCode": "F000248",
+         "CardName": "DI VICO GIOVANNI"
+      },
+      {
+         "CardCode": "F000257",
+         "CardName": "MAGGI GROUP SRL"
+      },
+      {
+         "CardCode": "F000052",
+         "CardName": "FOUR SEASONS ITALY SRL"
+      },
+      {
+         "CardCode": "F000188",
+         "CardName": "CIRE S.p.A."
+      },
+      {
+         "CardCode": "F000266",
+         "CardName": "TUNING 2000 A. SPORT ACCESSORI SRL"
+      },
+      {
+         "CardCode": "F000268",
+         "CardName": "GEV S.p.A."
+      },
+      {
+         "CardCode": "F000271",
+         "CardName": "CIFANI S.R.L."
+      },
+      {
+         "CardCode": "F000273",
+         "CardName": "SAMAUTO SPA"
+      },
+      {
+         "CardCode": "F000193",
+         "CardName": "FERDINAND BILSTEIN ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F000020",
+         "CardName": "RICAUTO SPA"
+      },
+      {
+         "CardCode": "F000291",
+         "CardName": "MAZIO GIUSEPPE"
+      },
+      {
+         "CardCode": "F000292",
+         "CardName": "BAVA FERDINANDO"
+      },
+      {
+         "CardCode": "F000199",
+         "CardName": "CENTRO UFFICIO S.R.L."
+      },
+      {
+         "CardCode": "F000301",
+         "CardName": "STUBE PAULANER SRL"
+      },
+      {
+         "CardCode": "F000302",
+         "CardName": "RONCUCCI FABRIZIO"
+      },
+      {
+         "CardCode": "F000307",
+         "CardName": "C.R.T. S.N.C. COSTR.RAD.E TERMOSC. DI TREFILETTI FRANCESCO & C."
+      },
+      {
+         "CardCode": "F000311",
+         "CardName": "DR.CLAUDIO PACILEO Consulenza del Lavoro e Ass. Legale"
+      },
+      {
+         "CardCode": "F000314",
+         "CardName": "ARZINO ANTONIO"
+      },
+      {
+         "CardCode": "F000317",
+         "CardName": "DIAFERIO ANTONIO"
+      },
+      {
+         "CardCode": "F000318",
+         "CardName": "MININI SERGIO"
+      },
+      {
+         "CardCode": "F000321",
+         "CardName": "ZETA-ERRE SRL"
+      },
+      {
+         "CardCode": "F000325",
+         "CardName": "IL BUGIGATTOLO di ALFONSO DI PALMA RISTORANTE - PIZZERIA"
+      },
+      {
+         "CardCode": "F000326",
+         "CardName": "ACACIA S.R.L."
+      },
+      {
+         "CardCode": "F000331",
+         "CardName": "AVV. LUIGI VITAGLIANO"
+      },
+      {
+         "CardCode": "F000332",
+         "CardName": "KYB EUROPE GMBH"
+      },
+      {
+         "CardCode": "F000334",
+         "CardName": "ROCCO MASSIMO"
+      },
+      {
+         "CardCode": "F000196",
+         "CardName": "TOP CAR S.R.L."
+      },
+      {
+         "CardCode": "F000338",
+         "CardName": "IMBALL TRADING S.R.L."
+      },
+      {
+         "CardCode": "F000130",
+         "CardName": "METELLI S.p.A."
+      },
+      {
+         "CardCode": "F000592",
+         "CardName": "HELLA S.p.A."
+      },
+      {
+         "CardCode": "F000350",
+         "CardName": "ARTI GRAFICHE LA PELOSA S.R.L."
+      },
+      {
+         "CardCode": "F000433",
+         "CardName": "PRASCO S.P.A."
+      },
+      {
+         "CardCode": "F000030",
+         "CardName": "SARAT S.R.L."
+      },
+      {
+         "CardCode": "F000365",
+         "CardName": "SERVICAR GROUP SRL"
+      },
+      {
+         "CardCode": "F000264",
+         "CardName": "C.C.T. di COLELLA DONATO"
+      },
+      {
+         "CardCode": "F000276",
+         "CardName": "DAVITTI GIULIANO"
+      },
+      {
+         "CardCode": "F000381",
+         "CardName": "LOFFREDO MASSIMO"
+      },
+      {
+         "CardCode": "F000383",
+         "CardName": "CENTRO EUROPA RICAMBI S.R.L."
+      },
+      {
+         "CardCode": "F000390",
+         "CardName": "CO.R.A. S.R.L."
+      },
+      {
+         "CardCode": "F000102",
+         "CardName": "COVEA S.C.R.L"
+      },
+      {
+         "CardCode": "F000395",
+         "CardName": "PRESTIANNI SALVATORE ANGELO"
+      },
+      {
+         "CardCode": "F000396",
+         "CardName": "UGO SCOTTI SRL"
+      },
+      {
+         "CardCode": "F000397",
+         "CardName": "LYRA BEARING SRL"
+      },
+      {
+         "CardCode": "F000412",
+         "CardName": "ONEDIRECT SRL UNIPERSONALE"
+      },
+      {
+         "CardCode": "F000421",
+         "CardName": "PLASTCARO S.R.L. UNIPERSONALE"
+      },
+      {
+         "CardCode": "F000422",
+         "CardName": "DAILY AUTO PARTS ITALY SRL"
+      },
+      {
+         "CardCode": "F000284",
+         "CardName": "PADAUTO SRL"
+      },
+      {
+         "CardCode": "F000151",
+         "CardName": "NRF ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F000438",
+         "CardName": "CASCO S.P.A."
+      },
+      {
+         "CardCode": "F000440",
+         "CardName": "S.I.D.A.T. Spa"
+      },
+      {
+         "CardCode": "F000450",
+         "CardName": "DONNARUMMA NICOLA"
+      },
+      {
+         "CardCode": "F000452",
+         "CardName": "PAOLO GUIDA NOTAIO"
+      },
+      {
+         "CardCode": "F000457",
+         "CardName": "MOTOWARE EUROPA SRL"
+      },
+      {
+         "CardCode": "F000458",
+         "CardName": "MARTINO LUIGI"
+      },
+      {
+         "CardCode": "F000534",
+         "CardName": "B.B.F. snc di Bordonaro Salvatore & C."
+      },
+      {
+         "CardCode": "F000463",
+         "CardName": "OKSYS SRL"
+      },
+      {
+         "CardCode": "F000464",
+         "CardName": "DOTT. GIUSEPPE CESARANO"
+      },
+      {
+         "CardCode": "F000466",
+         "CardName": "GAMMAU TRADING SRL"
+      },
+      {
+         "CardCode": "F000474",
+         "CardName": "LAMPERTI  S.R.L."
+      },
+      {
+         "CardCode": "F000490",
+         "CardName": "SIGAM S.R.L."
+      },
+      {
+         "CardCode": "F000506",
+         "CardName": "PAOLO PERRELLA"
+      },
+      {
+         "CardCode": "F000508",
+         "CardName": "QLT AUTOMOTIVE S.COOP.A R.L."
+      },
+      {
+         "CardCode": "F000161",
+         "CardName": "D.I.R.A. s.r.l."
+      },
+      {
+         "CardCode": "F000514",
+         "CardName": "BASF COATINGS SERVICES ITALY SRL ENTITY 1286"
+      },
+      {
+         "CardCode": "F000300",
+         "CardName": "MIRAGLIO S.P.A."
+      },
+      {
+         "CardCode": "F000525",
+         "CardName": "ING. PICARDI NUNZIA"
+      },
+      {
+         "CardCode": "F000347",
+         "CardName": "TORINO AUTORICAMBI SRL"
+      },
+      {
+         "CardCode": "F000113",
+         "CardName": "S.AR.PI. SRL"
+      },
+      {
+         "CardCode": "F000535",
+         "CardName": "ROCKWOOD ITALIA S.P.A. DIVISIONE GOMET"
+      },
+      {
+         "CardCode": "F000537",
+         "CardName": "INTEC S.R.L."
+      },
+      {
+         "CardCode": "F000549",
+         "CardName": "CARNEVALE CIRO"
+      },
+      {
+         "CardCode": "F000553",
+         "CardName": "COVELLI ALBERTO"
+      },
+      {
+         "CardCode": "F000554",
+         "CardName": "CARTON BOX SRL A SOCIO UNICO"
+      },
+      {
+         "CardCode": "F000559",
+         "CardName": "CASINO GIOVANNI"
+      },
+      {
+         "CardCode": "F000560",
+         "CardName": "FACET S.R.L."
+      },
+      {
+         "CardCode": "F000561",
+         "CardName": "INCONTRACT SRL"
+      },
+      {
+         "CardCode": "F000562",
+         "CardName": "SOFINN ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F000569",
+         "CardName": "BENEDETTO NUNZIO"
+      },
+      {
+         "CardCode": "F000582",
+         "CardName": "CAMMUSO GIUSEPPE"
+      },
+      {
+         "CardCode": "F000375",
+         "CardName": "CENTRO RICAMBI RICOSTRUITI S.N.C. di ANDREA E VINCENZO DE PRISCO"
+      },
+      {
+         "CardCode": "F000423",
+         "CardName": "INOUT SPA"
+      },
+      {
+         "CardCode": "F000589",
+         "CardName": "RIVOIRA REFRIGERANTS S.R.L."
+      },
+      {
+         "CardCode": "F000914",
+         "CardName": "CARTELLA VITTORIO S.R.L."
+      },
+      {
+         "CardCode": "F000598",
+         "CardName": "DEMAX S.R.L."
+      },
+      {
+         "CardCode": "F000608",
+         "CardName": "SANTARELLO ANDREA"
+      },
+      {
+         "CardCode": "F000612",
+         "CardName": "PRIME TECHNOLOGY SRL"
+      },
+      {
+         "CardCode": "F000613",
+         "CardName": "FNA SPA"
+      },
+      {
+         "CardCode": "F000617",
+         "CardName": "HENKEL ITALIA SRL"
+      },
+      {
+         "CardCode": "F000618",
+         "CardName": "BETA UTENSILI SPA"
+      },
+      {
+         "CardCode": "F000180",
+         "CardName": "GIADI GROUP S.R.L."
+      },
+      {
+         "CardCode": "F000630",
+         "CardName": "ZF ITALIA SRL"
+      },
+      {
+         "CardCode": "F000632",
+         "CardName": "MW AFTERMARKET SRL A SOCIO UNICO SOC.SOG.DIR E COOR. DI C.L.N. SPA"
+      },
+      {
+         "CardCode": "F000415",
+         "CardName": "R.U.P.E.S. SpA"
+      },
+      {
+         "CardCode": "F000635",
+         "CardName": "CONSORZIO ASSORICAMBI"
+      },
+      {
+         "CardCode": "F000640",
+         "CardName": "ETP EUROPE SRL"
+      },
+      {
+         "CardCode": "F000651",
+         "CardName": "GRENKE LOCAZIONE S.R.L."
+      },
+      {
+         "CardCode": "F000394",
+         "CardName": "CIDA AUTO COMPONENTS S.P.A. UNIPERSONALE"
+      },
+      {
+         "CardCode": "F000657",
+         "CardName": "KAMPOL S.J. Adam Kopczynski Mieczyslaw Kopczynski"
+      },
+      {
+         "CardCode": "F000658",
+         "CardName": "FORNITORE BOLLA DOGANALE AGENZIA DELLE DOGANE NAPOLI 1"
+      },
+      {
+         "CardCode": "F000372",
+         "CardName": "MDR SPA"
+      },
+      {
+         "CardCode": "F000662",
+         "CardName": "PROVA F000662"
+      },
+      {
+         "CardCode": "F000352",
+         "CardName": "EUROGLASS S.R.L."
+      },
+      {
+         "CardCode": "F000654",
+         "CardName": "DENSO THERMAL SYSTEMS SPA"
+      },
+      {
+         "CardCode": "F000669",
+         "CardName": "prova F000669"
+      },
+      {
+         "CardCode": "F000584",
+         "CardName": "SERVEX S.R.L."
+      },
+      {
+         "CardCode": "F000673",
+         "CardName": "VERNET SA"
+      },
+      {
+         "CardCode": "F000674",
+         "CardName": "EXEDY CLUTCH EUROPE LIMITED"
+      },
+      {
+         "CardCode": "F000681",
+         "CardName": "DECA S.p.A."
+      },
+      {
+         "CardCode": "F000648",
+         "CardName": "3M ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F000684",
+         "CardName": "KC S.R.L. Unipersonale"
+      },
+      {
+         "CardCode": "F000665",
+         "CardName": "SWAG AUTOTEILE GMBH"
+      },
+      {
+         "CardCode": "F000001",
+         "CardName": "BARONE FEDERICO"
+      },
+      {
+         "CardCode": "F000690",
+         "CardName": "LAIZHOU ZHONGAN AUTO PARTS CO LTD"
+      },
+      {
+         "CardCode": "F000691",
+         "CardName": "DEUTSCHE BANK USD"
+      },
+      {
+         "CardCode": "F000048",
+         "CardName": "2G RICAMBI AUTO S.R.L."
+      },
+      {
+         "CardCode": "F000715",
+         "CardName": "DOCFINANCE S.R.L."
+      },
+      {
+         "CardCode": "F000718",
+         "CardName": "SICAM S.R.L. UNIPERSONALE"
+      },
+      {
+         "CardCode": "F000755",
+         "CardName": "LOGISTEO GROUPE AUTO DISTRIBUTION"
+      },
+      {
+         "CardCode": "F000634",
+         "CardName": "FRECCIA INTERNATIONAL S.R.L."
+      },
+      {
+         "CardCode": "F000764",
+         "CardName": "SPAZIANI ANTONIO"
+      },
+      {
+         "CardCode": "F000770",
+         "CardName": "RESNOVA S.R.L."
+      },
+      {
+         "CardCode": "F000781",
+         "CardName": "MOTTOLA FRANCESCO - IMBALLAGGI INDUSTRALI S.R.L."
+      },
+      {
+         "CardCode": "F000782",
+         "CardName": "LETIZIA MACCHINE SRL"
+      },
+      {
+         "CardCode": "F000800",
+         "CardName": "DEPROS S.R.L."
+      },
+      {
+         "CardCode": "F000809",
+         "CardName": "MAGGI CATENE SPA"
+      },
+      {
+         "CardCode": "F000812",
+         "CardName": "CUCCARO RICCARDO"
+      },
+      {
+         "CardCode": "F000813",
+         "CardName": "PELLICCELLI HOTELS S.R.L."
+      },
+      {
+         "CardCode": "F000844",
+         "CardName": "ARUBA SPA"
+      },
+      {
+         "CardCode": "F000966",
+         "CardName": "ALGO S.p.A."
+      },
+      {
+         "CardCode": "F000460",
+         "CardName": "ELRINGKLINGER ITALIA S.R.L. con socio unico"
+      },
+      {
+         "CardCode": "F000671",
+         "CardName": "NTN-SNR ROULEMENTS"
+      },
+      {
+         "CardCode": "F000884",
+         "CardName": "RAVAGLIOLI S.p.A."
+      },
+      {
+         "CardCode": "F000898",
+         "CardName": "KORE INIZIATIVE S.R.L."
+      },
+      {
+         "CardCode": "F000899",
+         "CardName": "LOS ANDES S.R.L."
+      },
+      {
+         "CardCode": "F000683",
+         "CardName": "BELIZE S.R.L."
+      },
+      {
+         "CardCode": "F000919",
+         "CardName": "TOP LIGHT ITALIA SRL"
+      },
+      {
+         "CardCode": "F000003",
+         "CardName": "FERCAM TRASPORTI SRL"
+      },
+      {
+         "CardCode": "F000004",
+         "CardName": "IMMOBILIARE SEA LION UNIPERSONALE"
+      },
+      {
+         "CardCode": "F000685",
+         "CardName": "UFI FILTERS S.p.A."
+      },
+      {
+         "CardCode": "F000022",
+         "CardName": "TERME ROSAPEPE"
+      },
+      {
+         "CardCode": "F000930",
+         "CardName": "LONGO CARMELO"
+      },
+      {
+         "CardCode": "F000023",
+         "CardName": "TEODORO GIUSEPPE"
+      },
+      {
+         "CardCode": "F000025",
+         "CardName": "I.T.O. INTERNATIONAL TOUR OPERATOR S.R.L."
+      },
+      {
+         "CardCode": "F000026",
+         "CardName": "RICOLFI & C. S.P.A. CASA DI SPEDIZIONI"
+      },
+      {
+         "CardCode": "F000028",
+         "CardName": "G.H.L. SRL GRAND HOTEL LAMEZIA"
+      },
+      {
+         "CardCode": "F000029",
+         "CardName": "I.R.A.P. SRL"
+      },
+      {
+         "CardCode": "F000032",
+         "CardName": "UNICREDIT SPA"
+      },
+      {
+         "CardCode": "F000033",
+         "CardName": "HOTEL DELLE CANNE SRL"
+      },
+      {
+         "CardCode": "F000021",
+         "CardName": "MATRAS SRL INTERNATIONAL FREIGHT FORWARDER"
+      },
+      {
+         "CardCode": "F000035",
+         "CardName": "IRIA S.R.L"
+      },
+      {
+         "CardCode": "F000038",
+         "CardName": "SUPERGARAGE SRL"
+      },
+      {
+         "CardCode": "F000039",
+         "CardName": "RISTORANTE MARISA DI GOMMA PAOLO SAS"
+      },
+      {
+         "CardCode": "F000040",
+         "CardName": "TELECOM ITALIA S.P.A."
+      },
+      {
+         "CardCode": "F000043",
+         "CardName": "TIM SPA"
+      },
+      {
+         "CardCode": "F000044",
+         "CardName": "M.A.R. S.R.L"
+      },
+      {
+         "CardCode": "F000045",
+         "CardName": "AUTOGAMMA  S.P.A."
+      },
+      {
+         "CardCode": "F000950",
+         "CardName": "ARTI GRAFICHE LAROVERE S.R.L."
+      },
+      {
+         "CardCode": "F000049",
+         "CardName": "CONFEZIONI MARIO DE CECCO SPA"
+      },
+      {
+         "CardCode": "F000051",
+         "CardName": "D'ORTA S.P.A."
+      },
+      {
+         "CardCode": "F000065",
+         "CardName": "AUTOL.PULCRANO DOMENICO"
+      },
+      {
+         "CardCode": "F000067",
+         "CardName": "MTA SPA"
+      },
+      {
+         "CardCode": "F000068",
+         "CardName": "AGENZIA PONE MARIA"
+      },
+      {
+         "CardCode": "F000069",
+         "CardName": "MOTUS S.R.L."
+      },
+      {
+         "CardCode": "F000960",
+         "CardName": "CERVED GROUP S.p.A."
+      },
+      {
+         "CardCode": "F000071",
+         "CardName": "PUBLIPOWER PUBBLICITA' di ANGELA DELLI CARPINI"
+      },
+      {
+         "CardCode": "F000073",
+         "CardName": "DE LUCA SRL ATTREZZATURE PER LA RISTORAZIONE"
+      },
+      {
+         "CardCode": "F000686",
+         "CardName": "ENGINE COMPONENTS S.R.L."
+      },
+      {
+         "CardCode": "F000963",
+         "CardName": "MANN+HUMMEL ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F000074",
+         "CardName": "MAIA SPA"
+      },
+      {
+         "CardCode": "F000076",
+         "CardName": "AVIS BUDGET ITALIA SPA"
+      },
+      {
+         "CardCode": "F000357",
+         "CardName": "FIAMM ENERGY TECHNOLOGY SPA"
+      },
+      {
+         "CardCode": "F000077",
+         "CardName": "CAV. METALLO SRL"
+      },
+      {
+         "CardCode": "F000078",
+         "CardName": "R.V. RICAMBI di Rossi & C. snc"
+      },
+      {
+         "CardCode": "F000057",
+         "CardName": "SERVIZIO ITALIA SOCIETA FIDUCIARIA E DI SERVIZI"
+      },
+      {
+         "CardCode": "F000082",
+         "CardName": "ENEL S.P.A"
+      },
+      {
+         "CardCode": "F000083",
+         "CardName": "FARINA S.R.L."
+      },
+      {
+         "CardCode": "F000084",
+         "CardName": "ROMANAUTO di A.ROMANO"
+      },
+      {
+         "CardCode": "F000086",
+         "CardName": "MTA S.R.L."
+      },
+      {
+         "CardCode": "F000087",
+         "CardName": "H.I.L.T.O.N.-C.B. SPA AS HOTEL LIMBIATE FIERA"
+      },
+      {
+         "CardCode": "F000090",
+         "CardName": "KORA SRL"
+      },
+      {
+         "CardCode": "F000091",
+         "CardName": "PASTICCERIA CAPRICE DI SAVARESE MARIO"
+      },
+      {
+         "CardCode": "F000092",
+         "CardName": "BULLON GAMMA S.R.L."
+      },
+      {
+         "CardCode": "F000096",
+         "CardName": "LA PALMA SOC. COOP. A R.L."
+      },
+      {
+         "CardCode": "F000099",
+         "CardName": "S.D.G.S. SNC DI SPIEZIA M. E M. E DI GIOVANNI A."
+      },
+      {
+         "CardCode": "F000100",
+         "CardName": "MERCATO ELETTRODOMESTICI S.R.L"
+      },
+      {
+         "CardCode": "F000987",
+         "CardName": "prova F000987"
+      },
+      {
+         "CardCode": "F000709",
+         "CardName": "GANDINI INDUSTRIA S.R.L."
+      },
+      {
+         "CardCode": "F000990",
+         "CardName": "MECLUBE S.R.L."
+      },
+      {
+         "CardCode": "F000101",
+         "CardName": "LA LANTERNA HOTEL RISTORANTE SPA"
+      },
+      {
+         "CardCode": "F000104",
+         "CardName": "RISTORANTE PICCOLO FORNO DI COSTANZO VINCENZO"
+      },
+      {
+         "CardCode": "F000106",
+         "CardName": "MEGA WATT S.R.L."
+      },
+      {
+         "CardCode": "F000107",
+         "CardName": "I.DI.R. S.p.A. IMPORTAZ. DISTRIBUZ. RICAMBI"
+      },
+      {
+         "CardCode": "F000108",
+         "CardName": "S.A.C.C.L.A. S.R.L."
+      },
+      {
+         "CardCode": "F000110",
+         "CardName": "HERMITAGE TRAVEL S.R.L."
+      },
+      {
+         "CardCode": "F000111",
+         "CardName": "A.B.P. AUTORICAMBI SRL"
+      },
+      {
+         "CardCode": "F000112",
+         "CardName": "DE.RA.CO SRL"
+      },
+      {
+         "CardCode": "F000999",
+         "CardName": "SPIN S.R.L."
+      },
+      {
+         "CardCode": "F000114",
+         "CardName": "ARGO S.R.L. ISTITUTO DI VIGILANZA"
+      },
+      {
+         "CardCode": "F000117",
+         "CardName": "DE POMPEIS ANTONIO AUTOCARROZZERIA"
+      },
+      {
+         "CardCode": "F000120",
+         "CardName": "G&G SRL HOTEL COSMOPOLITAN"
+      },
+      {
+         "CardCode": "F000121",
+         "CardName": "AUTO SERVICE S.A.S. di MORZILLO ALESSANDRO"
+      },
+      {
+         "CardCode": "F000122",
+         "CardName": "PALLANTE S.R.L."
+      },
+      {
+         "CardCode": "F000123",
+         "CardName": "LA TAVERNETTA di MONACO ROCCO"
+      },
+      {
+         "CardCode": "F000126",
+         "CardName": "IL QUADRIFOGLIO TRATTORIA E PIZZERI A DI GIOVANNI FELEPPA"
+      },
+      {
+         "CardCode": "F000128",
+         "CardName": "F.LLI VITIELLO S.R.L."
+      },
+      {
+         "CardCode": "F000131",
+         "CardName": "SGM ENERGY SRL"
+      },
+      {
+         "CardCode": "F000133",
+         "CardName": "LUIGI BRANCATO S.A.S. DI GIOSUE' BRANCATO & C."
+      },
+      {
+         "CardCode": "F000134",
+         "CardName": "MERCURIO SRL ISTITUTO VIGILANZA PRIVATA"
+      },
+      {
+         "CardCode": "F000136",
+         "CardName": "MAROIL S.R.L."
+      },
+      {
+         "CardCode": "F000137",
+         "CardName": "M.T.INVESTMENT SRL a S.U EXPRESS BY HOLIDAY INN"
+      },
+      {
+         "CardCode": "F000138",
+         "CardName": "LE PALME S.N.C."
+      },
+      {
+         "CardCode": "F001018",
+         "CardName": "HVENTIQUATTRO S.R.L."
+      },
+      {
+         "CardCode": "F000139",
+         "CardName": "GOURMET SRL CASA VERACE PIZZERIA NAPOLETANA"
+      },
+      {
+         "CardCode": "F000141",
+         "CardName": "INFOTEL SRL"
+      },
+      {
+         "CardCode": "F000143",
+         "CardName": "INFORLOG INF.LOGISTICA by G.CALO'S di Giovanni Cal•"
+      },
+      {
+         "CardCode": "F000144",
+         "CardName": "CAV.SOCRATE INCERTI E FIGLI SRL HOTEL FARNESE PARMA"
+      },
+      {
+         "CardCode": "F000146",
+         "CardName": "SOLERA ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F000152",
+         "CardName": "FEUDI DI GREGORIA SOCIETA AGRICOLA SPA"
+      },
+      {
+         "CardCode": "F000153",
+         "CardName": "COSMOPOL SPA"
+      },
+      {
+         "CardCode": "F000156",
+         "CardName": "PARTENIO 90 S.N.C. DI SIMEONE E MINUCCI & C."
+      },
+      {
+         "CardCode": "F000158",
+         "CardName": "IZZO SISTO AUTORICAMBI S.A.S. di IZZO C. & C."
+      },
+      {
+         "CardCode": "F000159",
+         "CardName": "RISTORANTE IL GASTRONOMO SAS DI ANTONIO PISANIELLO"
+      },
+      {
+         "CardCode": "F000160",
+         "CardName": "INCONTRO SRL SANTACROCE"
+      },
+      {
+         "CardCode": "F000162",
+         "CardName": "M. CAR SPA"
+      },
+      {
+         "CardCode": "F000167",
+         "CardName": "G.T. SRL AIRPORT HOTEL MEETING CENTER"
+      },
+      {
+         "CardCode": "F000168",
+         "CardName": "ZICCARDI VINCENZO S.N.C di MASSIMILIANO E PEPPINO ZICCARDI"
+      },
+      {
+         "CardCode": "F000169",
+         "CardName": "ARTIGRAF DI LUPINACCI WALTER E VALL ETTA GIUSEPPE SNC"
+      },
+      {
+         "CardCode": "F000170",
+         "CardName": "AUTOMOTIVE SERVICES SRLS"
+      },
+      {
+         "CardCode": "F000172",
+         "CardName": "TONI HOTELS di GHIGGINI LIDIA & C. SNC"
+      },
+      {
+         "CardCode": "F000173",
+         "CardName": "NEW ROAL TRASPORTI S.R.L."
+      },
+      {
+         "CardCode": "F000174",
+         "CardName": "ONDA B SCATOLIFICIO di TEVEROLA SRL"
+      },
+      {
+         "CardCode": "F000177",
+         "CardName": "MIANO OTTONE AUTOTRASPORTI"
+      },
+      {
+         "CardCode": "F000178",
+         "CardName": "INTERNATIONAL EUROPE HOTEL SRL"
+      },
+      {
+         "CardCode": "F000179",
+         "CardName": "I.T.N. S.R.L."
+      },
+      {
+         "CardCode": "F000182",
+         "CardName": "PIZZERIA \"DA CIRO\" di CIARDI MARIA & C. s.a.s"
+      },
+      {
+         "CardCode": "F000183",
+         "CardName": "SAWADI VIAGGI S.N.C"
+      },
+      {
+         "CardCode": "F000185",
+         "CardName": "ROTUNDO LUIGI SAS & C. HOTEL PERLA DEL PORTO"
+      },
+      {
+         "CardCode": "F001045",
+         "CardName": "ARTI GRAFICHE TURATI S.R.L."
+      },
+      {
+         "CardCode": "F000186",
+         "CardName": "AGRITURISMO VILLA SANTA CATERINA"
+      },
+      {
+         "CardCode": "F000190",
+         "CardName": "HOTEL TAVERNA DEI BORBONI SAS DI GALGIARDI VINCENZO"
+      },
+      {
+         "CardCode": "F000191",
+         "CardName": "DITTA MONILIA S A S DI PASQUALE COLONNESE & C"
+      },
+      {
+         "CardCode": "F000194",
+         "CardName": "INFOCAMERE SOCIETA' CONSORTILE"
+      },
+      {
+         "CardCode": "F000197",
+         "CardName": "VITALSERVICE di VITALE VINCENZO"
+      },
+      {
+         "CardCode": "F000198",
+         "CardName": "STUDIO REGGIO CALABRIA CENTRO SRL"
+      },
+      {
+         "CardCode": "F000202",
+         "CardName": "VILLANO FRANCESCO"
+      },
+      {
+         "CardCode": "F000204",
+         "CardName": "TRATTORIA DEL VILLEGGIANTE SRL"
+      },
+      {
+         "CardCode": "F001056",
+         "CardName": "COLORITALIA S.R.L."
+      },
+      {
+         "CardCode": "F000205",
+         "CardName": "WORKING UP A.C."
+      },
+      {
+         "CardCode": "F000206",
+         "CardName": "IPERMERCATO DUE MARI SRL"
+      },
+      {
+         "CardCode": "F000208",
+         "CardName": "RISTORAZIONE ROMILIA SAS DI FREGNA ROMANO E C"
+      },
+      {
+         "CardCode": "F000209",
+         "CardName": "CONSORZIO G.I.A.D.I."
+      },
+      {
+         "CardCode": "F001062",
+         "CardName": "IANDOLINO FABIO"
+      },
+      {
+         "CardCode": "F000210",
+         "CardName": "BOSAL LOMBARDIA SRL"
+      },
+      {
+         "CardCode": "F001064",
+         "CardName": "MAGNERA FILIPPO"
+      },
+      {
+         "CardCode": "F000214",
+         "CardName": "TISCALI ITALIA SPA CON SOCIO UNICO"
+      },
+      {
+         "CardCode": "F000215",
+         "CardName": "ECOCART S.R.L"
+      },
+      {
+         "CardCode": "F000217",
+         "CardName": "HOTEL MALAGA ERREDI SRL"
+      },
+      {
+         "CardCode": "F000218",
+         "CardName": "MOBILITY LIFE SPA (ex MLG srl)"
+      },
+      {
+         "CardCode": "F000219",
+         "CardName": "PIANETA UFFICIO S.A.S.     ."
+      },
+      {
+         "CardCode": "F000221",
+         "CardName": "ENOTECA RISTORANTE BACCO DI RICCARDO EMANUALE & C. SAS"
+      },
+      {
+         "CardCode": "F000226",
+         "CardName": "LEASE PLAN ITALIA  SPA"
+      },
+      {
+         "CardCode": "F000227",
+         "CardName": "PISCOPO VINCENZO di B. E D. PISCOPO S.N.C."
+      },
+      {
+         "CardCode": "F000229",
+         "CardName": "A.S.R.R. SRL"
+      },
+      {
+         "CardCode": "F000231",
+         "CardName": "MEDIAMARKET S.P.A."
+      },
+      {
+         "CardCode": "F000232",
+         "CardName": "PALAZZO DI VARIGNANA SRL"
+      },
+      {
+         "CardCode": "F000234",
+         "CardName": "AUTORICAMBI SAS di DE VITO GENEROSO & C."
+      },
+      {
+         "CardCode": "F000236",
+         "CardName": "GRAPHIC & DESIGN SRL"
+      },
+      {
+         "CardCode": "F000237",
+         "CardName": "FINGEA FINANZIARIA GESTIONI ASSICURATIVE"
+      },
+      {
+         "CardCode": "F000588",
+         "CardName": "MARELLI AFTERMARKET ITALIA S.p.A."
+      },
+      {
+         "CardCode": "F000008",
+         "CardName": "F.LLI PANNISCO SNC TIPOLITOGRAFIA"
+      },
+      {
+         "CardCode": "F000034",
+         "CardName": "SANTA MONICA SPA"
+      },
+      {
+         "CardCode": "F000010",
+         "CardName": "FRANCESCO FRANCHI S.p.A."
+      },
+      {
+         "CardCode": "F000988",
+         "CardName": "TECNOCOLOR S.R.L."
+      },
+      {
+         "CardCode": "F000434",
+         "CardName": "VALEO SERVICE ITALIA SPA"
+      },
+      {
+         "CardCode": "F000861",
+         "CardName": "OSRAM SPA"
+      },
+      {
+         "CardCode": "F000660",
+         "CardName": "TENNECO AUTOMOTIVE EUROPE NV"
+      },
+      {
+         "CardCode": "F000519",
+         "CardName": "MAX SRL"
+      },
+      {
+         "CardCode": "F000016",
+         "CardName": "O.L.M.E.C SRL"
+      },
+      {
+         "CardCode": "F000041",
+         "CardName": "FEDERAL-MOGUL ITALY S.R.L. Aftermarket Division"
+      },
+      {
+         "CardCode": "F001068",
+         "CardName": "GLOBAL SERVICE CAR S.R.L."
+      },
+      {
+         "CardCode": "F000195",
+         "CardName": "JAPANPARTS S.R.L."
+      },
+      {
+         "CardCode": "F000591",
+         "CardName": "SEO SRLS"
+      },
+      {
+         "CardCode": "F000238",
+         "CardName": "L.D.SERVICE SRL"
+      },
+      {
+         "CardCode": "F000239",
+         "CardName": "MARTINO SRL RISTO MARTINICA"
+      },
+      {
+         "CardCode": "F000240",
+         "CardName": "BA.DA. DI ANGELO BARBAGALLO"
+      },
+      {
+         "CardCode": "F000241",
+         "CardName": "FIORITO FEDERICO"
+      },
+      {
+         "CardCode": "F000243",
+         "CardName": "HAPPY CASA STORE SRL"
+      },
+      {
+         "CardCode": "F000244",
+         "CardName": "DICRA S.p.A."
+      },
+      {
+         "CardCode": "F000245",
+         "CardName": "LEXCOM INFORMATIONSSYSTEME GMBH"
+      },
+      {
+         "CardCode": "F000246",
+         "CardName": "RUSSO VINCENZO - LILLA"
+      },
+      {
+         "CardCode": "F000247",
+         "CardName": "PASTIFICIO GIOIA SNC"
+      },
+      {
+         "CardCode": "F000249",
+         "CardName": "P.M.G. ITALIA S.P.A. PROGETTO MOBILITA' GARANTITA"
+      },
+      {
+         "CardCode": "F000250",
+         "CardName": "SAMA' S.R.L."
+      },
+      {
+         "CardCode": "F000251",
+         "CardName": "DON MATTEO ATRIPALDA SRL"
+      },
+      {
+         "CardCode": "F000252",
+         "CardName": "REGISTER.IT SPA"
+      },
+      {
+         "CardCode": "F000253",
+         "CardName": "CAPOSPERONE SRL"
+      },
+      {
+         "CardCode": "F000254",
+         "CardName": "RO.PI COSTRUZIONI S.A.S. DI PIRAMIDE R. & C."
+      },
+      {
+         "CardCode": "F000255",
+         "CardName": "PASTIFICIO ARTIGIANALE LEONESSA SNC"
+      },
+      {
+         "CardCode": "F000256",
+         "CardName": "NAMI SAS"
+      },
+      {
+         "CardCode": "F000258",
+         "CardName": "BRASILERO SRLS"
+      },
+      {
+         "CardCode": "F000259",
+         "CardName": "MARAUTO S.R.L."
+      },
+      {
+         "CardCode": "F000261",
+         "CardName": "VESCOVO ROSSO SRL"
+      },
+      {
+         "CardCode": "F000262",
+         "CardName": "IKEA ITALIA RETAIL S.R.L."
+      },
+      {
+         "CardCode": "F000265",
+         "CardName": "GETRASPED SRL GESTIONE TRASPORTI E DOGANE"
+      },
+      {
+         "CardCode": "F000267",
+         "CardName": "SERIDIAN DI A. DE IULIS"
+      },
+      {
+         "CardCode": "F000269",
+         "CardName": "GARGIULO SERVICE s.a.s. di GARGIULO GIOVANNI & C."
+      },
+      {
+         "CardCode": "F000270",
+         "CardName": "RULLO GROUP SRL"
+      },
+      {
+         "CardCode": "F000272",
+         "CardName": "ALL'ORSO EREDI TONET ANGELO S.A.S. DI TONET F.& C. S.A.S."
+      },
+      {
+         "CardCode": "F000274",
+         "CardName": "PIZZERIA DANIELE DI ANNA LEBRO"
+      },
+      {
+         "CardCode": "F000275",
+         "CardName": "EGISA SAS DI ISABELLA EMILIANO E C"
+      },
+      {
+         "CardCode": "F000278",
+         "CardName": "P.P. EXPRESS DI PIAZZA PASQUALE"
+      },
+      {
+         "CardCode": "F000279",
+         "CardName": "TOPAZIO EVENTI SRLS"
+      },
+      {
+         "CardCode": "F000280",
+         "CardName": "RISTORUSSO SRL"
+      },
+      {
+         "CardCode": "F000281",
+         "CardName": "FABER SRL LE CANTINE DE L'ARENA"
+      },
+      {
+         "CardCode": "F000282",
+         "CardName": "GRANDE DISTRIBUZIONE LAMETINA SRL"
+      },
+      {
+         "CardCode": "F000283",
+         "CardName": "LE GARRUBBE HOTEL LAMEZIA SRL"
+      },
+      {
+         "CardCode": "F000285",
+         "CardName": "NAPOLITANO FRANCESCO"
+      },
+      {
+         "CardCode": "F000287",
+         "CardName": "CARTONIFICIO CAMPANO S.R.L."
+      },
+      {
+         "CardCode": "F000289",
+         "CardName": "MUROLI FORMAGGI S.R.L."
+      },
+      {
+         "CardCode": "F000293",
+         "CardName": "AUTORICAMBI SCARANO SRL"
+      },
+      {
+         "CardCode": "F000294",
+         "CardName": "TEMI S.P.A."
+      },
+      {
+         "CardCode": "F000295",
+         "CardName": "BIROG SNC DI LANDI TERESA & C."
+      },
+      {
+         "CardCode": "F000296",
+         "CardName": "POSCA TRASPORTI S.R.L."
+      },
+      {
+         "CardCode": "F000297",
+         "CardName": "DA RAFFAELE F.LLI PELLONE DI PELLONE P. & C."
+      },
+      {
+         "CardCode": "F000298",
+         "CardName": "SACA SNC"
+      },
+      {
+         "CardCode": "F000299",
+         "CardName": "CONSULTURIST SRL"
+      },
+      {
+         "CardCode": "F000303",
+         "CardName": "C.ERRE SRL"
+      },
+      {
+         "CardCode": "F000305",
+         "CardName": "KROMEDA SRL"
+      },
+      {
+         "CardCode": "F000306",
+         "CardName": "HOTEL SAN FRANCESCO GESTIONE SRLS"
+      },
+      {
+         "CardCode": "F000308",
+         "CardName": "S & F TRASPORTI S.R.L.S."
+      },
+      {
+         "CardCode": "F000309",
+         "CardName": "RISTOGRILL S.A.S."
+      },
+      {
+         "CardCode": "F000310",
+         "CardName": "REFOLA1 S.R.L."
+      },
+      {
+         "CardCode": "F000312",
+         "CardName": "S.C.D.S. DI SANDONATO FRANCO"
+      },
+      {
+         "CardCode": "F000313",
+         "CardName": "G.F.T. SRL"
+      },
+      {
+         "CardCode": "F000315",
+         "CardName": "ALBERGO MAFALDA BAR-TRATTORIA-PIZZERIA"
+      },
+      {
+         "CardCode": "F000316",
+         "CardName": "DV HOTELS SRL"
+      },
+      {
+         "CardCode": "F000319",
+         "CardName": "A.S.D. GIUSY KART COMPETITION"
+      },
+      {
+         "CardCode": "F000320",
+         "CardName": "CONSORZIO CO.RI.SUD"
+      },
+      {
+         "CardCode": "F000324",
+         "CardName": "D.E.M. S.R.L. DISTRIB.ELETTRO MATERIALI"
+      },
+      {
+         "CardCode": "F000327",
+         "CardName": "YACHT CLUB MARINA DI STABIA SPA"
+      },
+      {
+         "CardCode": "F000329",
+         "CardName": "DISTRIBUZIONE CENTRO SUD SRL COOP"
+      },
+      {
+         "CardCode": "F000330",
+         "CardName": "MAGNETOPLAST ITALIANA di Mario e Lucia ROTTA S.N.C."
+      },
+      {
+         "CardCode": "F000333",
+         "CardName": "F.LLI LEONESSA SRL"
+      },
+      {
+         "CardCode": "F000335",
+         "CardName": "GEOMEDIA 3 S.R.L."
+      },
+      {
+         "CardCode": "F000337",
+         "CardName": "IL GATTONE SAS"
+      },
+      {
+         "CardCode": "F000339",
+         "CardName": "CALVINTUR S.R.L.S."
+      },
+      {
+         "CardCode": "F000340",
+         "CardName": "RODOLFO GENTILE"
+      },
+      {
+         "CardCode": "F000341",
+         "CardName": "B.G.A CONFERENCE SRL GRAND HOTEL VANVITELLI"
+      },
+      {
+         "CardCode": "F000342",
+         "CardName": "TECNOLOGY SERVICE S.R.L."
+      },
+      {
+         "CardCode": "F000343",
+         "CardName": "NONATELLI DIEGO"
+      },
+      {
+         "CardCode": "F000344",
+         "CardName": "PIGNA TRASPORTI  DI PIGNA VINCENZO"
+      },
+      {
+         "CardCode": "F000345",
+         "CardName": "FLORA NAPOLI GARDEN S.R.L."
+      },
+      {
+         "CardCode": "F000348",
+         "CardName": "MGL PUBBLICITA' S.R.L"
+      },
+      {
+         "CardCode": "F000060",
+         "CardName": "PROGER SRL"
+      },
+      {
+         "CardCode": "F000351",
+         "CardName": "L.M.I. GROUP S.R.L."
+      },
+      {
+         "CardCode": "F000353",
+         "CardName": "GILARDINI DISTRIBUZIONE S.P.A."
+      },
+      {
+         "CardCode": "F000354",
+         "CardName": "DOTT. SERGIO TRIMARCO"
+      },
+      {
+         "CardCode": "F000355",
+         "CardName": "CONTINENTAL BRAKES ITALY SPA"
+      },
+      {
+         "CardCode": "F000356",
+         "CardName": "UTE.MAC.SUD s.a.s."
+      },
+      {
+         "CardCode": "F000359",
+         "CardName": "RISAUTO SERVICE SRL UNIPERSONALE"
+      },
+      {
+         "CardCode": "F000360",
+         "CardName": "MEDISEVEN SRL"
+      },
+      {
+         "CardCode": "F000361",
+         "CardName": "FORAGGIO  S.R.L. SISTEMI AVANZA"
+      },
+      {
+         "CardCode": "F000363",
+         "CardName": "ANTIGNANI C.S.R.L"
+      },
+      {
+         "CardCode": "F000364",
+         "CardName": "ECO TEAM S.R.L."
+      },
+      {
+         "CardCode": "F000366",
+         "CardName": "VILLA BUONANNO S.R.L."
+      },
+      {
+         "CardCode": "F000368",
+         "CardName": "PALUMBO RICAMBI SRL"
+      },
+      {
+         "CardCode": "F000369",
+         "CardName": "PARPIN LEGNO S.N.C. DI PARZIALE ANTONIO & C."
+      },
+      {
+         "CardCode": "F000370",
+         "CardName": "DHL EXPRESS (ITALY) S.R.L."
+      },
+      {
+         "CardCode": "F000371",
+         "CardName": "ALADINO VIAGGI S.R.L."
+      },
+      {
+         "CardCode": "F000373",
+         "CardName": "FASTEK TELEMATICA TECNOLOGIE PER COMUNICARE S.R.L."
+      },
+      {
+         "CardCode": "F000374",
+         "CardName": "D.N.S. S.A.S. di DIEGO NONATELLI"
+      },
+      {
+         "CardCode": "F000376",
+         "CardName": "SO.GE.CO srl"
+      },
+      {
+         "CardCode": "F000377",
+         "CardName": "ILOKO S.R.L."
+      },
+      {
+         "CardCode": "F000378",
+         "CardName": "CICCIOTTO CARTOFER S.R.L."
+      },
+      {
+         "CardCode": "F000380",
+         "CardName": "NH ITALIA SPA"
+      },
+      {
+         "CardCode": "F000382",
+         "CardName": "SANPAOLO BANCO DI NAPOLI"
+      },
+      {
+         "CardCode": "F000384",
+         "CardName": "BARTOLINI S.P.A."
+      },
+      {
+         "CardCode": "F000385",
+         "CardName": "ERREPI SRL"
+      },
+      {
+         "CardCode": "F000387",
+         "CardName": "GESTIONE BUSINESS SNC DI GOZZI MARIA ESTER E ORLANDI RENATO"
+      },
+      {
+         "CardCode": "F000388",
+         "CardName": "3C SISTEMI & TECNOLOGIE SRL A SOCIO UNICO"
+      },
+      {
+         "CardCode": "F000389",
+         "CardName": "EPE di INFANTE PAOLO"
+      },
+      {
+         "CardCode": "F000391",
+         "CardName": "PIZZERIA PELLONE SRL"
+      },
+      {
+         "CardCode": "F000393",
+         "CardName": "ENZO SPATARELLA S.R.L."
+      },
+      {
+         "CardCode": "F000398",
+         "CardName": "RGB SRL"
+      },
+      {
+         "CardCode": "F000399",
+         "CardName": "BATTISTONI SERVICE di BATTISTONI GIOVANNI"
+      },
+      {
+         "CardCode": "F000400",
+         "CardName": "TRW AUTOMOTIVE ITALIA SRL DIVISIONE PARTS & SERVICE"
+      },
+      {
+         "CardCode": "F000401",
+         "CardName": "MOBRAL ARREDI SOC.COOP."
+      },
+      {
+         "CardCode": "F000402",
+         "CardName": "TRADEM SRL"
+      },
+      {
+         "CardCode": "F000403",
+         "CardName": "LOGISTICA MAV di PETRILLO ALESSANDRO"
+      },
+      {
+         "CardCode": "F000406",
+         "CardName": "EUROPCAR ITALIA SPA"
+      },
+      {
+         "CardCode": "F000407",
+         "CardName": "CLIMAX S.R.L."
+      },
+      {
+         "CardCode": "F000408",
+         "CardName": "ENERGY POLIS SRL"
+      },
+      {
+         "CardCode": "F000409",
+         "CardName": "POLIGRAFICO S.R.L."
+      },
+      {
+         "CardCode": "F000410",
+         "CardName": "TECNO IMPIANTI di ESPOSITO DOMENICO"
+      },
+      {
+         "CardCode": "F000413",
+         "CardName": "ALBA LA GRIGLIATA S.R.L."
+      },
+      {
+         "CardCode": "F000414",
+         "CardName": "AMERICAN EXPRESS SERVICE EUROPE LID"
+      },
+      {
+         "CardCode": "F000416",
+         "CardName": "PIZZERIA VUOLO s.a.s. di VUOLO ENRICO & C."
+      },
+      {
+         "CardCode": "F000417",
+         "CardName": "SORRENTINO GENNARO"
+      },
+      {
+         "CardCode": "F000418",
+         "CardName": "ESAOTE S.p.A."
+      },
+      {
+         "CardCode": "F000419",
+         "CardName": "POWER S.R.L."
+      },
+      {
+         "CardCode": "F000424",
+         "CardName": "ITALIANA PESE di LUONGO ANTONIO"
+      },
+      {
+         "CardCode": "F000425",
+         "CardName": "SPEEDY EXPRESS di PERROTTA SALVATORE"
+      },
+      {
+         "CardCode": "F000426",
+         "CardName": "SUPERSONICA S.A.S. di MAIORINO MICHELE & C."
+      },
+      {
+         "CardCode": "F000427",
+         "CardName": "HOTEL LEONESSA SRL"
+      },
+      {
+         "CardCode": "F000428",
+         "CardName": "CAIOLA GIANMARIA GRAFICO"
+      },
+      {
+         "CardCode": "F000429",
+         "CardName": "NEW LOGISTICA S.R.L."
+      },
+      {
+         "CardCode": "F000430",
+         "CardName": "EL CARNICERO SAS DI GRIMALDI STEFANIA & C."
+      },
+      {
+         "CardCode": "F000431",
+         "CardName": "TRENITALIA S.p.A."
+      },
+      {
+         "CardCode": "F000063",
+         "CardName": "TUFANO ENTERTAINMENT SRL EURONICS"
+      },
+      {
+         "CardCode": "F000436",
+         "CardName": "TEAM SERVICE S.R.L."
+      },
+      {
+         "CardCode": "F000437",
+         "CardName": "TRASPORTI LIGUORI S.R.L."
+      },
+      {
+         "CardCode": "F000439",
+         "CardName": "A&C SRL"
+      },
+      {
+         "CardCode": "F000441",
+         "CardName": "LEROY MERLIN ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F000442",
+         "CardName": "STICCO SPED S.R.L. SPEDIZIONI INTERNAZIONALI"
+      },
+      {
+         "CardCode": "F000443",
+         "CardName": "DINAFLEX  S.R.L."
+      },
+      {
+         "CardCode": "F000444",
+         "CardName": "ARTE E PASSIONE SRL"
+      },
+      {
+         "CardCode": "F000445",
+         "CardName": "RAPPRESENTANZE di ROCCO MASSIMO & C S.A.S."
+      },
+      {
+         "CardCode": "F000446",
+         "CardName": "RENAULT RETAIL GROUP ITALIA SPA FILIALE DI NAPOLI"
+      },
+      {
+         "CardCode": "F000447",
+         "CardName": "F.LLI BIANCO S.N.C. DI BIANCO MICHELE E ANDREA"
+      },
+      {
+         "CardCode": "F000448",
+         "CardName": "ANTONIO DI PALO S.R.L."
+      },
+      {
+         "CardCode": "F000451",
+         "CardName": "GLD SRL"
+      },
+      {
+         "CardCode": "F000454",
+         "CardName": "PUBLISTAR SAS DI CASELLA L. & C."
+      },
+      {
+         "CardCode": "F000455",
+         "CardName": "PUBBLITRASPORT S.R.L."
+      },
+      {
+         "CardCode": "F000456",
+         "CardName": "VENEZIANI SAS DI PAOLO VENEZIANI &C"
+      },
+      {
+         "CardCode": "F000459",
+         "CardName": "GAM S.R.L."
+      },
+      {
+         "CardCode": "F000462",
+         "CardName": "R-STORE SPA"
+      },
+      {
+         "CardCode": "F000465",
+         "CardName": "EDILDI' s.r.l."
+      },
+      {
+         "CardCode": "F000468",
+         "CardName": "FAST SERVICES SRL"
+      },
+      {
+         "CardCode": "F000469",
+         "CardName": "E.M.SERVICE s.a.s."
+      },
+      {
+         "CardCode": "F000471",
+         "CardName": "CENTRO GOMME ACANFORA S.R.L."
+      },
+      {
+         "CardCode": "F000475",
+         "CardName": "B&B HOTELS ITALIA SPA"
+      },
+      {
+         "CardCode": "F000476",
+         "CardName": "VTS IMPIANTI SRL"
+      },
+      {
+         "CardCode": "F000477",
+         "CardName": "COLOR LEADER S.R.L."
+      },
+      {
+         "CardCode": "F000478",
+         "CardName": "DE ANGELIS RECUPERI SRL"
+      },
+      {
+         "CardCode": "F000479",
+         "CardName": "G.D. DI GRAZIA D'ALTO & C. S.N.C."
+      },
+      {
+         "CardCode": "F000480",
+         "CardName": "KORE E KORE SRL"
+      },
+      {
+         "CardCode": "F000481",
+         "CardName": "CTF S.R.L."
+      },
+      {
+         "CardCode": "F000482",
+         "CardName": "EUROTEK S.R.L."
+      },
+      {
+         "CardCode": "F000483",
+         "CardName": "BCC LEASE S.P.A."
+      },
+      {
+         "CardCode": "F000484",
+         "CardName": "ELECTRO SYSTEM S.A.S. M & P.DI CAIAZZO PATRIZIA"
+      },
+      {
+         "CardCode": "F000485",
+         "CardName": "DELTA CHIMICA S.R.L."
+      },
+      {
+         "CardCode": "F000486",
+         "CardName": "AUTOLAVAGGIO ARCOBALENO DI ECUBA GIULIO"
+      },
+      {
+         "CardCode": "F000487",
+         "CardName": "HOTEL FOR YOU S.R.L."
+      },
+      {
+         "CardCode": "F000488",
+         "CardName": "CAPORALE S.A.S. di CAPORALE GIUSEPPE"
+      },
+      {
+         "CardCode": "F000489",
+         "CardName": "AMG REVISIONI SRL"
+      },
+      {
+         "CardCode": "F000491",
+         "CardName": "NOTAI PAOLO MORELLI e VINCENZO PULCINI"
+      },
+      {
+         "CardCode": "F000492",
+         "CardName": "LA SORGENTE S.A.S. DI CAPASSO ANTONIO"
+      },
+      {
+         "CardCode": "F000493",
+         "CardName": "MBS SRL"
+      },
+      {
+         "CardCode": "F000494",
+         "CardName": "METAL SYSTEM DI BUONO PIETRO INST.E LAV. STRUTTURE METALL."
+      },
+      {
+         "CardCode": "F000495",
+         "CardName": "HP ITALY SRL"
+      },
+      {
+         "CardCode": "F000496",
+         "CardName": "LOGISTICA E SERVIZI SOC.COOP a.r.l."
+      },
+      {
+         "CardCode": "F000497",
+         "CardName": "EGIDIO GUIDONE CONSULENTE DEL LAVORO"
+      },
+      {
+         "CardCode": "F000498",
+         "CardName": "MAGGIORE RENT SPA"
+      },
+      {
+         "CardCode": "F000499",
+         "CardName": "CENTRO BIBITE LAUDIERO S.R.L."
+      },
+      {
+         "CardCode": "F000500",
+         "CardName": "TGROUP SPA"
+      },
+      {
+         "CardCode": "F000501",
+         "CardName": "AEMME SERVICE SRL"
+      },
+      {
+         "CardCode": "F000502",
+         "CardName": "KARTONMAX S.R.L."
+      },
+      {
+         "CardCode": "F000503",
+         "CardName": "EDOMEA SRL"
+      },
+      {
+         "CardCode": "F000504",
+         "CardName": "A.C.S. CONSULTING S.R.L."
+      },
+      {
+         "CardCode": "F000505",
+         "CardName": "LAVANDERIA FRESCO PULITO DI SANSONE SALVATORE"
+      },
+      {
+         "CardCode": "F000507",
+         "CardName": "EDICHETTO MASSIMO"
+      },
+      {
+         "CardCode": "F000510",
+         "CardName": "CORTECO S.R.L.u"
+      },
+      {
+         "CardCode": "F000511",
+         "CardName": "TIM S.P.A."
+      },
+      {
+         "CardCode": "F000512",
+         "CardName": "ODOLISCAIA LIUBA ATT.COMM.ALL'INGROSSO PROD.CHIMICI"
+      },
+      {
+         "CardCode": "F000513",
+         "CardName": "NATURALMENTE SRL"
+      },
+      {
+         "CardCode": "F000515",
+         "CardName": "NEW SERVICE LOGISTIC SOC. COOPERATIVA"
+      },
+      {
+         "CardCode": "F000516",
+         "CardName": "IDROFERRAMENTA S.R.L."
+      },
+      {
+         "CardCode": "F000518",
+         "CardName": "PROSERVICE DI VITALE GIUSEPPE"
+      },
+      {
+         "CardCode": "F000520",
+         "CardName": "D.F.T. TRASPORTI di DE FALCO VINCENZO"
+      },
+      {
+         "CardCode": "F000522",
+         "CardName": "AP TRASPORTI di PASCUCCI AGRIPPINO"
+      },
+      {
+         "CardCode": "F000523",
+         "CardName": "GRG S.R.L."
+      },
+      {
+         "CardCode": "F000524",
+         "CardName": "TELECOMUNICAZIONI SRL"
+      },
+      {
+         "CardCode": "F000526",
+         "CardName": "MARIGLIANO BIAGIO"
+      },
+      {
+         "CardCode": "F000528",
+         "CardName": "D'ANGELO COSTRUZIONI S.R.L."
+      },
+      {
+         "CardCode": "F000529",
+         "CardName": "KAOS CAMPANIA SRL"
+      },
+      {
+         "CardCode": "F000530",
+         "CardName": "GESFOR S.R.L."
+      },
+      {
+         "CardCode": "F000531",
+         "CardName": "MULTIPARTNER SPA"
+      },
+      {
+         "CardCode": "F000533",
+         "CardName": "MODUL TECNO S.R.L."
+      },
+      {
+         "CardCode": "F000536",
+         "CardName": "ELECTRONICS HOUSE GIUSEPPE SRL"
+      },
+      {
+         "CardCode": "F000538",
+         "CardName": "OFFICINE WEB TRAVEL SRL VIA CARRUBBA 65"
+      },
+      {
+         "CardCode": "F000539",
+         "CardName": "CENTANNI MATTIA ARREDAMENTI"
+      },
+      {
+         "CardCode": "F000541",
+         "CardName": "WORLD WIDE EXPRESS SRL"
+      },
+      {
+         "CardCode": "F000542",
+         "CardName": "AUTOSTRADE PER L'ITALIA SPA"
+      },
+      {
+         "CardCode": "F000543",
+         "CardName": "ECOLOGIA LANZILLO SRL"
+      },
+      {
+         "CardCode": "F000544",
+         "CardName": "RTA SRL"
+      },
+      {
+         "CardCode": "F000546",
+         "CardName": "SEAT PAGINE GIALLE S.P.A."
+      },
+      {
+         "CardCode": "F000547",
+         "CardName": "GPS GENERAL TAPE SRL"
+      },
+      {
+         "CardCode": "F000548",
+         "CardName": "GEST. ALB SRL GESTIONE HOTEL FUTURA"
+      },
+      {
+         "CardCode": "F000550",
+         "CardName": "ABC ACQUA BENE COMUNE"
+      },
+      {
+         "CardCode": "F000551",
+         "CardName": "TIME OUT SERVICE SRLS"
+      },
+      {
+         "CardCode": "F000552",
+         "CardName": "C.R.A DI PASQUALE VOLPE RIC. NAZ. ED ESTERI"
+      },
+      {
+         "CardCode": "F000555",
+         "CardName": "NESPOCART srl s"
+      },
+      {
+         "CardCode": "F000556",
+         "CardName": "GAROFALO SRL"
+      },
+      {
+         "CardCode": "F000558",
+         "CardName": "NANI SECURITY di NANI FRANCESCO"
+      },
+      {
+         "CardCode": "F000563",
+         "CardName": "LA SCIALUPPA DAL 1860 di G.F. AURORA S.R.L."
+      },
+      {
+         "CardCode": "F000565",
+         "CardName": "INFOCERT S.P.A."
+      },
+      {
+         "CardCode": "F000566",
+         "CardName": "TRENOI SRL"
+      },
+      {
+         "CardCode": "F000567",
+         "CardName": "AUTORIPARAZIONI DI FELICIELLO A."
+      },
+      {
+         "CardCode": "F000568",
+         "CardName": "PIROZZI MARIA ROSA"
+      },
+      {
+         "CardCode": "F000570",
+         "CardName": "INNOVATION & NETWORKING SNC DI PAESANO P. E FAVA G."
+      },
+      {
+         "CardCode": "F000571",
+         "CardName": "DARCHI SRL"
+      },
+      {
+         "CardCode": "F000572",
+         "CardName": "IMPERO DELLE GOMME SRLS"
+      },
+      {
+         "CardCode": "F000573",
+         "CardName": "BLUE BAG ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F000575",
+         "CardName": "KARTING CLUB SARNO S.S.D. A R.L."
+      },
+      {
+         "CardCode": "F000576",
+         "CardName": "DISPART S.R.L."
+      },
+      {
+         "CardCode": "F000577",
+         "CardName": "FARMACIA BRUNINI DEL DR.PASQUALE BRUNINI & C. SAS"
+      },
+      {
+         "CardCode": "F000578",
+         "CardName": "BMW BANK GMBH"
+      },
+      {
+         "CardCode": "F000580",
+         "CardName": "3H S.R.L."
+      },
+      {
+         "CardCode": "F000581",
+         "CardName": "ANTICA TRATTORIA BARONE SRLS"
+      },
+      {
+         "CardCode": "F000583",
+         "CardName": "DARSENA BIANCA SRL HOTEL TIBER"
+      },
+      {
+         "CardCode": "F000585",
+         "CardName": "BUSIELLO S.R.L.S."
+      },
+      {
+         "CardCode": "F000587",
+         "CardName": "C GOMME SRL"
+      },
+      {
+         "CardCode": "F000590",
+         "CardName": "T.L.P. s.r.l.s."
+      },
+      {
+         "CardCode": "F000286",
+         "CardName": "VITOBELLO RICAMBI S.R.L."
+      },
+      {
+         "CardCode": "F000593",
+         "CardName": "INGROSSO BEVANDE GASSATE S.R.L."
+      },
+      {
+         "CardCode": "F000594",
+         "CardName": "UNITED PARCEL SERVICE ITALIA SRL UPS"
+      },
+      {
+         "CardCode": "F000595",
+         "CardName": "VODAFONE ITALIA S.p.A."
+      },
+      {
+         "CardCode": "F000596",
+         "CardName": "L. TRASPORTI DI RULLO GIUSEPPE"
+      },
+      {
+         "CardCode": "F000597",
+         "CardName": "FRIGOTEKNIKA ITALIA SRLS"
+      },
+      {
+         "CardCode": "F000599",
+         "CardName": "HAMILTON IMMOBILIARE SRL"
+      },
+      {
+         "CardCode": "F000600",
+         "CardName": "FRAMAX TRASPORTI di FRANCESCO NOIA"
+      },
+      {
+         "CardCode": "F000603",
+         "CardName": "ITS di PELLICCIA PASQUALE"
+      },
+      {
+         "CardCode": "F000604",
+         "CardName": "MERIDIONAL SPOT S.R.L.S."
+      },
+      {
+         "CardCode": "F000605",
+         "CardName": "GIANNATTASIO CIRO"
+      },
+      {
+         "CardCode": "F000606",
+         "CardName": "FERCART S.R.L.S."
+      },
+      {
+         "CardCode": "F000607",
+         "CardName": "CAMPANIA AUTORICAMBI FORMIA SRL"
+      },
+      {
+         "CardCode": "F000610",
+         "CardName": "GIANO S.R.L."
+      },
+      {
+         "CardCode": "F000611",
+         "CardName": "PROCAR S.R.L."
+      },
+      {
+         "CardCode": "F000614",
+         "CardName": "NUOVO TRASPORTO VIAGGIATORI SPA NTV"
+      },
+      {
+         "CardCode": "F000615",
+         "CardName": "DBINFORMATION SPA"
+      },
+      {
+         "CardCode": "F000619",
+         "CardName": "TNT GLOBAL EXPRESS S.R.L."
+      },
+      {
+         "CardCode": "F000620",
+         "CardName": "EDENRED ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F000621",
+         "CardName": "GRAPE HOSPITALITY ITALIAN OPCO SRL MERCURE HOTELS"
+      },
+      {
+         "CardCode": "F000624",
+         "CardName": "SERVIZIO ELETTRICO NAZIONALE SPA 1"
+      },
+      {
+         "CardCode": "F000625",
+         "CardName": "BANCO BPM SPA"
+      },
+      {
+         "CardCode": "F000627",
+         "CardName": "TELEPASS S.P.A."
+      },
+      {
+         "CardCode": "F000628",
+         "CardName": "AUTODIS ITALIA HOLDING SRL"
+      },
+      {
+         "CardCode": "F000633",
+         "CardName": "FUTURENERGY RINNOVABILE SRL"
+      },
+      {
+         "CardCode": "F000636",
+         "CardName": "ZHEJIANG HUAXIN AUTOMOBILE FITTINGS CO., LTD"
+      },
+      {
+         "CardCode": "F000637",
+         "CardName": "H&A SRL"
+      },
+      {
+         "CardCode": "F000638",
+         "CardName": "MKT SRL"
+      },
+      {
+         "CardCode": "F000641",
+         "CardName": "STECAUTO ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F000643",
+         "CardName": "OTTIMAX ITALIA SPA"
+      },
+      {
+         "CardCode": "F000644",
+         "CardName": "BENNATI SRL"
+      },
+      {
+         "CardCode": "F000645",
+         "CardName": "TSS S.P.A.SOC.UNIP.SOG.ATT.E COOR. DI TEAMSYSTEM SPA"
+      },
+      {
+         "CardCode": "F000646",
+         "CardName": "FASTWEB SPA"
+      },
+      {
+         "CardCode": "F000650",
+         "CardName": "MESSAGENET SPA"
+      },
+      {
+         "CardCode": "F000653",
+         "CardName": "WIND TRE SPA"
+      },
+      {
+         "CardCode": "F000659",
+         "CardName": "STC SERVICIO Y TECNOLOGIA DEL CAUCHIO, S.L."
+      },
+      {
+         "CardCode": "F000667",
+         "CardName": "SADECA SYSTEM S.L.U."
+      },
+      {
+         "CardCode": "F000668",
+         "CardName": "INDUMOVIL PARTS, S.I."
+      },
+      {
+         "CardCode": "F000670",
+         "CardName": "TENNECO AUTOMOTIVE FRANCE WALKER"
+      },
+      {
+         "CardCode": "F000672",
+         "CardName": "COMPAGNIE FRANCAISE D'ELECTRO- CHIMIE"
+      },
+      {
+         "CardCode": "F000678",
+         "CardName": "MANN+HUMMEL FT Poland Spolka z ogra niczona odpowiedzialnoscia Sp.k"
+      },
+      {
+         "CardCode": "F000680",
+         "CardName": "UNION PARTS SP.Z.O.O."
+      },
+      {
+         "CardCode": "F000682",
+         "CardName": "JIANGXI HUADIAO LIGHTING APPLIANCE CO.LTD"
+      },
+      {
+         "CardCode": "F000687",
+         "CardName": "AUTORICAMBI VALEO SRL"
+      },
+      {
+         "CardCode": "F000688",
+         "CardName": "CARBURANTE"
+      },
+      {
+         "CardCode": "F000689",
+         "CardName": "SHANDONG GOLD PHOENIX CO.LTD"
+      },
+      {
+         "CardCode": "F000692",
+         "CardName": "NOVOFLOW MANUFACTURE LIMITED"
+      },
+      {
+         "CardCode": "F000693",
+         "CardName": "TEMCO INTERNATIONAL LIMITED"
+      },
+      {
+         "CardCode": "F000694",
+         "CardName": "CNLIGHT CO.LTD"
+      },
+      {
+         "CardCode": "F000695",
+         "CardName": "TAIZHOU XINTENG OIL PUMP CO.,LTD"
+      },
+      {
+         "CardCode": "F000696",
+         "CardName": "TAIZHOU YIHONG INDUSTRIAL CO.LTD"
+      },
+      {
+         "CardCode": "F000697",
+         "CardName": "NINGBO HISUN IMPORT & EXPORT CO LTD"
+      },
+      {
+         "CardCode": "F000698",
+         "CardName": "SHANDONG WINSET  INTERNATIONAL TRADING CO. LTD"
+      },
+      {
+         "CardCode": "F000699",
+         "CardName": "ADD INDUSTRY (ZHE JIANG) CO. LTD"
+      },
+      {
+         "CardCode": "F000700",
+         "CardName": "KUNSHAN CADIC AUTO ELECTRIC CO. LTD"
+      },
+      {
+         "CardCode": "F000701",
+         "CardName": "QEEP AUTO SPARE PARTS LTD"
+      },
+      {
+         "CardCode": "F000702",
+         "CardName": "WENZHOU XINTIANHE TRADING CO. LTD"
+      },
+      {
+         "CardCode": "F000703",
+         "CardName": "NINGBO FANTASTICAR INTERNATIONAL TRADE CO., LTD"
+      },
+      {
+         "CardCode": "F000704",
+         "CardName": "SHANDONG WINSET PRECISON MANUFACTUR ING TECHNOLOGY CO., LTD"
+      },
+      {
+         "CardCode": "F000705",
+         "CardName": "TEMCO CO. LTD"
+      },
+      {
+         "CardCode": "F000708",
+         "CardName": "SANMARINO FOTOCINE PROFESSIONAL SRL"
+      },
+      {
+         "CardCode": "F000714",
+         "CardName": "EY S.p.A."
+      },
+      {
+         "CardCode": "F000716",
+         "CardName": "PROMOTEA SRL HOTEL PLAZA"
+      },
+      {
+         "CardCode": "F000717",
+         "CardName": "S.I.FIN SRL HOTEL SAN MICHELE"
+      },
+      {
+         "CardCode": "F000720",
+         "CardName": "MOOVIT RENT S.R.L."
+      },
+      {
+         "CardCode": "F000722",
+         "CardName": "LA VILLA DI MARCELLO RACCO"
+      },
+      {
+         "CardCode": "F000723",
+         "CardName": "VI.LU.CA.2015 SOCIETA COOPERATIVA"
+      },
+      {
+         "CardCode": "F000724",
+         "CardName": "AGRITURISMO I COLORI DEL GUSTO di FERRAGINA TERESA"
+      },
+      {
+         "CardCode": "F000725",
+         "CardName": "IHOTEL SRL STANZE BARONALI"
+      },
+      {
+         "CardCode": "F000727",
+         "CardName": "PIZZERIA FRANK SNC DI C.C."
+      },
+      {
+         "CardCode": "F000728",
+         "CardName": "SINFOTECH.IT S.R.L.S."
+      },
+      {
+         "CardCode": "F000729",
+         "CardName": "GAMES GESTIONI SRL"
+      },
+      {
+         "CardCode": "F000730",
+         "CardName": "SERVICE S.R.L. UNIPERSONALE"
+      },
+      {
+         "CardCode": "F000734",
+         "CardName": "VICTORIA STATION CHI.AMA SRL"
+      },
+      {
+         "CardCode": "F000735",
+         "CardName": "LA PORTA DEI SOGNI di AURICCHIO MARIANNA"
+      },
+      {
+         "CardCode": "F000736",
+         "CardName": "CIOFFI E MASSARO S.R.L."
+      },
+      {
+         "CardCode": "F000737",
+         "CardName": "CENTRO COMMERCIALE CAMPANIA"
+      },
+      {
+         "CardCode": "F000738",
+         "CardName": "AGAPIM S.R.L"
+      },
+      {
+         "CardCode": "F000739",
+         "CardName": "MAIL POINT LOGISTICA SRLS"
+      },
+      {
+         "CardCode": "F000741",
+         "CardName": "OREFICERIA-OROLOGERIA IMPERATORE GENNARO"
+      },
+      {
+         "CardCode": "F000743",
+         "CardName": "S.A.C. RAPPRESENTANZE S.A.S."
+      },
+      {
+         "CardCode": "F000744",
+         "CardName": "LEASYS S.p.A."
+      },
+      {
+         "CardCode": "F000745",
+         "CardName": "D.M.D. SNC"
+      },
+      {
+         "CardCode": "F000746",
+         "CardName": "CAMELOT  S.R.L."
+      },
+      {
+         "CardCode": "F000751",
+         "CardName": "DIAFERIO RAPPRESENTANZE SRLS"
+      },
+      {
+         "CardCode": "F000754",
+         "CardName": "NOWLED TRADING (QINGDAO) CO.,LTD"
+      },
+      {
+         "CardCode": "F000756",
+         "CardName": "EUROALBERGHIERA GIARRE S.R.L."
+      },
+      {
+         "CardCode": "F000757",
+         "CardName": "LA TAVERNETTA S.R.L."
+      },
+      {
+         "CardCode": "F000758",
+         "CardName": "HTS GROUP S.R.L."
+      },
+      {
+         "CardCode": "F000759",
+         "CardName": "IL NOCCHIERO CITY HOTEL S.R.L."
+      },
+      {
+         "CardCode": "F000760",
+         "CardName": "GP MARKET S.R.L."
+      },
+      {
+         "CardCode": "F000761",
+         "CardName": "NTL S.R.L."
+      },
+      {
+         "CardCode": "F000763",
+         "CardName": "BXE SRL"
+      },
+      {
+         "CardCode": "F000765",
+         "CardName": "SPEEDY EXPRESS di RASTIELLO MARCELL"
+      },
+      {
+         "CardCode": "F000766",
+         "CardName": "ARCO SPEDIZIONI S.p.A."
+      },
+      {
+         "CardCode": "F000767",
+         "CardName": "CHEEMA TRASPORTI SRL"
+      },
+      {
+         "CardCode": "F000768",
+         "CardName": "HOTEL RISTORANTE LA LANTERNA SPA"
+      },
+      {
+         "CardCode": "F000769",
+         "CardName": "STAZIONE CENTRALE 1943 SRL"
+      },
+      {
+         "CardCode": "F000771",
+         "CardName": "BANCA MPS S.p.A."
+      },
+      {
+         "CardCode": "F000772",
+         "CardName": "IL RISTORO SAS OSTERIA"
+      },
+      {
+         "CardCode": "F000773",
+         "CardName": "ROSAL SRL MEDITERRANEO PALACE HOTEL"
+      },
+      {
+         "CardCode": "F000774",
+         "CardName": "BELVEDERE S.R.L."
+      },
+      {
+         "CardCode": "F000775",
+         "CardName": "INKIOSTRO S.R.L.C.R"
+      },
+      {
+         "CardCode": "F000776",
+         "CardName": "SABBIA D'ORO S.R.L."
+      },
+      {
+         "CardCode": "F000777",
+         "CardName": "SI.D.I. PICCOLO S.R.L."
+      },
+      {
+         "CardCode": "F000778",
+         "CardName": "2002 INN SRL AS HOTEL MONZA"
+      },
+      {
+         "CardCode": "F000779",
+         "CardName": "HOTEL VILLA SUSY"
+      },
+      {
+         "CardCode": "F000780",
+         "CardName": "MB ELETTRONICA di BELLOFIORE MARIO"
+      },
+      {
+         "CardCode": "F000783",
+         "CardName": "D.D. SERVICE SRLS"
+      },
+      {
+         "CardCode": "F000784",
+         "CardName": "INTESA SANPAOLO S.p.A."
+      },
+      {
+         "CardCode": "F000785",
+         "CardName": "ALITALIA - S.A.I. S.p.A."
+      },
+      {
+         "CardCode": "F000789",
+         "CardName": "Q e Q SRL"
+      },
+      {
+         "CardCode": "F000791",
+         "CardName": "MERCEDES-BENZ CHARTERWAY S.R.L."
+      },
+      {
+         "CardCode": "F000792",
+         "CardName": "LA NUOVA CAMPANIA SRL"
+      },
+      {
+         "CardCode": "F000793",
+         "CardName": "MUOIOCARTEDAGIOCO.IT SRL"
+      },
+      {
+         "CardCode": "F000796",
+         "CardName": "AMAZON EU S.A.R.L. SUCCURSALE ITALIANA"
+      },
+      {
+         "CardCode": "F000799",
+         "CardName": "FERPLAST SNC di SCANAVINO E GIACOSA"
+      },
+      {
+         "CardCode": "F000801",
+         "CardName": "POWERDRIVE EUROPE LIMITED"
+      },
+      {
+         "CardCode": "F000802",
+         "CardName": "CE.IMM. S.A.S. di IMMEDIATA FABIO"
+      },
+      {
+         "CardCode": "F000804",
+         "CardName": "VOLKSWAGEN LEASING GMBH"
+      },
+      {
+         "CardCode": "F000806",
+         "CardName": "HOTEL NUOVA FIERA SRL"
+      },
+      {
+         "CardCode": "F000810",
+         "CardName": "AUTOTRASPORTI MALU' SRLS"
+      },
+      {
+         "CardCode": "F000811",
+         "CardName": "FIN.GE.CO. SRL"
+      },
+      {
+         "CardCode": "F000814",
+         "CardName": "SOC. GESTIONE SERVIZI AEROPORTI CAMPANI S.P.A."
+      },
+      {
+         "CardCode": "F000815",
+         "CardName": "A.R. di ARCELLA S.R.L."
+      },
+      {
+         "CardCode": "F000817",
+         "CardName": "SCARNATO ALFREDO GRIGLIERIA DEL POPOLO"
+      },
+      {
+         "CardCode": "F000818",
+         "CardName": "GRUPPO UNA S.P.A"
+      },
+      {
+         "CardCode": "F000819",
+         "CardName": "TRASPORTI LIGUORI CARMINE"
+      },
+      {
+         "CardCode": "F000820",
+         "CardName": "BPER BANCA S.p.A."
+      },
+      {
+         "CardCode": "F000821",
+         "CardName": "CISALPINA FINANZIARIA S.R.L."
+      },
+      {
+         "CardCode": "F000822",
+         "CardName": "IH S.R.L. IH HOTELS ROMA Z3"
+      },
+      {
+         "CardCode": "F000824",
+         "CardName": "WEX EUROPE SERVICES SRL"
+      },
+      {
+         "CardCode": "F000825",
+         "CardName": "AKNO HOTEL SRL"
+      },
+      {
+         "CardCode": "F000826",
+         "CardName": "NUOVA RICAMBI SRLS"
+      },
+      {
+         "CardCode": "F000827",
+         "CardName": "ADRIMAR SRL"
+      },
+      {
+         "CardCode": "F000828",
+         "CardName": "JP GADGET SRLS"
+      },
+      {
+         "CardCode": "F000829",
+         "CardName": "ALFAEVOLUTION TECHNOLOGY S.p.A."
+      },
+      {
+         "CardCode": "F000830",
+         "CardName": "VOLOTEA S.A."
+      },
+      {
+         "CardCode": "F000831",
+         "CardName": "DONG XIAOE RISTORANTE NAVIGLIO"
+      },
+      {
+         "CardCode": "F000832",
+         "CardName": "RISTORANTE IL QUADRIFOGLIO SNC di PISTACCHIO P. & C."
+      },
+      {
+         "CardCode": "F000833",
+         "CardName": "ALBERGO AIRONE S.R.L."
+      },
+      {
+         "CardCode": "F000838",
+         "CardName": "A.M.PLAST SRLS"
+      },
+      {
+         "CardCode": "F000079",
+         "CardName": "DUESSEGI EDITORE SRL"
+      },
+      {
+         "CardCode": "F000841",
+         "CardName": "REAB di OSVALDO DESIO"
+      },
+      {
+         "CardCode": "F000845",
+         "CardName": "ECS ITALIA SRL"
+      },
+      {
+         "CardCode": "F000849",
+         "CardName": "VALENTINI CONSULTING S.A.S. DI VALENTINI LUCA  C."
+      },
+      {
+         "CardCode": "F000853",
+         "CardName": "HOTEL SAN DIEGO S.A.S. DI F.SCO DOMINICI & C."
+      },
+      {
+         "CardCode": "F000854",
+         "CardName": "BEATUS BED&BREAKFAST DI PACI GIUSEP"
+      },
+      {
+         "CardCode": "F000856",
+         "CardName": "FIORISTI BUSICO SNC"
+      },
+      {
+         "CardCode": "F000857",
+         "CardName": "FALCONE ANTONIO PIZZERIA-ROSTICCERIA TAVOLA CALDA"
+      },
+      {
+         "CardCode": "F000860",
+         "CardName": "GATTINONI TRAVEL NETWORK S.R.L."
+      },
+      {
+         "CardCode": "F000171",
+         "CardName": "AIR TOP ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F000864",
+         "CardName": "ARCESE TRASPORTI S.p.A"
+      },
+      {
+         "CardCode": "F000865",
+         "CardName": "ARTGEIST SP.Z O.O."
+      },
+      {
+         "CardCode": "F000866",
+         "CardName": "NICOLACI PASQUALE"
+      },
+      {
+         "CardCode": "F000867",
+         "CardName": "ROSAUTO S.R.L."
+      },
+      {
+         "CardCode": "F000868",
+         "CardName": "LA BIRRERIA S.R.L."
+      },
+      {
+         "CardCode": "F000869",
+         "CardName": "R.E.A.S. SRL"
+      },
+      {
+         "CardCode": "F000870",
+         "CardName": "UNIVERSITY SNC"
+      },
+      {
+         "CardCode": "F000871",
+         "CardName": "SPADARO ROSARIO"
+      },
+      {
+         "CardCode": "F000872",
+         "CardName": "LIDO GARDA S.A.S."
+      },
+      {
+         "CardCode": "F000873",
+         "CardName": "VALDERICINA DI CUSENZA G.&C. sas"
+      },
+      {
+         "CardCode": "F000874",
+         "CardName": "SECALF ARREDAMENTI S.R.L."
+      },
+      {
+         "CardCode": "F000875",
+         "CardName": "ARENA DANIELE"
+      },
+      {
+         "CardCode": "F000876",
+         "CardName": "HOTEL ARDA di PROSPERO SRL"
+      },
+      {
+         "CardCode": "F000877",
+         "CardName": "LA VEDETTA CAMPANA SOC COOP ARL"
+      },
+      {
+         "CardCode": "F000878",
+         "CardName": "PARCO DEL SEMINARIO DELLA PROVINCIA ECCLESIASTICA DI POTENZA"
+      },
+      {
+         "CardCode": "F000094",
+         "CardName": "ROTOTEC S.p.A."
+      },
+      {
+         "CardCode": "F000882",
+         "CardName": "CAMPISI DAVIDE"
+      },
+      {
+         "CardCode": "F000883",
+         "CardName": "ACCARAMBONI S.R.L."
+      },
+      {
+         "CardCode": "F000885",
+         "CardName": "BALI S.N.C."
+      },
+      {
+         "CardCode": "F000887",
+         "CardName": "BALD EXPRESS SRLS UNIPERSONALE"
+      },
+      {
+         "CardCode": "F000888",
+         "CardName": "PIANETA COSPEA SRL"
+      },
+      {
+         "CardCode": "F000889",
+         "CardName": "SPAZIO GESTIONI SRL"
+      },
+      {
+         "CardCode": "F000892",
+         "CardName": "ROYAL TROPHY SRL"
+      },
+      {
+         "CardCode": "F000893",
+         "CardName": "DI NUCCI CINZIA"
+      },
+      {
+         "CardCode": "F000895",
+         "CardName": "JORA SOLUTIONS S.A.S. di PAOLO DAL FIUME"
+      },
+      {
+         "CardCode": "F000896",
+         "CardName": "BAR RISTORANTE PIZZERIA OASI DI DI LUCIA VINCENZO & C. SNC"
+      },
+      {
+         "CardCode": "F000897",
+         "CardName": "RISTORANTE O'CAMIONISTA S.A.S. DI CITRO MARY & C."
+      },
+      {
+         "CardCode": "F000900",
+         "CardName": "EUROVIVAI RINALDI PASQUALE & FIGLI DI RINALDI STEFANO & C. Sas"
+      },
+      {
+         "CardCode": "F000901",
+         "CardName": "MONDIAL FISH S.R.L."
+      },
+      {
+         "CardCode": "F000903",
+         "CardName": "STELLATO BUILDING SRL"
+      },
+      {
+         "CardCode": "F000904",
+         "CardName": "CTE TRASPORTI SRL"
+      },
+      {
+         "CardCode": "F000905",
+         "CardName": "PARISI GIUSEPPE"
+      },
+      {
+         "CardCode": "F000907",
+         "CardName": "CITY HOTELS COMPANY BOLOGNA SRL"
+      },
+      {
+         "CardCode": "F000908",
+         "CardName": "C.D. EXPRESS LOGISTICA srl"
+      },
+      {
+         "CardCode": "F000909",
+         "CardName": "BOLOGNA IMMOBILIARE SRL"
+      },
+      {
+         "CardCode": "F000910",
+         "CardName": "MIDA INVESTIMENTI S.R.L."
+      },
+      {
+         "CardCode": "F000911",
+         "CardName": "ASSOCIAZIONE EURO EVENTI"
+      },
+      {
+         "CardCode": "F000912",
+         "CardName": "HOTEL EMBASSY S.R.L."
+      },
+      {
+         "CardCode": "F000913",
+         "CardName": "KU INVESTMENTS S.R.L."
+      },
+      {
+         "CardCode": "F000915",
+         "CardName": "MAZZELLA S.R.L."
+      },
+      {
+         "CardCode": "F000917",
+         "CardName": "FACCETTA GROUP SRL"
+      },
+      {
+         "CardCode": "F000920",
+         "CardName": "AVERSANO S.R.L."
+      },
+      {
+         "CardCode": "F000922",
+         "CardName": "GARIBALDI SRL"
+      },
+      {
+         "CardCode": "F000923",
+         "CardName": "ING. CAPASSO GENNARO"
+      },
+      {
+         "CardCode": "F000924",
+         "CardName": "CTC SOCIETA' COOPERATIVA"
+      },
+      {
+         "CardCode": "F000925",
+         "CardName": "RSM STUDIO PALEA LAURI GERLA-TORINO"
+      },
+      {
+         "CardCode": "F000927",
+         "CardName": "INGO TRASPORTI SRL"
+      },
+      {
+         "CardCode": "F000928",
+         "CardName": "A & G SRL"
+      },
+      {
+         "CardCode": "F000932",
+         "CardName": "NEWTON SNC di NUNZIATINI S.,L. E S."
+      },
+      {
+         "CardCode": "F000934",
+         "CardName": "MEGAWATT S.P.A."
+      },
+      {
+         "CardCode": "F000936",
+         "CardName": "L'ANTINIANA FOOD SRL"
+      },
+      {
+         "CardCode": "F000937",
+         "CardName": "TUFANO MULTIMEDIA SRL CON SOCIO UNI CO"
+      },
+      {
+         "CardCode": "F000938",
+         "CardName": "TIESSE S.p.A."
+      },
+      {
+         "CardCode": "F000939",
+         "CardName": "COSIMO BARTOLI SERVICE SRL"
+      },
+      {
+         "CardCode": "F000940",
+         "CardName": "SAPORI IN CORSO SRL"
+      },
+      {
+         "CardCode": "F000942",
+         "CardName": "TREROSSO S.R.L."
+      },
+      {
+         "CardCode": "F000943",
+         "CardName": "SANAIR  S.R.L"
+      },
+      {
+         "CardCode": "F000944",
+         "CardName": "CA.BA. S.R.L."
+      },
+      {
+         "CardCode": "F000945",
+         "CardName": "HOTEL CLYNTON S.R.L."
+      },
+      {
+         "CardCode": "F000946",
+         "CardName": "OMEGA SRL"
+      },
+      {
+         "CardCode": "F000947",
+         "CardName": "DIVINO CAFFE S.R.L."
+      },
+      {
+         "CardCode": "F000948",
+         "CardName": "EDITORIALE DOMUS S.p.A."
+      },
+      {
+         "CardCode": "F000949",
+         "CardName": "ISCHITANA S.R.L."
+      },
+      {
+         "CardCode": "F000951",
+         "CardName": "RSM ITALY CORPORATE FINANCE SRL"
+      },
+      {
+         "CardCode": "F000952",
+         "CardName": "AHM SRL"
+      },
+      {
+         "CardCode": "F000953",
+         "CardName": "BISTRO' DE MAISTO SAS"
+      },
+      {
+         "CardCode": "F000955",
+         "CardName": "BEECOLORS SRL"
+      },
+      {
+         "CardCode": "F000957",
+         "CardName": "TLP di PASQUALE PIGNA"
+      },
+      {
+         "CardCode": "F000958",
+         "CardName": "TEMPO DI SALDI SRLS"
+      },
+      {
+         "CardCode": "F000961",
+         "CardName": "BORRELLI MASSIMO"
+      },
+      {
+         "CardCode": "F000962",
+         "CardName": "NOZOMI S.R.L."
+      },
+      {
+         "CardCode": "F000964",
+         "CardName": "MUNDO S.R.L."
+      },
+      {
+         "CardCode": "F000965",
+         "CardName": "ADN ITALIA S.p.A."
+      },
+      {
+         "CardCode": "F000967",
+         "CardName": "INNOVATION & NETWORKING SRL"
+      },
+      {
+         "CardCode": "F000968",
+         "CardName": "MUGELLO CIRCUIT S.R.L."
+      },
+      {
+         "CardCode": "F000969",
+         "CardName": "AMAPA S.R.L."
+      },
+      {
+         "CardCode": "F000971",
+         "CardName": "GED GROUP SRL"
+      },
+      {
+         "CardCode": "F000972",
+         "CardName": "PROW SRL INTERNATIONAL MANAGEMENT CONSULTING"
+      },
+      {
+         "CardCode": "F000973",
+         "CardName": "RISTORANTE PIZZERIA OASI ROSA SRL"
+      },
+      {
+         "CardCode": "F000974",
+         "CardName": "EFFE.T. S.R.L."
+      },
+      {
+         "CardCode": "F000977",
+         "CardName": "ZHEJIANG SENSEN AUTO PARTS CO. LTD."
+      },
+      {
+         "CardCode": "F000979",
+         "CardName": "SIXBROS GMBH"
+      },
+      {
+         "CardCode": "F000980",
+         "CardName": "WOLTU GMBH"
+      },
+      {
+         "CardCode": "F000981",
+         "CardName": "DIVA PEPPICH CENTER"
+      },
+      {
+         "CardCode": "F000982",
+         "CardName": "SCHREINER ELEKTRONIK GMBH"
+      },
+      {
+         "CardCode": "F000983",
+         "CardName": "HITACHI AUTOMOTIVE SYSTEMS ESPELKAMP GMBH"
+      },
+      {
+         "CardCode": "F000985",
+         "CardName": "INDUSTRIAL DE TRANSFORMADOS S.A."
+      },
+      {
+         "CardCode": "F000986",
+         "CardName": "TEAM RICAMBI SRL"
+      },
+      {
+         "CardCode": "F000989",
+         "CardName": "ARENACCIA CRA GROUP SRL"
+      },
+      {
+         "CardCode": "F000991",
+         "CardName": "BCC LEASE S.p.A."
+      },
+      {
+         "CardCode": "F000992",
+         "CardName": "BONANNI S.R.L."
+      },
+      {
+         "CardCode": "F000993",
+         "CardName": "RISTORANTE LA FORESTA SRL"
+      },
+      {
+         "CardCode": "F000994",
+         "CardName": "GARAGE FONTANA S.A.S. di PASQUALE CIMMINO & C."
+      },
+      {
+         "CardCode": "F000995",
+         "CardName": "ALPHABET ITALIA FLEET MANAGEMENT S.p.A."
+      },
+      {
+         "CardCode": "F000996",
+         "CardName": "ACQUASALE S.R.L.S."
+      },
+      {
+         "CardCode": "F000997",
+         "CardName": "FA.DE.GA. S.N.C. di BRUCALE SERGIO & C."
+      },
+      {
+         "CardCode": "F000998",
+         "CardName": "CAMPANIA REGIONALE MARITTIMA SPA"
+      },
+      {
+         "CardCode": "F001001",
+         "CardName": "BS LUBRIFICANTI S.R.L."
+      },
+      {
+         "CardCode": "F001002",
+         "CardName": "OFFICINE VOTO S.R.L."
+      },
+      {
+         "CardCode": "F001005",
+         "CardName": "ITS WHATS INSIDE THAT COUNTS Ltd"
+      },
+      {
+         "CardCode": "F001007",
+         "CardName": "ZHEJIANG YAMEILI AMPEREX TECHNOLOGY CO. LTD"
+      },
+      {
+         "CardCode": "F001008",
+         "CardName": "STUDIO LEGALE GILIBERTI TRISCONIA E ASSOCIATI"
+      },
+      {
+         "CardCode": "F001009",
+         "CardName": "HOTEL RESIDENCE LIBERTY SRL"
+      },
+      {
+         "CardCode": "F001010",
+         "CardName": "SHENZHENSHI QIMINGTONGTAI KEJIYOUXIAN GONGSI"
+      },
+      {
+         "CardCode": "F001011",
+         "CardName": "RISTORANTE GIOVANNI S.R.L."
+      },
+      {
+         "CardCode": "F001012",
+         "CardName": "ACCOR HOSPITALY ITALIA SRL"
+      },
+      {
+         "CardCode": "F001013",
+         "CardName": "VIAMA S.R.L."
+      },
+      {
+         "CardCode": "F001014",
+         "CardName": "FANTONI S.R.L."
+      },
+      {
+         "CardCode": "F001015",
+         "CardName": "GORI S.p.A."
+      },
+      {
+         "CardCode": "F001016",
+         "CardName": "1 IDEA SRL"
+      },
+      {
+         "CardCode": "F001017",
+         "CardName": "JOSEPH S.R.L."
+      },
+      {
+         "CardCode": "F001019",
+         "CardName": "VMENGINE S.R.L."
+      },
+      {
+         "CardCode": "F001021",
+         "CardName": "EUROCARB DISTRIBUTORE ESSO"
+      },
+      {
+         "CardCode": "F001022",
+         "CardName": "PLANETE MARINE S.A.S. di SIMONE GRASSO & C."
+      },
+      {
+         "CardCode": "F001023",
+         "CardName": "MARCHESE SALVATORE"
+      },
+      {
+         "CardCode": "F001024",
+         "CardName": "REGISTER S.p.A."
+      },
+      {
+         "CardCode": "F001025",
+         "CardName": "ICARUS SPA"
+      },
+      {
+         "CardCode": "F001026",
+         "CardName": "CE.S.AB. CENTRO SERVIZI ABITAZIONE S.R.L."
+      },
+      {
+         "CardCode": "F001027",
+         "CardName": "PROVALUE S.R.L."
+      },
+      {
+         "CardCode": "F001028",
+         "CardName": "SCARAMUZZA  S.P.A."
+      },
+      {
+         "CardCode": "F001029",
+         "CardName": "GRUPPO BONIFACIO SRL"
+      },
+      {
+         "CardCode": "F001030",
+         "CardName": "TORONERO SRL"
+      },
+      {
+         "CardCode": "F001031",
+         "CardName": "METRO ITALIA CASH AND CARRY S.P.A."
+      },
+      {
+         "CardCode": "F001032",
+         "CardName": "CREDITO EMILIANO S.p.A."
+      },
+      {
+         "CardCode": "F001033",
+         "CardName": "RISTORANTE POSTA VECCHIA DI SANFILIPPO GAETANO"
+      },
+      {
+         "CardCode": "F001034",
+         "CardName": "INCHOTEL S.R.L."
+      },
+      {
+         "CardCode": "F001035",
+         "CardName": "CANCELLI ROSSI S.R.L."
+      },
+      {
+         "CardCode": "F001036",
+         "CardName": "AD S.R.L."
+      },
+      {
+         "CardCode": "F001037",
+         "CardName": "ZAMU RISTORAZIONE SAS"
+      },
+      {
+         "CardCode": "F001038",
+         "CardName": "HOTEL FEDERICO II S.R.L."
+      },
+      {
+         "CardCode": "F001039",
+         "CardName": "HOTEL LCS ITALY SRL"
+      },
+      {
+         "CardCode": "F001040",
+         "CardName": "RISTORANTE DA GIACOMO di CAMPAGNARI GIACOMO"
+      },
+      {
+         "CardCode": "F001041",
+         "CardName": "CARLSON WAGONLIT ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F001042",
+         "CardName": "ONDA BLU SOC COOP A RL"
+      },
+      {
+         "CardCode": "F001043",
+         "CardName": "EZDIRECT SRL"
+      },
+      {
+         "CardCode": "F001044",
+         "CardName": "BRUZZESE GIUSEPPE"
+      },
+      {
+         "CardCode": "F001047",
+         "CardName": "PILONE CORRADO"
+      },
+      {
+         "CardCode": "F001048",
+         "CardName": "GR DISTRIBUZIONI S.R.L."
+      },
+      {
+         "CardCode": "F001049",
+         "CardName": "SCAMPORRINO FRANCESCO"
+      },
+      {
+         "CardCode": "F001050",
+         "CardName": "GAITA GIUSEPPE"
+      },
+      {
+         "CardCode": "F001051",
+         "CardName": "NEW FRAMAX di ANDREA NOIA"
+      },
+      {
+         "CardCode": "F001052",
+         "CardName": "FALZETTA SALVATORE"
+      },
+      {
+         "CardCode": "F001054",
+         "CardName": "DSB TRASPORTI S.R.L."
+      },
+      {
+         "CardCode": "F001055",
+         "CardName": "A.ME.TRA. SRL"
+      },
+      {
+         "CardCode": "F001058",
+         "CardName": "PROFERA SRLS"
+      },
+      {
+         "CardCode": "F001059",
+         "CardName": "LORY EXPRESS S.N.C. di MISTRETTA SALVINA & C."
+      },
+      {
+         "CardCode": "F001060",
+         "CardName": "CITY EXPRESS S.R.L."
+      },
+      {
+         "CardCode": "F001061",
+         "CardName": "MEDIOCREDITO ITALIANO SPA"
+      },
+      {
+         "CardCode": "F001063",
+         "CardName": "ALLE PENDICI S.A.S. di GRASSO ANTONELLA & C."
+      },
+      {
+         "CardCode": "F001065",
+         "CardName": "GENERAL AUTO SRL"
+      },
+      {
+         "CardCode": "F001066",
+         "CardName": "IVS ITALIA S.p.A"
+      },
+      {
+         "CardCode": "F001067",
+         "CardName": "FLEX PRINT SAS di ESPOSITO P.& C."
+      },
+      {
+         "CardCode": "F001069",
+         "CardName": "GENFIN S.R.L."
+      },
+      {
+         "CardCode": "F001070",
+         "CardName": "F.LLI MANNA S.N.C. di MANNA GIANLUCA E FABIO"
+      },
+      {
+         "CardCode": "F001071",
+         "CardName": "PIZZERIA VESUVIO DI VERTULLO V."
+      },
+      {
+         "CardCode": "F001073",
+         "CardName": "GENERAL PARTS SRL"
+      },
+      {
+         "CardCode": "F001074",
+         "CardName": "ENEL ENERGIA SPA"
+      },
+      {
+         "CardCode": "F001075",
+         "CardName": "GP ITALIA S.R.L."
+      },
+      {
+         "CardCode": "F001076",
+         "CardName": "AC HOTEL BOLOGNA SRL"
+      },
+      {
+         "CardCode": "F001077",
+         "CardName": "GO LOGISTICS S.R.L CON SOCIO UNICO"
+      },
+      {
+         "CardCode": "F001078",
+         "CardName": "STARCODE SRL UNIPERSONALE"
+      },
+      {
+         "CardCode": "F001079",
+         "CardName": "GSP EUROPE SRL SOC. UNIPERSONALE"
+      },
+      {
+         "CardCode": "F001080",
+         "CardName": "VILLA CARACCIOLO di SODANO MICHELE"
+      }
+   ]
+   }
+}

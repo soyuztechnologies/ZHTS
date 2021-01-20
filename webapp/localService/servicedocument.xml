@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app:service xml:lang="en"
+           	xml:base="http://localhost:60954/api/odatav2/"
+           	xmlns:app="http://www.w3.org/2007/app"
+           	xmlns:atom="http://www.w3.org/2005/Atom"
+           	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+           	xmlns:sap="http://www.sap.com/Protocols/SAPData">
+	<app:workspace>
+		<atom:title type="text">Data</atom:title>
+		<app:collection sap:content-version="1"
+              			href="PurchaseDeliveryNotes">
+			<atom:title type="text">PurchaseDeliveryNotes</atom:title>
+			<sap:member-title>Document</sap:member-title>
+		</app:collection>
+		<app:collection sap:content-version="1"
+              			href="PurchaseInvoices">
+			<atom:title type="text">PurchaseInvoices</atom:title>
+			<sap:member-title>Document</sap:member-title>
+		</app:collection>
+		<app:collection sap:content-version="1"
+              			href="DocumentLines">
+			<atom:title type="text">DocumentLines</atom:title>
+			<sap:member-title>DocumentLine</sap:member-title>
+		</app:collection>
+		<app:collection sap:content-version="1"
+              			href="BusinessPartners">
+			<atom:title type="text">BusinessPartners</atom:title>
+			<sap:member-title>BusinessPartner</sap:member-title>
+		</app:collection>
+		<app:collection sap:content-version="1"
+              			href="Warehouses">
+			<atom:title type="text">Warehouses</atom:title>
+			<sap:member-title>Warehouse</sap:member-title>
+		</app:collection>
+		<app:collection sap:content-version="1"
+              			href="U_ENT_VALUES_YESNO">
+			<atom:title type="text">U_ENT_VALUES_YESNO</atom:title>
+			<sap:member-title>U_ENT_VALUES_YESNO</sap:member-title>
+		</app:collection>
+	</app:workspace>
+	<atom:link rel="self"
+         		href="http://localhost:60954/api/odatav2/"/>
+	<atom:link rel="latest-version"
+         		href="http://localhost:60954/api/odatav2/"/>
+</app:service>

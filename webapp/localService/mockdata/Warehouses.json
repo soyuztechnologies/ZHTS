@@ -1,0 +1,70 @@
+{
+   "d":{
+	"results": [
+      {
+         "WarehouseCode": "Mc-LP",
+         "WarehouseName": "Magazzino Conto Vendita BCC Lease"
+      },
+      {
+         "WarehouseCode": "Mc-ND",
+         "WarehouseName": "Nostro Magazzino In Conto Deposito"
+      },
+      {
+         "WarehouseCode": "Mf-ct-6",
+         "WarehouseName": "Magazzino DIfettosi Cliente Filiale Ctania"
+      },
+      {
+         "WarehouseCode": "Mc-11",
+         "WarehouseName": "Magazzino XMASTER Casalnuovo"
+      },
+      {
+         "WarehouseCode": "Mc",
+         "WarehouseName": "Magazzino Casalnuovo"
+      },
+      {
+         "WarehouseCode": "Mc-34",
+         "WarehouseName": "Magazzino Esuberi Casalnuovo"
+      },
+      {
+         "WarehouseCode": "Mc-6",
+         "WarehouseName": "Magazzino Difettosi Clienti Casalnuovo"
+      },
+      {
+         "WarehouseCode": "Mc-9",
+         "WarehouseName": "Magazzino Difettosi Casalnuovo"
+      },
+      {
+         "WarehouseCode": "Mf-ct",
+         "WarehouseName": "Magazzino Principale Catania"
+      },
+      {
+         "WarehouseCode": "Mf-ct-34",
+         "WarehouseName": "Magazzino Esuberi Filiale Catania"
+      },
+      {
+         "WarehouseCode": "Mf-ct-V",
+         "WarehouseName": "Magazzino Viaggiante Catania"
+      },
+      {
+         "WarehouseCode": "Mf-ct-O",
+         "WarehouseName": "Magazzino Catania Obsoleti"
+      },
+      {
+         "WarehouseCode": "Mc-O",
+         "WarehouseName": "Magazzino Obsoleti Casalnuovo"
+      },
+      {
+         "WarehouseCode": "Mc-V",
+         "WarehouseName": "Magazzino Viaggiante Casalnuovo"
+      },
+      {
+         "WarehouseCode": "Mc-7",
+         "WarehouseName": "Magazzino Corsi/Quote Abbonamenti Casalnuovo"
+      },
+      {
+         "WarehouseCode": "Mf-ct-9",
+         "WarehouseName": "Magazzino Difettosi Catania"
+      }
+   ]
+   }
+}

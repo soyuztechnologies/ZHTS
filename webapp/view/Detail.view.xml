@@ -1,0 +1,155 @@
+<mvc:View xmlns="sap.uxap" xmlns:mvc="sap.ui.core.mvc" xmlns:layout="sap.ui.layout" xmlns:core="sap.ui.core" xmlns:m="sap.m"
+	xmlns:t="sap.ui.table" xmlns:goals="sap.uxap.sample.SharedBlocks.goals" xmlns:personal="sap.uxap.sample.SharedBlocks.personal"
+	controllerName="hts.controller.Detail" height="100%" xmlns:smartTable="sap.ui.comp.smarttable" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:f="sap.ui.layout.form">
+	<m:Page title="{i18n>appTitle}" showNavButton="true" navButtonPress="onNavBack">
+		<m:headerContent>
+			<m:Text text="{i18n>Version}"/>
+		</m:headerContent>
+		<m:content>
+			<m:VBox>
+				<ObjectPageLayout id="ObjectPageLayout">
+					<headerTitle>
+						<ObjectPageHeader id="headerForTest" objectTitle="{DocNum} ({CardCode} - {CardName})" showTitleSelector="false" showMarkers="true"
+							objectImageShape="Circle"></ObjectPageHeader>
+					</headerTitle>
+					<headerContent>
+						<layout:VerticalLayout>
+							<m:ObjectStatus title="{i18n>Address}" text="{Address}"/>
+							<m:ObjectStatus title="{i18n>NumAtCard}" text="{NumAtCard}"/>
+						</layout:VerticalLayout>
+						<!--<m:ProgressIndicator percentValue="30" displayValue="30%" showValue="true" state="None"/>-->
+						<layout:VerticalLayout>
+							<m:Label text="{i18n>DocTotal}"/>
+							<m:ObjectNumber number="{DocTotal}" numberUnit="EUR"/>
+						</layout:VerticalLayout>
+						<!--<m:ObjectAttribute title="{i18n>Status}" text="In Stock"/>-->
+						<!--<m:RatingIndicator maxValue="8" class="sapUiSmallMarginBottom" value="4" tooltip="Rating Tooltip"/>-->
+					</headerContent>
+				</ObjectPageLayout>
+				<t:Table id="idDeliveryNodeItems" rowSelectionChange="onSelect" rows="{local>/DocumentLines}" selectionMode="MultiToggle"
+					visibleRowCount="5" ariaLabelledBy="title">
+					<t:extension>
+						<m:OverflowToolbar>
+							<m:Title id="title" text="{i18n>DocumentLines}"/>
+							<m:ToolbarSeparator/>
+							<m:Title id="mainTotal" text="{i18n>iTotals}"/>
+							<m:ToolbarSeparator/>
+							<m:Title id="subTotal" text="{i18n>iSubTotal}"/>
+						</m:OverflowToolbar>
+					</t:extension>
+					<t:columns>
+						<t:Column width="2rem">
+							<m:Label text="{i18n>LineNum}"/>
+							<t:template>
+								<m:Text text="{local>LineNum}" wrapping="false"/>
+							</t:template>
+						</t:Column>
+						<t:Column >
+							<m:Label text="{i18n>ItemCode}"/>
+							<t:template>
+								<m:Text text="{local>ItemCode}" wrapping="false"/>
+							</t:template>
+						</t:Column>
+						<t:Column width="10.5rem">
+							<m:Label text="{i18n>ItemDescription}"/>
+							<t:template>
+								<m:Text text="{local>ItemDescription}" wrapping="false"/>
+							</t:template>
+						</t:Column>
+						<t:Column width="4.5rem">
+							<m:Label text="{i18n>Quantity}"/>
+							<t:template>
+								<m:Text text="{local>Quantity}" wrapping="false"/>
+							</t:template>
+						</t:Column>
+						<t:Column width="7.5rem">
+							<m:Label text="{i18n>UnitPrice}"/>
+							<t:template>
+								<m:Input value="{path : 'local>UnitPrice', formatter: '.formatter.formatDecimal'}" wrapping="false" editable="true" liveChange=".onLive2"/>
+							</t:template>
+						</t:Column>
+						<!--<t:Column >-->
+						<!--	<m:Label text="{i18n>PriceAfterVAT}"/>-->
+						<!--	<t:template>-->
+						<!--		<m:Text text="{local>PriceAfterVAT}" wrapping="false"/>-->
+						<!--	</t:template>-->
+						<!--</t:Column>-->
+						<t:Column width="7rem">
+							<m:Label text="{i18n>DiscountPercent}"/>
+							<t:template>
+								<m:Text text="{path : 'local>DiscountPercent', formatter: '.formatter.formatPercentage'}" wrapping="false"/>
+							</t:template>
+						</t:Column>
+						<t:Column width="5.5rem">
+							<m:Label text="SC1"/>
+							<t:template>
+								<m:Input type="Number" value="{path : 'local>U_PONE_SC1', formatter: '.formatter.formatPercentage'}" liveChange=".onLive2"></m:Input>
+							</t:template>
+						</t:Column>
+						<t:Column width="5.5rem">
+							<m:Label text="SC2"/>
+							<t:template>
+								<m:Input type="Number" value="{path : 'local>U_PONE_SC2', formatter: '.formatter.formatPercentage'}" liveChange=".onLive2"></m:Input>
+							</t:template>
+						</t:Column>
+						<t:Column width="5.5rem">
+							<m:Label text="SC3"/>
+							<t:template>
+								<m:Input type="Number" value="{path : 'local>U_PONE_SC3', formatter: '.formatter.formatPercentage'}" liveChange=".onLive2"></m:Input>
+							</t:template>
+						</t:Column>
+						<t:Column width="5.5rem">
+							<m:Label text="SC_Ag"/>
+							<t:template>
+								<m:Input type="Number" value="{path : 'local>U_PONE_STRSC', formatter: '.formatter.formatPercentage'}" liveChange=".onLive2"></m:Input>
+							</t:template>
+						</t:Column>
+						<t:Column width="7.5rem">
+							<m:Label text="{i18n>LineTotal}"/>
+							<t:template>
+								<m:Text text="{path : 'local>LineTotal', formatter : '.formatter.formatLineTotal'}" wrapping="false"/>
+							</t:template>
+						</t:Column>
+						<t:Column >
+							<m:Label text="{i18n>VendorNum}"/>
+							<t:template>
+								<m:Text text="{local>VendorNum}" wrapping="false"/>
+							</t:template>
+						</t:Column>
+						<t:Column width="4.5rem">
+							<m:Label text="{i18n>WarehouseCode}"/>
+							<t:template>
+								<m:Text text="{local>WarehouseCode}" wrapping="false"/>
+							</t:template>
+						</t:Column>
+						<t:Column width="6rem" id="idSwt">
+							<m:Label text="{i18n>ENT_EMFCtrlFF_YesNo_R}"/>
+							<t:template>
+								<m:Switch change='.onLive2' state="{path: 'local>U_ENT_EMFCtrlFF_YesNo_R' , formatter:'.getSwitchValue'}" wrapping="false"/>
+							</t:template>
+						</t:Column>
+						<t:Column width="12rem" id="idInv">
+							<m:Label text="{i18n>ENT_EMF_FF_DocEntry_R}"/>
+							<t:template>
+								<m:MultiInput showValueHelp="true" tokenUpdate=".onLive2" wrapping="false" valueHelpOnly="true" valueHelpRequest="handleValueHelp"></m:MultiInput>
+							</t:template>
+						</t:Column>
+						<!--<t:Column >-->
+						<!--	<m:Label text="{i18n>U_ENT_EMF_FF_LineNum_R}"/>-->
+						<!--		<t:template>-->
+						<!--		<m:Input liveChange=".onLive2" value="{local>U_ENT_EMF_FF_LineNum_R}" wrapping="false"/>-->
+						<!--	</t:template>-->
+						<!--</t:Column>-->
+					</t:columns>
+				</t:Table>
+			</m:VBox>
+		</m:content>
+		<m:footer>
+			<m:Toolbar>
+				<m:ToolbarSpacer/>
+				<m:Button id="idonSave" type="Emphasized" text="{i18n>Save}" press="onSave" width="5cm" enabled="false"></m:Button>
+			</m:Toolbar>
+		</m:footer>
+	</m:Page>
+</mvc:View>

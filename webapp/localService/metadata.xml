@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData" Version="1.0">
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="SAPB1" xml:lang="en" sap:schema-version="1">
+			<EntityType Name="Document">
+				<Key>
+					<PropertyRef Name="DocEntry"/>
+				</Key>
+				<Property Name="DocEntry" Type="Edm.Int32" Nullable="false" sap:unicode="false"/>
+				<Property Name="DocNum" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="DocDate" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Doc Date"/>
+				<Property Name="DocDueDate" Type="Edm.DateTime" Precision="0" sap:unicode="false"/>
+				<Property Name="CardCode" Type="Edm.String" sap:unicode="false" sap:value-list="standard"/>
+				<Property Name="CardName" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="Address" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="NumAtCard" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="DocTotal" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="AttachmentEntry" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="DocCurrency" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="DocRate" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Reference1" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="Reference2" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="Comments" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="JournalMemo" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="PaymentGroupCode" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="SalesPersonCode" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="TransportationCode" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="ImportFileNum" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="ContactPersonCode" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Series" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="TaxDate" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Tax Date"/>
+				<Property Name="ShipToCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="Indicator" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="FederalTaxID" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="DiscountPercent" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="PaymentReference" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="CreationDate" Type="Edm.DateTime" Precision="0" sap:unicode="false"/>
+				<Property Name="UpdateDate" Type="Edm.DateTime" Precision="0" sap:unicode="false"/>
+				<Property Name="FinancialPeriod" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="TransNum" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="VatSum" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="VatSumSys" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="VatSumFc" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="DocTotalFc" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="DocTotalSys" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Form1099" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Box1099" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="RequriedDate" Type="Edm.DateTime" Precision="0" sap:unicode="false"/>
+				<Property Name="CancelDate" Type="Edm.DateTime" Precision="0" sap:unicode="false"/>
+				<Property Name="Segment" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="PaymentMethod" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="PaymentBlockEntry" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="CentralBankIndicator" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="Project" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ExemptionValidityDateFrom" Type="Edm.DateTime" Precision="0" sap:unicode="false"/>
+				<Property Name="ExemptionValidityDateTo" Type="Edm.DateTime" Precision="0" sap:unicode="false"/>
+				<Property Name="ExternalCorrectedDocNum" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="InternalCorrectedDocNum" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="NextCorrectingDocument" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="TaxExemptionLetterNum" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="WTApplied" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="WTAppliedFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="AgentCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="WTAppliedSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="TotalEqualizationTax" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="TotalEqualizationTaxFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="TotalEqualizationTaxSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="NumberOfInstallments" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="WTNonSubjectAmount" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="WTNonSubjectAmountSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="WTNonSubjectAmountFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="WTExemptedAmount" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="WTExemptedAmountSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="WTExemptedAmountFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="BaseAmount" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="BaseAmountSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="BaseAmountFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="WTAmount" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="WTAmountSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="WTAmountFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="VatDate" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Time Stamp"/>
+				<Property Name="DocumentsOwner" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="FolioPrefixString" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="FolioNumber" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="BPChannelCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="BPChannelContact" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Address2" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="PeriodIndicator" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="PayToCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ManualNumber" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="PayToBankCountry" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="WarehouseCode_T" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="PayToBankCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="PayToBankAccountNo" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="PayToBankBranch" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="BPL_IDAssignedToInvoice" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="DownPayment" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="LanguageCode" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="TrackingNumber" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="PickRemark" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ClosingDate" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Time Stamp"/>
+				<Property Name="SequenceCode" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="SequenceSerial" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="SeriesString" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="SubSeriesString" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="SequenceModel" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="TotalDiscount" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="DownPaymentAmount" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="DownPaymentPercentage" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="DownPaymentAmountSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="DownPaymentAmountFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="VatPercent" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="ServiceGrossProfitPercent" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="OpeningRemarks" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ClosingRemarks" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="RoundingDiffAmount" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="RoundingDiffAmountFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="RoundingDiffAmountSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="SignatureInputMessage" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="SignatureDigest" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="CertificationNumber" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="PrivateKeyVersion" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="ControlAccount" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="GTSChecker" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="GTSPayee" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="ExtraMonth" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="ExtraDays" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="CashDiscountDateOffset" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="ETaxWebSite" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="ETaxNumber" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="NTSApprovedNumber" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="EDocSeries" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="EDocNum" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="EDocExportFormat" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="EDocErrorCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="EDocErrorMessage" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="GroupSeries" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="GroupNumber" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="POSEquipmentNumber" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="POSManufacturerSerialNumber" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="POSCashierNumber" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="SpecifiedClosingDate" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Time Stamp"/>
+				<Property Name="TotalDiscountFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="TotalDiscountSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="BPLName" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="VATRegNum" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="AnnualInvoiceDeclarationReference" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Supplier" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="Releaser" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Receiver" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="BlanketAgreementNumber" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="AssetValueDate" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Time Stamp"/>
+				<Property Name="Requester" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="RequesterName" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="RequesterBranch" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="RequesterDepartment" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="RequesterEmail" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ReqType" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="AuthorizationCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="StartDeliveryDate" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Time Stamp"/>
+				<Property Name="EndDeliveryDate" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Time Stamp"/>
+				<Property Name="VehiclePlate" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ATDocumentType" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ElecCommMessage" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="FiscalDocNum" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="POSDailySummaryNo" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="POSReceiptNo" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="PointOfIssueCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="FolioNumberFrom" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="FolioNumberTo" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="RelatedType" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="RelatedEntry" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="SAPPassport" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="DocumentTaxID" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="DateOfReportingControlStatementVAT" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date"
+					sap:label="Time Stamp"/>
+				<Property Name="ReportingSectionControlStatementVAT" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="POS_CashRegister" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="DownPaymentTrasactionID" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="OriginalRefNo" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="OriginalRefDate" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Time Stamp"/>
+				<Property Name="OriginalCreditOrDebitNo" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="OriginalCreditOrDebitDate" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date"
+					sap:label="Time Stamp"/>
+				<Property Name="ECommerceOperator" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ECommerceGSTIN" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="TaxInvoiceNo" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="TaxInvoiceDate" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Time Stamp"/>
+				<Property Name="ShipFrom" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="IssuingReason" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Cig" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Cup" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="PaidToDate" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="PaidToDateFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="PaidToDateSys" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_PONE_SBOA_ORIGIN" Type="Edm.String" Nullable="false" sap:unicode="false"/>
+				<Property Name="U_PONE_SBOA_ID" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="U_PONE_SBOA_ANNO" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="U_PONE_CAU" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_IS_CART" Type="Edm.String" Nullable="false" sap:unicode="false"/>
+				<Property Name="U_PONE_MAGA_DFLT" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_MODCONS" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_VETT1" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_GIRO" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_ZONECONS" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_NUMORD_WEB" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="U_PONE_USER_WEB" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_TPDOC" Type="Edm.String" Nullable="false" sap:unicode="false"/>
+				<Property Name="U_PONE_DAA" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_CODSPED" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_COMMENTO_WEB" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_ZONAC_VET" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="U_PONE_PRIORITA_BP" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="U_PONE_TIPO_CONS" Type="Edm.String" Nullable="false" sap:unicode="false"/>
+				<Property Name="U_PONE_DISTANZA" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_PONE_VOLUME" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_OE_GN_TEMPLATENAME" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_OE_GN_EXORDERID" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_OE_GN_EXREFUNDID" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_OE_GN_EXDELIVERYID" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_OE_GN_EXSALESQUOTEID" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_OE_GN_TPA" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_OE_GN_TPCP" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_OE_GN_EXOPPORTUNITYID" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_NO_FATT" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_RIF_RESO_ID_B2B" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="U_PONE_CRIT_SPESE" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_CRIT_SPIMB" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_MOD_ADDEBITO" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="SOIWizardId" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="U_ENT_EMFCtrlFF_YesNo_T" Type="Edm.String" sap:unicode="false" sap:value-list="fixed-values"/>
+				<Property Name="U_ENT_EMF_FF_Assoc_YesNo_T" Type="Edm.String" sap:unicode="false" sap:value-list="fixed-values"/>
+				<Property Name="U_ENT_EMF_FF_DocEntry_T" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="U_ENT_EMF_FF_LineNum_T" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="EditableHeader" Type="Edm.Boolean" sap:unicode="false"/>
+				<Property Name="DocumentLines" Type="Collection(SAPB1.DocumentLine)"/>
+				<Property Name="U_ENT_EMF_FF_DocDate_T" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date"
+					sap:label="U_ENT_EMF_FF_DocDate_T"/>
+				<NavigationProperty Name="To_BusinessPartners" Relationship="SAPB1.Asso_DocBP" FromRole="FromRole_Asso_DocBP" ToRole="ToRole_Asso_DocBP"/>
+			</EntityType>
+			<EntityType Name="DocumentLine" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="LineNum"/>
+					<PropertyRef Name="DocEntry"/>
+				</Key>
+				<Property Name="LineNum" Type="Edm.Int32" Nullable="false" sap:unicode="false"/>
+				<Property Name="ItemCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ItemDescription" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="Quantity" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="ShipDate" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Time Stamp"/>
+				<Property Name="Price" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="PriceAfterVAT" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Currency" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="Rate" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="DiscountPercent" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="VendorNum" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="SerialNum" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="WarehouseCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="SalesPersonCode" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="CommisionPercent" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="AccountCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="SupplierCatNum" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="CostingCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ProjectCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="BarCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="VatGroup" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="Height1" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Hight1Unit" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Height2" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Height2Unit" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Lengh1" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Lengh1Unit" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Lengh2" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Lengh2Unit" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Weight1" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Weight1Unit" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Weight2" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Weight2Unit" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Factor1" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Factor2" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Factor3" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Factor4" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="BaseType" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="BaseEntry" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="BaseLine" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Volume" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="VolumeUnit" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Width1" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Width1Unit" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Width2" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Width2Unit" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Address" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="TaxCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="PickQuantity" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="PickListIdNumber" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="OriginalItem" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="FreeText" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ShippingMethod" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="POTargetNum" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="POTargetEntry" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="POTargetRowNum" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="CorrInvAmountToStock" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="CorrInvAmountToDiffAcct" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="AppliedTax" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="AppliedTaxFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="AppliedTaxSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="EqualizationTaxPercent" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="TotalEqualizationTax" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="TotalEqualizationTaxFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="TotalEqualizationTaxSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="NetTaxAmount" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="NetTaxAmountFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="NetTaxAmountSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="MeasureUnit" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="UnitsOfMeasurment" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="LineTotal" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="TaxPercentagePerRow" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="TaxTotal" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="ExciseAmount" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="TaxPerUnit" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="TotalInclTax" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="CountryOrg" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="SWW" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="RowTotalFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="RowTotalSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="LastBuyInmPrice" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="LastBuyDistributeSumFc" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="LastBuyDistributeSumSc" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="LastBuyDistributeSum" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="StockDistributesumForeign" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="StockDistributesumSystem" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="StockDistributesum" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="StockInmPrice" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="TaxBeforeDPM" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="TaxBeforeDPMFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="TaxBeforeDPMSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="CFOPCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="CSTCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="Usage" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="VisualOrder" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="BaseOpenQuantity" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="UnitPrice" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="PackageQuantity" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Text" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="COGSCostingCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="COGSAccountCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ChangeAssemlyBoMWarehouse" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="GrossBuyPrice" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="GrossBase" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="GrossProfitTotalBasePrice" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="CostingCode2" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="CostingCode3" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="CostingCode4" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="CostingCode5" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ItemDetails" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="LocationCode" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="ActualDeliveryDate" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Time Stamp"/>
+				<Property Name="RemainingOpenQuantity" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="OpenAmount" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="OpenAmountFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="OpenAmountSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="ExLineNo" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="RequiredDate" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Time Stamp"/>
+				<Property Name="RequiredQuantity" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="COGSCostingCode2" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="COGSCostingCode3" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="COGSCostingCode4" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="COGSCostingCode5" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="CSTforIPI" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="CSTforPIS" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="CSTforCOFINS" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="CreditOriginCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="AgreementNo" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="AgreementRowNumber" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="ActualBaseEntry" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="ActualBaseLine" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="DocEntry" Type="Edm.Int32" Nullable="false" sap:unicode="false"/>
+				<Property Name="Surpluses" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="DefectAndBreakup" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="Shortages" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="RetirementQuantity" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="RetirementAPC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="ExpenseType" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ReceiptNumber" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="FederalTaxID" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ReturnCost" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="LineVendor" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="StgSeqNum" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="StgEntry" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="StgDesc" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="UoMEntry" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="UoMCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="InventoryQuantity" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="RemainingOpenInventoryQuantity" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="ParentLineNum" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="Incoterms" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="TransportMode" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="SACEntry" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="HSNEntry" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="GrossPrice" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="GrossTotal" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="GrossTotalFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="GrossTotalSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="NCMCode" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="ShipToCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ShipToDescription" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ShipFromCode" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ShipFromDescription" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_B1SYS_Discount" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_B1SYS_Discount_FC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_B1SYS_Discount_SC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_B1SYS_DiscountVat" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_B1SYS_DiscountVtFC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_B1SYS_DiscountVtSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_PONE_RIFP" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_SEL_ART" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_PAR" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_OTRAN_F" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_ODATA_OF" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Time Stamp"/>
+				<Property Name="U_PONE_ONUM_OF" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_DT_DOF" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Time Stamp"/>
+				<Property Name="U_PONE_NUM_DOF" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_CODART_EX" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_ARTFOR" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_TypeIN" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_TypeOUT" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_TIPO_OPERATORE" Type="Edm.String" Nullable="false" sap:unicode="false"/>
+				<Property Name="U_PONE_COD_PROMO_B2O" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_CHIUDI_BCK" Type="Edm.String" Nullable="false" sap:unicode="false"/>
+				<Property Name="U_PONE_PRE" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_SC1" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_PONE_SC2" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_PONE_SC3" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_PONE_STRSC" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_PRVCA" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_PONE_PRVT" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_PONE_CLS" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_SUBC" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_CAT_SCO_A" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_CAT_SCO_V" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_LISTNUM" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="U_PONE_PRICERES" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_GRSCO" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_FSCSCO" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_CODINT" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_SPECPRICE" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_FAM" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_FAM_A" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_FAM_V" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_CAT_SCO" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_RIF_PADRE" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_CATEGORIA" Type="Edm.String" Nullable="false" sap:unicode="false"/>
+				<Property Name="U_PONE_PRZLIS" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_TIPORIGA" Type="Edm.String" Nullable="false" sap:unicode="false"/>
+				<Property Name="U_PONE_EDTSC" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_EDTPRZ" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_PRVRESULT" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_CAPOAREA" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="U_PONE_TECNICO" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="U_PONE_ABBUONO" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_PONE_EXSC" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_PONE_TERRID" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="U_OE_GN_EXLINEITEMID" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="U_PONE_CAT_TRASP" Type="Edm.String" Nullable="false" sap:unicode="false"/>
+				<Property Name="U_PONE_IS_NETTO" Type="Edm.String" Nullable="false" sap:unicode="false"/>
+				<Property Name="U_PONE_COSTO" Type="Edm.Double" sap:unicode="false"/>
+				<Property Name="U_ENT_EMFCtrlFF_YesNo_R" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ReturnAction" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="ReturnReason" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="ENT_EMFCtrlFF_YesNo_R" Type="Edm.String" sap:unicode="false"/>
+				<Property Name="ENT_EMF_FF_DocEntry_R" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="ENT_EMF_FF_LineNum_R" Type="Edm.Int32" sap:unicode="false"/>
+				<Property Name="ENT_EMF_FF_DocDate_R" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:display-format="Date" sap:label="Time Stamp"/>
+			</EntityType>
+			<EntityType Name="BusinessPartner" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="CardCode"/>
+				</Key>
+				<Property Name="CardCode" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Codice Fornitore"/>
+				<Property Name="CardName" Type="Edm.String" sap:unicode="false" sap:label="Ragione Sociale"/>
+			</EntityType>
+			<EntityType Name="Warehouse" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="WarehouseCode"/>
+				</Key>
+				<Property Name="WarehouseCode" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Codice Magazzino"/>
+				<Property Name="WarehouseName" Type="Edm.String" sap:unicode="false" sap:label="Descrizione Magazzino"/>
+			</EntityType>
+			<EntityType Name="U_ENT_VALUES_YESNO" sap:content-version="1">
+				<Key>
+					<PropertyRef Name="Code"/>
+				</Key>
+				<Property Name="Code" Type="Edm.String" Nullable="false" sap:unicode="false"/>
+				<Property Name="Name" Type="Edm.String" sap:unicode="false"/>
+			</EntityType>
+			<Association Name="Asso_Warehouse" sap:content-version="1">
+				<End Type="SAPB1.Warehouse" Multiplicity="1" Role="FromRole_Asso_Warehouse"/>
+				<End Type="SAPB1.DocumentLine" Multiplicity="1" Role="ToRole_Asso_Warehouse"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Asso_Warehouse">
+						<PropertyRef Name="WarehouseCode"/>
+					</Principal>
+					<Dependent Role="ToRole_Asso_Warehouse">
+						<PropertyRef Name="WarehouseCode"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			
+			<Association Name="Asso_DocBP" sap:content-version="1">
+				<End Type="SAPB1.BusinessPartner" Multiplicity="1" Role="FromRole_Asso_DocBP"/>
+				<End Type="SAPB1.Document" Multiplicity="1" Role="ToRole_Asso_DocBP"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Asso_DocBP">
+						<PropertyRef Name="CardCode"/>
+					</Principal>
+					<Dependent Role="ToRole_Asso_DocBP">
+						<PropertyRef Name="CardCode"/>
+					</Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<EntityContainer Name="SAPB1_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+				<EntitySet Name="PurchaseDeliveryNotes" EntityType="SAPB1.Document" sap:content-version="1"/>
+				<EntitySet Name="PurchaseInvoices" EntityType="SAPB1.Document" sap:content-version="1"/>
+				<EntitySet Name="DocumentLines" EntityType="SAPB1.DocumentLine" sap:content-version="1"/>
+				<EntitySet Name="BusinessPartners" EntityType="SAPB1.BusinessPartner" sap:content-version="1"/>
+				<EntitySet Name="Warehouses" EntityType="SAPB1.Warehouse" sap:content-version="1"/>
+				<EntitySet Name="U_ENT_VALUES_YESNO" EntityType="SAPB1.U_ENT_VALUES_YESNO" sap:content-version="1" />
+				<AssociationSet Name="Asso_DocItemsSet" Association="SAPB1.Asso_DocItems" sap:creatable="false" sap:updatable="false" sap:deletable="false"
+					sap:content-version="1">
+					<End EntitySet="PurchaseDeliveryNotes" Role="FromRole_Asso_DocItems"/>
+					<End EntitySet="DocumentLines" Role="ToRole_Asso_DocItems"/>
+				</AssociationSet>
+				<AssociationSet Name="Asso_DocBPSet" Association="SAPB1.Asso_DocBP" sap:creatable="false" sap:updatable="false" sap:deletable="false"
+					sap:content-version="1">
+					<End EntitySet="BusinessPartners" Role="FromRole_Asso_DocBP"/>
+					<End EntitySet="PurchaseDeliveryNotes" Role="ToRole_Asso_DocBP"/>
+				</AssociationSet>
+				<AssociationSet Name="Asso_WarehouseSet" Association="SAPB1.Asso_Warehouse" sap:creatable="false" sap:updatable="false"
+					sap:deletable="false" sap:content-version="1">
+					<End EntitySet="Warehouses" Role="FromRole_Asso_Warehouse"/>
+					<End EntitySet="DocumentLines" Role="ToRole_Asso_Warehouse"/>
+				</AssociationSet>
+				
+			</EntityContainer>
+			<Annotations Target="SAPB1.Document/CardCode" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+				<Annotation Term="com.sap.vocabularies.Common.v1.ValueList">
+					<Record>
+						<PropertyValue Property="Label" String="Card Code"/>
+						<PropertyValue Property="CollectionPath" String="BusinessPartners"/>
+						<PropertyValue Property="SearchSupported" Bool="true"/>
+						<PropertyValue Property="Parameters">
+							<Collection>
+								<Record Type="com.sap.vocabularies.Common.v1.ValueListParameterOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="CardCode"/>
+									<PropertyValue Property="ValueListProperty" String="CardCode"/>
+								</Record>
+								<Record Type="com.sap.vocabularies.Common.v1.ValueListParameterDisplayOnly">
+									<PropertyValue Property="ValueListProperty" String="CardName"/>
+								</Record>
+							</Collection>
+						</PropertyValue>
+					</Record>
+				</Annotation>
+			</Annotations>
+			<Annotations Target="SAPB1.Document/WarehouseCode_T" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+				<Annotation Term="com.sap.vocabularies.Common.v1.ValueList">
+					<Record>
+						<PropertyValue Property="Label" String="Warehouse Code"/>
+						<PropertyValue Property="CollectionPath" String="Warehouses"/>
+						<PropertyValue Property="SearchSupported" Bool="true"/>
+						<PropertyValue Property="Parameters">
+							<Collection>
+								<Record Type="com.sap.vocabularies.Common.v1.ValueListParameterOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="WarehouseCode_T"/>
+									<PropertyValue Property="ValueListProperty" String="WarehouseCode"/>
+								</Record>
+								<Record Type="com.sap.vocabularies.Common.v1.ValueListParameterDisplayOnly">
+									<PropertyValue Property="ValueListProperty" String="WarehouseName"/>
+								</Record>
+							</Collection>
+						</PropertyValue>
+					</Record>
+				</Annotation>
+			</Annotations>
+			<Annotations Target="SAPB1.Document/U_ENT_EMF_FF_Assoc_YesNo_T" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+				<Annotation Term="com.sap.vocabularies.Common.v1.ValueList">
+					<Record>
+						<PropertyValue Property="Label" String="Code"/>
+						<PropertyValue Property="CollectionPath" String="U_ENT_VALUES_YESNO"/>
+						<PropertyValue Property="SearchSupported" Bool="true"/>
+						<PropertyValue Property="Parameters">
+							<Collection>
+								<Record Type="com.sap.vocabularies.Common.v1.ValueListParameterOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="U_ENT_EMF_FF_Assoc_YesNo_T"/>
+									<PropertyValue Property="ValueListProperty" String="Code"/>
+								</Record>
+								<Record Type="com.sap.vocabularies.Common.v1.ValueListParameterDisplayOnly">
+									<PropertyValue Property="ValueListProperty" String="Name"/>
+								</Record>
+							</Collection>
+						</PropertyValue>
+					</Record>
+				</Annotation>
+			</Annotations>
+			<Annotations Target="SAPB1.Document/U_ENT_EMFCtrlFF_YesNo_T" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+				<Annotation Term="com.sap.vocabularies.Common.v1.ValueList">
+					<Record>
+						<PropertyValue Property="Label" String="Code"/>
+						<PropertyValue Property="CollectionPath" String="U_ENT_VALUES_YESNO"/>
+						<PropertyValue Property="SearchSupported" Bool="true"/>
+						<PropertyValue Property="Parameters">
+							<Collection>
+								<Record Type="com.sap.vocabularies.Common.v1.ValueListParameterOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="U_ENT_EMFCtrlFF_YesNo_T"/>
+									<PropertyValue Property="ValueListProperty" String="Code"/>
+								</Record>
+								<Record Type="com.sap.vocabularies.Common.v1.ValueListParameterDisplayOnly">
+									<PropertyValue Property="ValueListProperty" String="Name"/>
+								</Record>
+							</Collection>
+						</PropertyValue>
+					</Record>
+				</Annotation>
+			</Annotations>
+			<atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="http://hanademo.ddns.net:50104/b1s/v2/sml.svc/$metadata"/>
+			<atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="latest-version" href="http://hanademo.ddns.net:50104/b1s/v2/sml.svc/$metadata"/>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

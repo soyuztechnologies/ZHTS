@@ -1,0 +1,30 @@
+{
+	"d": {
+		"__count": "3",
+		"results": [{
+			"Code": "Y",
+			"Name": "Si",
+			"__metadata": {
+				"type": "SAPB1.Document",
+				"id": "http://localhost:1881/api/odatav2/U_ENT_VALUES_YESNO(Y)",
+				"uri": "http://localhost:1881/api/odatav2/U_ENT_VALUES_YESNO(Y)"
+			}
+		}, {
+			"Code": "N",
+			"Name": "No",
+			"__metadata": {
+				"type": "SAPB1.Document",
+				"id": "http://localhost:1881/api/odatav2/U_ENT_VALUES_YESNO(N)",
+				"uri": "http://localhost:1881/api/odatav2/U_ENT_VALUES_YESNO(N)"
+			}
+		}, {
+			"Code": "NA",
+			"Name": "Non Applicabile",
+			"__metadata": {
+				"type": "SAPB1.Document",
+				"id": "http://localhost:1881/api/odatav2/U_ENT_VALUES_YESNO(NA)",
+				"uri": "http://localhost:1881/api/odatav2/U_ENT_VALUES_YESNO(NA)"
+			}
+		}]
+	}
+}

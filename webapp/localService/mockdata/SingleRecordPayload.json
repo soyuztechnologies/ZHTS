@@ -1,0 +1,22 @@
+{
+	"d": {
+		"__metadata": {
+			"type": "SAPB1.Document",
+			"id": "http://localhost:1881/api/odatav2/PurchaseDeliveryNotes(160)",
+			"uri": "http://localhost:1881/api/odatav2/PurchaseDeliveryNotes(160)"
+		},
+		"DocEntry": 160,
+		"DocNum": 20000035,
+		"DocDate": "/Date(1594771200000)/",
+		"CardCode": "F000006",
+		"CardName": "SCHAEFFLER ITALIA S.R.L.",
+		"NumAtCard": "",
+		"DocTotal": "1494.5",
+		"DocumentLines": [],
+		"ENT_EMFCtrlFF_YesNo_T": "Y",
+		"ENT_EMF_FF_DocEntry_T": [],
+		"ENT_EMF_FF_LineNum_T": [],
+		"EditableHeader": true,
+		"Invoices": []
+	}
+}

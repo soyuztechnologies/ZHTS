@@ -1,0 +1,101 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:fb="sap.ui.comp.filterbar" xmlns:t="sap.ui.table"
+	xmlns:l="sap.ui.layout">
+	<VBox>
+		<l:VerticalLayout width="100%">
+			<Label text="FilterBar"/>
+			<fb:FilterBar reset="onReset" search="onSearch" showRestoreButton="true" showClearButton="true">
+				<fb:filterGroupItems>
+					<fb:FilterGroupItem groupName="__$INTERNAL$" name="A" label="Parent" mandatory="true" partOfCurrentVariant="true" visibleInFilterBar="true">
+						<fb:control>
+							<Input/>
+						</fb:control>
+					</fb:FilterGroupItem>
+					<fb:FilterGroupItem groupName="__$INTERNAL$" name="B" label="Material" labelTooltip="" mandatory="true" partOfCurrentVariant="true"
+						visibleInFilterBar="true">
+						<fb:control>
+							<Input/>
+						</fb:control>
+					</fb:FilterGroupItem>
+					<fb:FilterGroupItem groupName="__$INTERNAL$" name="C" label="Material Name" labelTooltip="" mandatory="false" partOfCurrentVariant="true"
+						visibleInFilterBar="true">
+						<fb:control>
+							<Input/>
+						</fb:control>
+					</fb:FilterGroupItem>
+					<fb:FilterGroupItem groupName="__$INTERNAL$" name="D" label="Project" labelTooltip="" mandatory="true" partOfCurrentVariant="true"
+						visibleInFilterBar="true">
+						<fb:control>
+							<Input/>
+						</fb:control>
+					</fb:FilterGroupItem>
+					<fb:FilterGroupItem groupName="__$INTERNAL$" name="E" label="Global SKU" labelTooltip="" mandatory="true" partOfCurrentVariant="true"
+						visibleInFilterBar="true">
+						<fb:control>
+							<Input/>
+						</fb:control>
+					</fb:FilterGroupItem>
+				</fb:filterGroupItems>
+			</fb:FilterBar>
+		</l:VerticalLayout>
+		<t:Table rows="{/Products}" id="productsTable" selectionMode="Single" rowSelectionChange="onProductSelect" ariaLabelledBy="title"
+			alternateRowColors="true" minAutoRowCount="6" visibleRowCountMode="Auto">
+			<t:extension>
+				<OverflowToolbar>
+					<Title id="title" text="{i18n>Products}"/>
+					<ToolbarSpacer/>
+					<SearchField width="45%" class="sapUiSmallMargin"/>
+				</OverflowToolbar>
+			</t:extension>
+			<t:columns>
+				<t:Column >
+					<Label text="Material"/>
+					<t:template>
+						<Text text="" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column >
+					<Label text="Market/Country"/>
+					<t:template>
+						<Text text="" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column >
+					<Label text="Material Description"/>
+					<t:template>
+						<Text text="" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column >
+					<Label text="Vendor"/>
+					<t:template>
+						<Text text="" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column >
+					<Label text="Goverment Info"/>
+					<t:template>
+						<Text text="{City}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column >
+					<Label text="Invoice Description"/>
+					<t:template>
+						<Text text="{}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column >
+					<Label text="{i18n>Commodity Code}"/>
+					<t:template>
+						<Text text="{}" wrapping="false"/>
+					</t:template>
+				</t:Column>
+				<t:Column >
+					<Label text="Percent Use"/>
+					<t:template>
+						<Text text="" wrapping="false"/>
+					</t:template>
+				</t:Column>
+			</t:columns>
+		</t:Table>
+	</VBox>
+</core:FragmentDefinition>

@@ -1,0 +1,205 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000021.4~AFN.5~0011')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000021.4~AFN.5~0011')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "21",
+			"NetPrice": "1858.500",
+			"Type": "AFN",
+			"Plant": "0011"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000021.4~AGN.5~0011')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000021.4~AGN.5~0011')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "21",
+			"NetPrice": "1439.000",
+			"Type": "AGN",
+			"Plant": "0011"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000021.4~BVN.5~0011')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000021.4~BVN.5~0011')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "21",
+			"NetPrice": "1439.000",
+			"Type": "BVN",
+			"Plant": "0011"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000021.4~REN.5~0011')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000021.4~REN.5~0011')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "21",
+			"NetPrice": "419.500",
+			"Type": "REN",
+			"Plant": "0011"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000021.4~TAN.5~0011')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000021.4~TAN.5~0011')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "21",
+			"NetPrice": "79015.730",
+			"Type": "TAN",
+			"Plant": "0011"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000061.4~TAN.5~0011')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000061.4~TAN.5~0011')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "61",
+			"NetPrice": "36956.000",
+			"Type": "TAN",
+			"Plant": "0011"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000091.4~TAN.5~ZE01')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000091.4~TAN.5~ZE01')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "91",
+			"NetPrice": "136.000",
+			"Type": "TAN",
+			"Plant": "ZE01"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000099.4~TAN.5~')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000099.4~TAN.5~')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "99",
+			"NetPrice": "101.000",
+			"Type": "TAN",
+			"Plant": ""
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000099.4~TAN.5~JP01')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000099.4~TAN.5~JP01')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "99",
+			"NetPrice": "903.000",
+			"Type": "TAN",
+			"Plant": "JP01"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000101.4~TAN.5~JP01')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000101.4~TAN.5~JP01')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "101",
+			"NetPrice": "209.520",
+			"Type": "TAN",
+			"Plant": "JP01"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000122.4~TAN.5~FERD')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000122.4~TAN.5~FERD')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "122",
+			"NetPrice": "60.000",
+			"Type": "TAN",
+			"Plant": "FERD"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000156.4~TAN.5~')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000156.4~TAN.5~')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "156",
+			"NetPrice": "0.000",
+			"Type": "TAN",
+			"Plant": ""
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000156.4~TAN.5~1710')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000156.4~TAN.5~1710')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "156",
+			"NetPrice": "500.000",
+			"Type": "TAN",
+			"Plant": "1710"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000156.4~TAN.5~CV01')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000156.4~TAN.5~CV01')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "156",
+			"NetPrice": "16800.000",
+			"Type": "TAN",
+			"Plant": "CV01"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000175.4~TAN.5~FERD')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000175.4~TAN.5~FERD')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "175",
+			"NetPrice": "10.000",
+			"Type": "TAN",
+			"Plant": "FERD"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000186.4~TAN.5~ZE01')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000000000186.4~TAN.5~ZE01')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "186",
+			"NetPrice": "9.000",
+			"Type": "TAN",
+			"Plant": "ZE01"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000100000008.4~TAN.5~ZE01')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000100000008.4~TAN.5~ZE01')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "100000008",
+			"NetPrice": "6.000",
+			"Type": "TAN",
+			"Plant": "ZE01"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000100000019.4~AFB.5~2810')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000100000019.4~AFB.5~2810')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "100000019",
+			"NetPrice": "0.000",
+			"Type": "AFB",
+			"Plant": "2810"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000100000019.4~AFN.5~2810')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000100000019.4~AFN.5~2810')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "100000019",
+			"NetPrice": "200.000",
+			"Type": "AFN",
+			"Plant": "2810"
+		}, {
+			"__metadata": {
+				"id": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000100000019.4~AGN.5~2810')",
+				"uri": "http://localhost:55766/sap/opu/odata/sap/ZSO_APP_SRV/ZSO_C_ORDERS('.3~000000000100000019.4~AGN.5~2810')",
+				"type": "ZSO_APP_SRV.ZSO_C_ORDERSType"
+			},
+			"Material": "100000019",
+			"NetPrice": "200.000",
+			"Type": "AGN",
+			"Plant": "2810"
+		}]
+	}
+}
