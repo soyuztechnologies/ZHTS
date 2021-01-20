@@ -15,27 +15,22 @@ sap.ui.define([
 
 		},
 		onHomePress: function() {
-			var oIconTabHeader = this.byId('iconTabHeader');
+			var oIconTabHeader = this.byId('iconTabHeader'),
+
+				oMainPanel = this.getView().byId('idMainPanel'),
+				name = "Home";
 			oIconTabHeader.setSelectedKey('invalidKey');
-			var oLayout = this.getView().byId('idMainPanel'),
-				oFragment = sap.ui.xmlfragment("hts.fragments.Home");
-			oLayout.removeAllContent();
-			oLayout.addContent(oFragment);
+			oMainPanel.removeAllContent();
+			this.content[name] = this.content[name] ? this.content[name] : sap.ui.xmlfragment("hts.fragments." + name);
+			oMainPanel.addContent(this.content[name]);
 		},
 		onSelectTab: function(event) {
 			var name = event.getParameter("selectedKey"),
-				oLayout = this.getView().byId('idMainPanel');
-
-			oLayout.removeAllContent();
-			if (name === "Material") {
-				this.oMaterial = this.oMaterial ? this.oMaterial : sap.ui.xmlfragment("hts.fragments.Material");
-				oLayout.addContent(this.oMaterial);
-			} else {
-				var oFragment = sap.ui.xmlfragment("hts.fragments." + name);
-				oLayout.addContent(oFragment);
-			}
+				oMainPanel = this.getView().byId('idMainPanel');
+			oMainPanel.removeAllContent();
+			this.content[name] = this.content[name] ? this.content[name] : sap.ui.xmlfragment("hts.fragments." + name);
+			oMainPanel.addContent(this.content[name]);
 		}
-
 	});
 
 });

@@ -1,3 +1,4 @@
 <core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
-	<Button text="Home"/>
+	<Image height="600px" width="1500px"
+		src="https://lh3.googleusercontent.com/proxy/p-M3ewczT0dglXqEXsvn8D6kGeeNgdkPka0BhrXS4mrHxhYillxnBM580wbj2krBKMFZu8JZWH4TGTEkg4cgME4KcdofJ7iyldjh7bl7ukL4B1ncvfs-g5Ln93WJHuhPfYLcZciTDXUklKrJmh4Fb7ukfXQPifBQ6WOS"/>
 </core:FragmentDefinition>

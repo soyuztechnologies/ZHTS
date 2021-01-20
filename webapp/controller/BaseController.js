@@ -6,7 +6,8 @@ sap.ui.define([
 	return Controller.extend("hts.controller.BaseController", {
 		onInit: function() {
 
-			}
+		},
+		content: []
 			// cardCode :null,
 
 	});
