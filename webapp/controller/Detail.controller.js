@@ -8,9 +8,7 @@ sap.ui.define([
 	"sap/ui/model/FilterOperator",
 	"sap/ui/model/Filter",
 	"sap/ui/core/Fragment",
-	'sap/m/Dialog',
-	"sap/m/Token",
-	"hts/controller/BPHandler"
+	'sap/m/Dialog'
 ], function(Controller, MessageBox, History, JSONModel, formatter, MessageToast, FilterOperator, Filter, Fragment, Dialog) {
 	"use strict";
 	return Controller.extend("hts.controller.Detail", {

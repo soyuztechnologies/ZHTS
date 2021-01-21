@@ -1,4 +1,26 @@
 {
-	"session_id": ""
+	"session_id": "",
+	"Products": [
+		{
+			"id":1,
+			"MARKET_COUNTRY":1
+		},
+		{
+			"id":2,
+			"MARKET_COUNTRY":2
+		},
+		{
+			"id":3,
+			"MARKET_COUNTRY":3
+		},
+		{
+			"id":4,
+			"MARKET_COUNTRY":4
+		},
+		{
+			"id":5,
+			"MARKET_COUNTRY":5
+		}
+		]
 	
 }

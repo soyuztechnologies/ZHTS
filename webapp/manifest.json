@@ -105,11 +105,11 @@
 				"type": "sap.ui.model.resource.ResourceModel",
 				"uri": "i18n/i18n.properties"
 			},
-			"session": {
+			"local": {
 				"type": "sap.ui.model.json.JSONModel",
 				"settings": {},
 				"uri": "model/mockData.json",
-				"preload": false
+				"preload": true
 			}
 		},
 		"resources": {

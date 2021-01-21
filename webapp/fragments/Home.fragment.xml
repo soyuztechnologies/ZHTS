@@ -1,4 +1,4 @@
 <core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
-	<Image height="600px" width="1500px"
-		src="https://lh3.googleusercontent.com/proxy/p-M3ewczT0dglXqEXsvn8D6kGeeNgdkPka0BhrXS4mrHxhYillxnBM580wbj2krBKMFZu8JZWH4TGTEkg4cgME4KcdofJ7iyldjh7bl7ukL4B1ncvfs-g5Ln93WJHuhPfYLcZciTDXUklKrJmh4Fb7ukfXQPifBQ6WOS"/>
+	<Image height="600px" width="1500px" src="https://www.nps.gov/locations/alaska/images/36639616275_24c97a052b_crop.jpg"/>
+	<!--<Image height="600px" width="1500px" src="https://inlightofnature.com/wp-content/uploads/2015/07/Group-0-20150705_700A9907_20150705_700A9916-10-images.jpg"/>-->
 </core:FragmentDefinition>

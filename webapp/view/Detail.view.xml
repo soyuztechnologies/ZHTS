@@ -145,11 +145,11 @@
 				</t:Table>
 			</m:VBox>
 		</m:content>
-		<m:footer>
-			<m:Toolbar>
-				<m:ToolbarSpacer/>
-				<m:Button id="idonSave" type="Emphasized" text="{i18n>Save}" press="onSave" width="5cm" enabled="false"></m:Button>
-			</m:Toolbar>
-		</m:footer>
+		<!--<m:footer>-->
+		<!--	<m:Toolbar>-->
+		<!--		<m:ToolbarSpacer/>-->
+		<!--		<m:Button id="idonSave" type="Emphasized" text="{i18n>Save}" press="onSave" width="5cm" enabled="false"></m:Button>-->
+		<!--	</m:Toolbar>-->
+		<!--</m:footer>-->
 	</m:Page>
 </mvc:View>
