@@ -16,10 +16,6 @@
 	color: white;
 }
 
-#__xmlview0--ObjectPageLayout-anchBar-scrollContainer .sapMBtnText{
-	color:white;
-}
-
-#__xmlview0--ObjectPageLayout-anchBar-scrollContainer sapMBtn{
+#__xmlview0--ObjectPageLayout-anchBar-scrollContainer .sapMBtnText *{
 	color:white;
 }
