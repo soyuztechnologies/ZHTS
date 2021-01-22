@@ -61,26 +61,8 @@
 				"viewPath": "hts.view",
 				"controlId": "idMain"
 			},
-			"routes": [{
-				"pattern": "",
-				"name": "Main",
-				"target": ["Main"]
-			}, {
-				"pattern": "DocumentDetails/{key}",
-				"name": "Detail",
-				"target": ["Detail"]
-			}],
+			"routes": [],
 			"targets": {
-				"Main": {
-					"viewName": "Main",
-					"id": "idMain",
-					"controlAggregation": "pages"
-				},
-				"Detail": {
-					"viewName": "Detail",
-					"id": "idDetail",
-					"controlAggregation": "pages"
-				}
 			}
 		},
 		"contentDensities": {

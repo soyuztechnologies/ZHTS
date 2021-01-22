@@ -1,0 +1,9 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:tnt="sap.tnt" xmlns:form="sap.ui.layout.form" xmlns="sap.m"
+	controllerName="hts.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="{i18n>appTitle}">
+		<content>
+			<Text text="Admin View" />
+		</content>
+		<footer></footer>
+	</Page>
+</mvc:View>
