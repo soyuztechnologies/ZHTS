@@ -1,46 +1,70 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc"
-		   xmlns="sap.uxap"
-		   xmlns:layout="sap.ui.layout"
-		   xmlns:m="sap.m"
-		   xmlns:block="hts.sharedBlock"
-		   controllerName="hts.controller.Main"
-		   height="100%">
-	<ObjectPageLayout id="ObjectPageLayout"
-		enableLazyLoading="true"
-		useIconTabBar="true"
-		showTitleInHeaderContent="true"
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.uxap" xmlns:layout="sap.ui.layout" xmlns:m="sap.m" xmlns:block="hts.sharedBlock"
+	controllerName="hts.controller.Main" height="100%">
+	<ObjectPageLayout id="ObjectPageLayout" enableLazyLoading="true" useIconTabBar="true" showTitleInHeaderContent="true"
 		upperCaseAnchorBar="false">
 		<headerTitle>
-			<ObjectPageDynamicHeaderTitle>
-				
-			</ObjectPageDynamicHeaderTitle>
+			<ObjectPageDynamicHeaderTitle></ObjectPageDynamicHeaderTitle>
 		</headerTitle>
-
-		<headerContent>
-			
-		</headerContent>
-		
+		<headerContent></headerContent>
 		<sections>
-			
 			<ObjectPageSection titleUppercase="false" id="Home" title="Home">
-			<subSections>
-				<ObjectPageSubSection id="HomeBlockSS" titleUppercase="false">
-					<blocks>
-						<block:HomeBlock id="HomeBlock"/>
-					</blocks>
-				</ObjectPageSubSection>
-			</subSections>
+				<subSections>
+					<ObjectPageSubSection id="HomeBlockSS" titleUppercase="false">
+						<blocks>
+							<block:HomeBlock id="HomeBlock"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection titleUppercase="false" id="Material" title="Material">
+				<subSections>
+					<ObjectPageSubSection id="MaterialSS" titleUppercase="false">
+						<blocks>
+							<block:MaterialBlock id="MaterialBlock"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<ObjectPageSection titleUppercase="false" id="PlanningMaterial" title="PlanningMaterial">
+				<subSections>
+					<ObjectPageSubSection id="PlanningMaterialSS" titleUppercase="false">
+						<blocks>
+							<block:PlanningMaterialBlock id="PlanningMaterialBlock"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
 			</ObjectPageSection>
 			
-			<ObjectPageSection titleUppercase="false" id="Material" title="Material">
-			<subSections>
-				<ObjectPageSubSection id="MaterialSS" titleUppercase="false">
-					<blocks>
-						<block:MaterialBlock id="MaterialBlock"/>
-					</blocks>
-				</ObjectPageSubSection>
-			</subSections>
+				<ObjectPageSection titleUppercase="false" id="WorkQueue" title="WorkQueue">
+				<subSections>
+					<ObjectPageSubSection id="WorkQueueSS" titleUppercase="false">
+						<blocks>
+							<block:WorkQueueBlock id="WorkQueueBlock"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
 			</ObjectPageSection>
+				<ObjectPageSection titleUppercase="false" id="Preferences" title="Preferences">
+				<subSections>
+					<ObjectPageSubSection id="PreferencesSS" titleUppercase="false">
+						<blocks>
+							<block:PreferencesBlock id="PreferencesBlock"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+				<ObjectPageSection titleUppercase="false" id="Administration" title="Administration">
+				<subSections>
+					<ObjectPageSubSection id="AdministrationSS" titleUppercase="false">
+						<blocks>
+							<block:AdministrationBlock id="AdministrationBlock"/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			
+			
+			
 		</sections>
 	</ObjectPageLayout>
 </mvc:View>

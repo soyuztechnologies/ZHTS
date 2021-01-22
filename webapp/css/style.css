@@ -19,3 +19,20 @@
 #__xmlview0--ObjectPageLayout-anchBar-scrollContainer .sapMBtnText *{
 	color:white;
 }
+
+
+.sapUxAPSubSectionSeeMoreContainer{
+	/*background-image:"https://www.nps.gov/locations/alaska/images/36639616275_24c97a052b_crop.jpg";*/
+	background-image: url(url(https://www.nps.gov/locations/alaska/images/36639616275_24c97a052b_crop.jpg));
+}
+/*id="__xmlview0--MaterialSS--seeMore"*/
+
+/*__xmlview0--HomeBlockSS-innerGrid*/
+/*classs="sapUxAPSubSectionSeeMoreContainer"*/
+/*__xmlview0--HomeBlockSS--seeMore-inner*/
+/*__xmlview0--HomeBlockSS--seeMore-content*/
+/*sap-ui-invisible-__xmlview0--HomeBlockSS--seeLess*/
+/*id="__xmlview0--ObjectPageLayout-spacer"*/
+/*__xmlview0--ObjectPageLayout-skipFastGroupAnchor*/
+/*__xmlview0--MaterialSS-innerGrid*/
+/*class="sapUiRespGridSpanXL12 sapUiRespGridSpanL12 sapUiRespGridSpanM12 sapUiRespGridSpanS12"*/
