@@ -9,8 +9,9 @@ sap.ui.define([
 		onInit: function onInit() {
 			Controller.prototype.onInit.apply(this);
 			this._oRouter = this.getOwnerComponent().getRouter();
-			this._oRouter.getRoute("Main").attachMatched(this._onRouteMatched, this);
+			// this._oRouter.getRoute("Main").attachMatched(this._onRouteMatched, this);
 			this.oResource = this.getOwnerComponent().getModel("i18n").getResourceBundle();
+			
 		},
 		_onRouteMatched: function _onRouteMatched(oEvent) {
 

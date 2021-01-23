@@ -14,38 +14,39 @@ sap.ui.define([
 	return Controller.extend("hts.controller.Administration", {
 		formatter: formatter,
 		onInit: function() {
+			var oData = {
+				entity: {
+					"Entity1": "GovtAgcySet",
+					"Entity2": "GovtAgcyCdSet",
+					"Entity3": "TrfConfStatusSet",
+					"Entity4": "TrfCodeSet",
+					"Entity5": "VendorSet",
+					"Entity6": "CountrySet",
+					"Entity7": "MatCodeSet"
+				}
+			};
+			var oModel = new JSONModel(oData);
+			this.getView().setModel(oModel);
 			this.oRoute = this.getOwnerComponent().getRouter();
-			this.oRoute.getRoute("Administration").attachMatched(this.onRouteMatched, this);
-			this.getOwnerComponent().getModel().metadataLoaded().then(this._onMetadataLoaded.bind(this));
+			// this.oRoute.getRoute("Administration").attachMatched(this.onRouteMatched, this);
 			this.oResource = this.getOwnerComponent().getModel("i18n").getResourceBundle();
-		}
-		// onRouteMatched: function(oEvent) {
-		// 	var sObjectId = oEvent.getParameter("arguments").key;
-		// 	this.HeaderKey = sObjectId.match(/\((.*?)\)/)[1];
-		// 	this.getOwnerComponent().getModel().metadataLoaded().then(function() {
-		// 		this._bindView("/" + sObjectId);
-		// 	}.bind(this));
-		// },
-		// _bindView: function(sObjectPath) {
+			// tableid
+			var Model = this.getOwnerComponent().getModel();
+			var oTable = this.getView().byId("tableid");
+			oTable.setModel(Model);
+	
+			// oTable.setEntitySet("MatCodeSet");;
+			// oTable.setInitiallyVisibleFields("Matnr","MarketCountry","RecordSeqNum");
+			
+			// this.oRoute = this.getOwnerComponent().getRouter();
+			// this.oRoute.getRoute("Administration").attachMatched(this.onRouteMatched, this);
+			// this.getOwnerComponent().getModel().metadataLoaded().then(this._onMetadataLoaded.bind(this));
+			// this.oResource = this.getOwnerComponent().getModel("i18n").getResourceBundle();
+		},
+		onSelect: function() {
+				debugger;
+			}          
 
-		// },
-		// _onBindingChange: function() {
-
-		// },
-
-		// _onMetadataLoaded: function() {
-		// 	//TBD
-		// },
-		// onNavBack: function() {
-		// 	var oHistory = History.getInstance();
-		// 	var sPreviousHash = oHistory.getPreviousHash();
-		// 	if (sPreviousHash !== undefined) {
-		// 		window.history.go(-1);
-		// 	} else {
-		// 		var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-		// 		oRouter.navTo("overview", true);
-		// 	}
-		// }
 	});
 
 });
