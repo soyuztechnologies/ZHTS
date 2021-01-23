@@ -7,8 +7,9 @@ sap.ui.define([
 
 	return Controller.extend("hts.controller.Main", {
 		onInit: function onInit() {
-			//this._oRouter = this.getOwnerComponent().getRouter();
-			//this._oRouter.getRoute("Main").attachMatched(this._onRouteMatched, this);
+			Controller.prototype.onInit.apply(this);
+			this._oRouter = this.getOwnerComponent().getRouter();
+			this._oRouter.getRoute("Main").attachMatched(this._onRouteMatched, this);
 			this.oResource = this.getOwnerComponent().getModel("i18n").getResourceBundle();
 		},
 		_onRouteMatched: function _onRouteMatched(oEvent) {
@@ -28,7 +29,7 @@ sap.ui.define([
 		},
 		onSelectTab: function(event) {
 			var name = event.getParameter("selectedKey"),
-			oMainPanel = this.getView().byId('idMainPanel');
+				oMainPanel = this.getView().byId('idMainPanel');
 			oMainPanel.removeAllContent();
 			// oMainPanel.removeAllDependents();
 			this.content[name] = this.content[name] ? this.content[name] : sap.ui.xmlfragment("hts.fragments." + name, this);
@@ -37,17 +38,17 @@ sap.ui.define([
 		},
 		onSearch: function() {
 
-		},
-		onNext: function(sIndex) {
-			this._oRouter.navTo("Detail", {
-				key: sIndex
-			});
-		},
-		selectCountry: function(oEvent) {
-			// var sPath = oEvent.getParameter("listItem").getBindingContextPath();
-			var sPath = oEvent.getSource().getParent().getRowBindingContext().sPath;
-			this.onNext(sPath.split("/")[2]);
 		}
+		// onNext: function(sIndex) {
+		// 	this._oRouter.navTo("Detail", {
+		// 		key: sIndex
+		// 	});
+		// }
+		// selectCountry: function(oEvent) {
+		// 	// var sPath = oEvent.getParameter("listItem").getBindingContextPath();
+		// 	var sPath = oEvent.getSource().getParent().getRowBindingContext().sPath;
+		// 	this.onNext(sPath.split("/")[2]);
+		// }
 	});
 
 });

@@ -1,13 +1,13 @@
 <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:tnt="sap.tnt" xmlns:form="sap.ui.layout.form" xmlns="sap.m"
 	xmlns:fb="sap.ui.comp.filterbar" xmlns:t="sap.ui.table"
 	xmlns:l="sap.ui.layout"
-	controllerName="hts.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" >
+	controllerName="hts.controller.MAterial" xmlns:html="http://www.w3.org/1999/xhtml" >
 
 		<l:VerticalLayout width="100%">
 			<Label text="FilterBar"/>
 			<fb:FilterBar reset="onReset" search="onSearch" showRestoreButton="true" showClearButton="true">
 				<fb:filterGroupItems>
-					<fb:FilterGroupItem groupName="__$INTERNAL$" name="A" label="Parent" mandatory="true" partOfCurrentVariant="true" visibleInFilterBar="true">
+					<fb:FilterGroupItem groupName="__$INTERNAL$" name="A" label="Parent" mandatory="false" partOfCurrentVariant="true" visibleInFilterBar="true">
 						<fb:control>
 							<Input/>
 						</fb:control>
@@ -24,13 +24,13 @@
 							<Input/>
 						</fb:control>
 					</fb:FilterGroupItem>
-					<fb:FilterGroupItem groupName="__$INTERNAL$" name="D" label="Project" labelTooltip="" mandatory="true" partOfCurrentVariant="true"
+					<fb:FilterGroupItem groupName="__$INTERNAL$" name="D" label="Project" labelTooltip="" mandatory="false" partOfCurrentVariant="true"
 						visibleInFilterBar="true">
 						<fb:control>
 							<Input/>
 						</fb:control>
 					</fb:FilterGroupItem>
-					<fb:FilterGroupItem groupName="__$INTERNAL$" name="E" label="Global SKU" labelTooltip="" mandatory="true" partOfCurrentVariant="true"
+					<fb:FilterGroupItem groupName="__$INTERNAL$" name="E" label="Global SKU" labelTooltip="" mandatory="false" partOfCurrentVariant="true"
 						visibleInFilterBar="true">
 						<fb:control>
 							<Input/>
@@ -43,14 +43,14 @@
 			alternateRowColors="true" minAutoRowCount="6" visibleRowCountMode="Auto">
 			<t:extension>
 				<OverflowToolbar>
-					<Title id="title" text="Products"/>
+					<Title id="title" text="Material"/>
 					<ToolbarSpacer/>
 					<SearchField width="45%" class="sapUiSmallMargin"/>
 				</OverflowToolbar>
 			</t:extension>
 			<t:columns>
 				<t:Column >
-					<Label text="Material"/>
+					<Label text="Material Name"/>
 					<t:template>
 						<Text text="{local>MARKET_COUNTRY}" wrapping="false"/>
 					</t:template>
@@ -62,41 +62,41 @@
 					</t:template>
 				</t:Column>
 				<t:Column >
-					<Label text="Material Description"/>
+					<Label text="Vendor Name"/>
 					<t:template>
 						<Text text="{local>MARKET_COUNTRY}" wrapping="false"/>
 					</t:template>
 				</t:Column>
 				<t:Column >
-					<Label text="Vendor"/>
+					<Label text="HTS Number"/>
 					<t:template>
 						<Text text="{local>MARKET_COUNTRY}" wrapping="false"/>
 					</t:template>
 				</t:Column>
 				<t:Column >
-					<Label text="Goverment Info"/>
+					<Label text="Value Per Price"/>
 					<t:template>
 						<Text text="{local>MARKET_COUNTRY}" wrapping="false"/>
 					</t:template>
 				</t:Column>
-				<t:Column >
-					<Label text="Invoice Description"/>
-					<t:template>
-						<Text text="{local>MARKET_COUNTRY}" wrapping="false"/>
-					</t:template>
-				</t:Column>
-				<t:Column >
-					<Label text="Commodity Code"/>
-					<t:template>
-						<Text text="{local>MARKET_COUNTRY}" wrapping="false"/>
-					</t:template>
-				</t:Column>
-				<t:Column >
-					<Label text="Percent Use"/>
-					<t:template>
-						<Text text="{local>MARKET_COUNTRY}" wrapping="false"/>
-					</t:template>
-				</t:Column>
+				<!--<t:Column >-->
+				<!--	<Label text="Invoice Description"/>-->
+				<!--	<t:template>-->
+				<!--		<Text text="{local>MARKET_COUNTRY}" wrapping="false"/>-->
+				<!--	</t:template>-->
+				<!--</t:Column>-->
+				<!--<t:Column >-->
+				<!--	<Label text="Commodity Code"/>-->
+				<!--	<t:template>-->
+				<!--		<Text text="{local>MARKET_COUNTRY}" wrapping="false"/>-->
+				<!--	</t:template>-->
+				<!--</t:Column>-->
+				<!--<t:Column >-->
+				<!--	<Label text="Percent Use"/>-->
+				<!--	<t:template>-->
+				<!--		<Text text="{local>MARKET_COUNTRY}" wrapping="false"/>-->
+				<!--	</t:template>-->
+				<!--</t:Column>-->
 			</t:columns>
 		</t:Table>
 </mvc:View>

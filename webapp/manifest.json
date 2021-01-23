@@ -10,15 +10,20 @@
 		"title": "{{appTitle}}",
 		"description": "{{appDescription}}",
 		"dataSources": {
-			"default": {
-				"uri": "/api/odatav2",
+			"ZHTS_SRV": {
+				"uri": "/sap/opu/odata/sap/ZHTS_SRV/",
 				"type": "OData",
 				"settings": {
 					"odataVersion": "2.0",
-					"useBatch": false
+					"localUri": "localService/ZHTS_SRV/metadata.xml"
 				}
 			}
-		}
+		},
+		"sourceTemplate": {
+			"id": "servicecatalog.connectivityComponent",
+			"version": "0.0.0"
+		},
+		"ach": "HTS"
 	},
 	"sap.ui": {
 		"technology": "UI5",
@@ -51,18 +56,47 @@
 			}
 		},
 		"rootView": {
-			"viewName": "hts.view.Main",
-			"type": "XML"
+			"viewName": "hts.view.App",
+			"type": "XML",
+			"id": "idAppView"
 		},
 		"routing": {
 			"config": {
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
 				"viewPath": "hts.view",
-				"controlId": "idMain"
+				"controlId": "idApp"
 			},
-			"routes": [],
+			"routes": [{
+				"name": "Main",
+				"pattern": "",
+				"target": ["Main"]
+			}],
 			"targets": {
+				"Detail": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "Detail",
+					"viewId": "idDetail",
+					"controlAggregation": "pages"
+				},
+				"Main": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "Main",
+					"viewId": "idMain",
+					"controlAggregation": "pages"
+				},
+				"Home": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "Home",
+					"controlAggregation": "pages",
+					"viewId": "idHome"
+				}
 			}
 		},
 		"contentDensities": {
@@ -76,13 +110,6 @@
 					"bundleName": "hts.i18n.i18n"
 				}
 			},
-			"": {
-				"dataSource": "default",
-				"settings": {
-					"defaultBindingMode": "TwoWay"
-				},
-				"preload": true
-			},
 			"@i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"uri": "i18n/i18n.properties"
@@ -91,6 +118,16 @@
 				"type": "sap.ui.model.json.JSONModel",
 				"settings": {},
 				"uri": "model/mockData.json",
+				"preload": true
+			},
+			"": {
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"settings": {
+					"defaultOperationMode": "Server",
+					"defaultBindingMode": "OneTime",
+					"defaultCountMode": "Request"
+				},
+				"dataSource": "ZHTS_SRV",
 				"preload": true
 			}
 		},

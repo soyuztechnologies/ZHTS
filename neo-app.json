@@ -27,6 +27,15 @@
         "entryPath": "/api"
       },
       "description": "SAPB1"
+    },
+    {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "CFN",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "New S/4HANA 2009"
     }
   ],
   "sendWelcomeFileRedirect": true

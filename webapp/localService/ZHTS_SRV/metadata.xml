@@ -1,0 +1,296 @@
+<edmx:Edmx
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+    xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+    xmlns:sap="http://www.sap.com/Protocols/SAPData" Version="1.0">
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <Schema
+            xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="ZHTS_SRV" xml:lang="en" sap:schema-version="1">
+            <EntityType Name="GovtAgcy" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="OtherGovtAgcyId"/>
+                </Key>
+                <Property Name="OtherGovtAgcyId" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="other_govt_agcy_id" sap:updatable="false" sap:filterable="false"/>
+                <Property Name="OtherGovtAgcyDesc" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="other govt agcy desc" sap:filterable="false"/>
+                <Property Name="ActvFlg" Type="Edm.Byte" Nullable="false" sap:unicode="false" sap:label="active flag" sap:filterable="false"/>
+                <Property Name="AddDt" Type="Edm.DateTime" Nullable="false" Precision="0" sap:unicode="false" sap:label="Time Stamp" sap:filterable="false"/>
+                <Property Name="AddNm" Type="Edm.String" Nullable="false" MaxLength="8" sap:unicode="false" sap:label="add name" sap:filterable="false"/>
+                <Property Name="EditDt" Type="Edm.DateTime" Nullable="false" Precision="0" sap:unicode="false" sap:label="Time Stamp" sap:filterable="false"/>
+                <Property Name="EditNm" Type="Edm.String" Nullable="false" MaxLength="8" sap:unicode="false" sap:label="edit name" sap:filterable="false"/>
+                <Property Name="MktCntryId" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="country id" sap:filterable="false"/>
+                <NavigationProperty Name="To_Country" Relationship="ZHTS_SRV.Asso_AgcyCntry" FromRole="FromRole_Asso_AgcyCntry" ToRole="ToRole_Asso_AgcyCntry"/>
+            </EntityType>
+            <EntityType Name="GovtAgcyCd" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="OtherGovtAgcyCdId"/>
+                </Key>
+                <Property Name="OtherGovtAgcyCdId" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="other_govt_agcy_cd_id" sap:updatable="false" sap:filterable="false"/>
+                <Property Name="OtherGovtAgcyCdDesc" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="other_govt_agcy_cd_desc" sap:filterable="false"/>
+                <Property Name="OtherGovtAgcyId" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="other_govt_agcy_id" sap:filterable="false"/>
+                <Property Name="ActvFlg" Type="Edm.Byte" Nullable="false" sap:unicode="false" sap:label="active flag" sap:filterable="false"/>
+                <Property Name="AddDt" Type="Edm.DateTime" Nullable="false" Precision="0" sap:unicode="false" sap:label="Time Stamp" sap:filterable="false"/>
+                <Property Name="AddNm" Type="Edm.String" Nullable="false" MaxLength="8" sap:unicode="false" sap:label="add name" sap:filterable="false"/>
+                <Property Name="EditDt" Type="Edm.DateTime" Nullable="false" Precision="0" sap:unicode="false" sap:label="Time Stamp" sap:filterable="false"/>
+                <Property Name="EditNm" Type="Edm.String" Nullable="false" MaxLength="8" sap:unicode="false" sap:label="edit name" sap:filterable="false"/>
+                <NavigationProperty Name="To_Agcy" Relationship="ZHTS_SRV.Asso_AgcyCdAgcy" FromRole="FromRole_Asso_AgcyCdAgcy" ToRole="ToRole_Asso_AgcyCdAgcy"/>
+            </EntityType>
+            <EntityType Name="TrfConfStatus" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="TrfCnfrmnStatusId"/>
+                </Key>
+                <Property Name="TrfCnfrmnStatusId" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="trf_cnfrmn_status_id" sap:updatable="false" sap:filterable="false"/>
+                <Property Name="TrfCnfrmnStatusDesc" Type="Edm.String" Nullable="false" MaxLength="25" sap:unicode="false" sap:label="trf_cnfrmn_status_desc" sap:filterable="false"/>
+                <Property Name="AllwErp" Type="Edm.Byte" Nullable="false" sap:unicode="false" sap:label="allw erp" sap:filterable="false"/>
+                <Property Name="ActvFlg" Type="Edm.Byte" Nullable="false" sap:unicode="false" sap:label="active flag" sap:filterable="false"/>
+                <Property Name="AddDt" Type="Edm.DateTime" Nullable="false" Precision="0" sap:unicode="false" sap:label="Time Stamp" sap:filterable="false"/>
+                <Property Name="AddNm" Type="Edm.String" Nullable="false" MaxLength="8" sap:unicode="false" sap:label="add name" sap:filterable="false"/>
+                <Property Name="EditDt" Type="Edm.DateTime" Nullable="false" Precision="0" sap:unicode="false" sap:label="Time Stamp" sap:filterable="false"/>
+                <Property Name="EditNm" Type="Edm.String" Nullable="false" MaxLength="8" sap:unicode="false" sap:label="edit name" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="TrfCode" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="TrfCdId"/>
+                </Key>
+                <Property Name="TrfCdId" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="trf_cd_id" sap:updatable="false" sap:filterable="false"/>
+                <Property Name="TrfCdNm" Type="Edm.String" Nullable="false" MaxLength="17" sap:unicode="false" sap:label="trf_cd_nm" sap:filterable="false"/>
+                <Property Name="TrfCdDesc" Type="Edm.String" Nullable="false" MaxLength="150" sap:unicode="false" sap:label="trf_cd_desc" sap:filterable="false"/>
+                <Property Name="MktCntryId" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="country id" sap:filterable="false"/>
+                <Property Name="DutyRate" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:label="duty_rate" sap:filterable="false"/>
+                <Property Name="ActvFlg" Type="Edm.Byte" Nullable="false" sap:unicode="false" sap:label="active flag" sap:filterable="false"/>
+                <Property Name="AddDt" Type="Edm.DateTime" Nullable="false" Precision="0" sap:unicode="false" sap:label="Time Stamp" sap:filterable="false"/>
+                <Property Name="AddNm" Type="Edm.String" Nullable="false" MaxLength="8" sap:unicode="false" sap:label="add name" sap:filterable="false"/>
+                <Property Name="EditDt" Type="Edm.DateTime" Nullable="false" Precision="0" sap:unicode="false" sap:label="Time Stamp" sap:filterable="false"/>
+                <Property Name="EditNm" Type="Edm.String" Nullable="false" MaxLength="8" sap:unicode="false" sap:label="edit name" sap:filterable="false"/>
+                <NavigationProperty Name="To_Country" Relationship="ZHTS_SRV.Asso_TrfCodeCntry" FromRole="FromRole_Asso_TrfCodeCntry" ToRole="ToRole_Asso_TrfCodeCntry"/>
+            </EntityType>
+            <EntityType Name="Vendor" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="VndrId"/>
+                </Key>
+                <Property Name="VndrId" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="vendrid" sap:updatable="false" sap:filterable="false"/>
+                <Property Name="VndrCd" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="vndr_cd" sap:filterable="false"/>
+                <Property Name="VndrNm" Type="Edm.String" Nullable="false" MaxLength="35" sap:unicode="false" sap:label="vndr_nm" sap:filterable="false"/>
+                <Property Name="VndrAddr1" Type="Edm.String" Nullable="false" MaxLength="35" sap:unicode="false" sap:label="vndr_addr_1" sap:filterable="false"/>
+                <Property Name="VndrAddr2" Type="Edm.String" Nullable="false" MaxLength="35" sap:unicode="false" sap:label="vndr_addr_2" sap:filterable="false"/>
+                <Property Name="VndrAddr3" Type="Edm.String" Nullable="false" MaxLength="35" sap:unicode="false" sap:label="vndr_addr_3" sap:filterable="false"/>
+                <Property Name="VndrCity" Type="Edm.String" Nullable="false" MaxLength="35" sap:unicode="false" sap:label="vndr_city" sap:filterable="false"/>
+                <Property Name="VndrSt" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="vndr_st" sap:filterable="false"/>
+                <Property Name="VndrZipCd" Type="Edm.String" Nullable="false" MaxLength="50" sap:unicode="false" sap:label="vndr_zip_cd" sap:filterable="false"/>
+                <Property Name="CntryId" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="country id" sap:filterable="false"/>
+                <Property Name="SrcGrpId" Type="Edm.Int32" Nullable="false" sap:unicode="false" sap:label="src grp id" sap:filterable="false"/>
+                <Property Name="SlsUnitId" Type="Edm.Int32" Nullable="false" sap:unicode="false" sap:label="sls unit id" sap:filterable="false"/>
+                <Property Name="SapInstcCd" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="sap instance cd" sap:filterable="false"/>
+                <Property Name="ActvFlg" Type="Edm.Byte" Nullable="false" sap:unicode="false" sap:label="active flag" sap:filterable="false"/>
+                <Property Name="AddDt" Type="Edm.DateTime" Nullable="false" Precision="0" sap:unicode="false" sap:label="Time Stamp" sap:filterable="false"/>
+                <Property Name="AddNm" Type="Edm.String" Nullable="false" MaxLength="8" sap:unicode="false" sap:label="add name" sap:filterable="false"/>
+                <Property Name="EditDt" Type="Edm.DateTime" Nullable="false" Precision="0" sap:unicode="false" sap:label="Time Stamp" sap:filterable="false"/>
+                <Property Name="EditNm" Type="Edm.String" Nullable="false" MaxLength="8" sap:unicode="false" sap:label="edit name" sap:filterable="false"/>
+                <Property Name="FdaNbr" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="fda nbr" sap:filterable="false"/>
+                <Property Name="DiSlsUnitId" Type="Edm.Int32" Nullable="false" sap:unicode="false" sap:label="di sls unit id" sap:filterable="false"/>
+                <NavigationProperty Name="To_Country" Relationship="ZHTS_SRV.Asso_VendorContry" FromRole="FromRole_Asso_VendorContry" ToRole="ToRole_Asso_VendorContry"/>
+            </EntityType>
+            <EntityType Name="Country" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="MktCntryId"/>
+                </Key>
+                <Property Name="MktCntryId" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="country id" sap:updatable="false" sap:filterable="false"/>
+                <Property Name="MktCntryCd" Type="Edm.String" Nullable="false" MaxLength="2" sap:unicode="false" sap:label="mkt_cntry_cd" sap:filterable="false"/>
+                <Property Name="MktCntryDesc" Type="Edm.String" Nullable="false" MaxLength="75" sap:unicode="false" sap:label="mkt_cntry_desc" sap:filterable="false"/>
+                <Property Name="ActvFlg" Type="Edm.Byte" Nullable="false" sap:unicode="false" sap:label="active flag" sap:filterable="false"/>
+                <Property Name="AddDt" Type="Edm.DateTime" Nullable="false" Precision="0" sap:unicode="false" sap:label="Time Stamp" sap:filterable="false"/>
+                <Property Name="AddNm" Type="Edm.String" Nullable="false" MaxLength="8" sap:unicode="false" sap:label="add name" sap:filterable="false"/>
+                <Property Name="EditDt" Type="Edm.DateTime" Nullable="false" Precision="0" sap:unicode="false" sap:label="Time Stamp" sap:filterable="false"/>
+                <Property Name="EditNm" Type="Edm.String" Nullable="false" MaxLength="8" sap:unicode="false" sap:label="edit name" sap:filterable="false"/>
+            </EntityType>
+            <EntityType Name="MatCode" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="CodeId"/>
+                </Key>
+                <Property Name="CodeId" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="code id" sap:updatable="false" sap:filterable="false"/>
+                <Property Name="Matnr" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Material"/>
+                <Property Name="MarketCountry" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="market / country" sap:filterable="false"/>
+                <Property Name="RecordSeqNum" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="Sequential number of recorded data record" sap:filterable="false"/>
+                <Property Name="InvoiceDesc" Type="Edm.String" Nullable="false" MaxLength="100" sap:unicode="false" sap:label="Invoice Description" sap:filterable="false"/>
+                <Property Name="Description1" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Material Description 1" sap:filterable="false"/>
+                <Property Name="Description2" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Material Description 2" sap:filterable="false"/>
+                <Property Name="Description3" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Material Description 3" sap:filterable="false"/>
+                <Property Name="ValuePerPiece" Type="Edm.Decimal" Nullable="false" Precision="6" Scale="2" sap:unicode="false" sap:label="VALUE PER PIECE" sap:filterable="false"/>
+                <Property Name="PercentUse" Type="Edm.String" Nullable="false" MaxLength="3" sap:unicode="false" sap:label="Percent Use" sap:filterable="false"/>
+                <Property Name="HtsNumber" Type="Edm.String" Nullable="false" MaxLength="17" sap:unicode="false" sap:label="Commodity Code/Import Code Number for Foreign Trade" sap:filterable="false"/>
+                <Property Name="DutyRate" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:label="duty_rate" sap:filterable="false"/>
+                <Property Name="VendorNumber" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="vendrid" sap:filterable="false"/>
+                <Property Name="VendorName" Type="Edm.String" Nullable="false" MaxLength="35" sap:unicode="false" sap:label="vndr_nm" sap:filterable="false"/>
+                <Property Name="CtryOriginCode" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="country id" sap:filterable="false"/>
+                <Property Name="GovAgency" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="other_govt_agcy_id" sap:filterable="false"/>
+                <Property Name="GovComments" Type="Edm.String" Nullable="false" MaxLength="32" sap:unicode="false" sap:label="other_govt_agcy_cd_id" sap:filterable="false"/>
+                <Property Name="Erdat" Type="Edm.DateTime" Precision="7" sap:unicode="false" sap:label="Date on Which Record Was Created" sap:filterable="false"/>
+                <Property Name="Erzet" Type="Edm.Time" Nullable="false" Precision="0" sap:unicode="false" sap:label="Entry time" sap:filterable="false"/>
+                <Property Name="LowerAge" Type="Edm.Decimal" Nullable="false" Precision="9" Scale="3" sap:unicode="false" sap:label="Product From Age" sap:filterable="false"/>
+                <Property Name="LowerAgeText" Type="Edm.String" Nullable="false" MaxLength="40" sap:unicode="false" sap:label="Character field of length 40" sap:filterable="false"/>
+                <Property Name="RulingNbr" Type="Edm.String" Nullable="false" MaxLength="9" sap:unicode="false" sap:label="Tariff Ruling Number" sap:filterable="false"/>
+                <Property Name="RulingDate" Type="Edm.DateTime" Precision="7" sap:unicode="false" sap:label="Tariff Ruling Date" sap:filterable="false"/>
+                <NavigationProperty Name="To_Country" Relationship="ZHTS_SRV.Asso_MatCodeCntry" FromRole="FromRole_Asso_MatCodeCntry" ToRole="ToRole_Asso_MatCodeCntry"/>
+                <NavigationProperty Name="To_Vendor" Relationship="ZHTS_SRV.Asso_MatCodeVendor" FromRole="FromRole_Asso_MatCodeVendor" ToRole="ToRole_Asso_MatCodeVendor"/>
+                <NavigationProperty Name="To_AgcyCd" Relationship="ZHTS_SRV.Asso_MatCodeAgcyCd" FromRole="FromRole_Asso_MatCodeAgcyCd" ToRole="ToRole_Asso_MatCodeAgcyCd"/>
+                <NavigationProperty Name="To_Agency" Relationship="ZHTS_SRV.Asso_MatCodeAgency" FromRole="FromRole_Asso_MatCodeAgency" ToRole="ToRole_Asso_MatCodeAgency"/>
+                <NavigationProperty Name="To_TrfCode" Relationship="ZHTS_SRV.Asso_MatCodeTrfCode" FromRole="FromRole_Asso_MatCodeTrfCode" ToRole="ToRole_Asso_MatCodeTrfCode"/>
+            </EntityType>
+            <Association Name="Asso_AgcyCdAgcy" sap:content-version="1">
+                <End Type="ZHTS_SRV.GovtAgcyCd" Multiplicity="1" Role="FromRole_Asso_AgcyCdAgcy"/>
+                <End Type="ZHTS_SRV.GovtAgcy" Multiplicity="1" Role="ToRole_Asso_AgcyCdAgcy"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_Asso_AgcyCdAgcy">
+                        <PropertyRef Name="OtherGovtAgcyCdId"/>
+                    </Principal>
+                    <Dependent Role="ToRole_Asso_AgcyCdAgcy">
+                        <PropertyRef Name="OtherGovtAgcyId"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="Asso_MatCodeAgcyCd" sap:content-version="1">
+                <End Type="ZHTS_SRV.MatCode" Multiplicity="1" Role="FromRole_Asso_MatCodeAgcyCd"/>
+                <End Type="ZHTS_SRV.GovtAgcyCd" Multiplicity="1" Role="ToRole_Asso_MatCodeAgcyCd"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_Asso_MatCodeAgcyCd">
+                        <PropertyRef Name="CodeId"/>
+                    </Principal>
+                    <Dependent Role="ToRole_Asso_MatCodeAgcyCd">
+                        <PropertyRef Name="OtherGovtAgcyCdId"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="Asso_MatCodeVendor" sap:content-version="1">
+                <End Type="ZHTS_SRV.MatCode" Multiplicity="1" Role="FromRole_Asso_MatCodeVendor"/>
+                <End Type="ZHTS_SRV.Vendor" Multiplicity="1" Role="ToRole_Asso_MatCodeVendor"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_Asso_MatCodeVendor">
+                        <PropertyRef Name="CodeId"/>
+                    </Principal>
+                    <Dependent Role="ToRole_Asso_MatCodeVendor">
+                        <PropertyRef Name="VndrId"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="Asso_MatCodeCntry" sap:content-version="1">
+                <End Type="ZHTS_SRV.MatCode" Multiplicity="1" Role="FromRole_Asso_MatCodeCntry"/>
+                <End Type="ZHTS_SRV.Country" Multiplicity="1" Role="ToRole_Asso_MatCodeCntry"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_Asso_MatCodeCntry">
+                        <PropertyRef Name="CodeId"/>
+                    </Principal>
+                    <Dependent Role="ToRole_Asso_MatCodeCntry">
+                        <PropertyRef Name="MktCntryId"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="Asso_MatCodeTrfCode" sap:content-version="1">
+                <End Type="ZHTS_SRV.MatCode" Multiplicity="1" Role="FromRole_Asso_MatCodeTrfCode"/>
+                <End Type="ZHTS_SRV.TrfCode" Multiplicity="1" Role="ToRole_Asso_MatCodeTrfCode"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_Asso_MatCodeTrfCode">
+                        <PropertyRef Name="CodeId"/>
+                    </Principal>
+                    <Dependent Role="ToRole_Asso_MatCodeTrfCode">
+                        <PropertyRef Name="TrfCdId"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="Asso_MatCodeAgency" sap:content-version="1">
+                <End Type="ZHTS_SRV.MatCode" Multiplicity="1" Role="FromRole_Asso_MatCodeAgency"/>
+                <End Type="ZHTS_SRV.GovtAgcy" Multiplicity="1" Role="ToRole_Asso_MatCodeAgency"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_Asso_MatCodeAgency">
+                        <PropertyRef Name="CodeId"/>
+                    </Principal>
+                    <Dependent Role="ToRole_Asso_MatCodeAgency">
+                        <PropertyRef Name="OtherGovtAgcyId"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="Asso_AgcyCntry" sap:content-version="1">
+                <End Type="ZHTS_SRV.GovtAgcy" Multiplicity="1" Role="FromRole_Asso_AgcyCntry"/>
+                <End Type="ZHTS_SRV.Country" Multiplicity="1" Role="ToRole_Asso_AgcyCntry"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_Asso_AgcyCntry">
+                        <PropertyRef Name="OtherGovtAgcyId"/>
+                    </Principal>
+                    <Dependent Role="ToRole_Asso_AgcyCntry">
+                        <PropertyRef Name="MktCntryId"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="Asso_VendorContry" sap:content-version="1">
+                <End Type="ZHTS_SRV.Vendor" Multiplicity="1" Role="FromRole_Asso_VendorContry"/>
+                <End Type="ZHTS_SRV.Country" Multiplicity="1" Role="ToRole_Asso_VendorContry"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_Asso_VendorContry">
+                        <PropertyRef Name="VndrId"/>
+                    </Principal>
+                    <Dependent Role="ToRole_Asso_VendorContry">
+                        <PropertyRef Name="MktCntryId"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="Asso_TrfCodeCntry" sap:content-version="1">
+                <End Type="ZHTS_SRV.TrfCode" Multiplicity="1" Role="FromRole_Asso_TrfCodeCntry"/>
+                <End Type="ZHTS_SRV.Country" Multiplicity="1" Role="ToRole_Asso_TrfCodeCntry"/>
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_Asso_TrfCodeCntry">
+                        <PropertyRef Name="TrfCdId"/>
+                    </Principal>
+                    <Dependent Role="ToRole_Asso_TrfCodeCntry">
+                        <PropertyRef Name="MktCntryId"/>
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <EntityContainer Name="ZHTS_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+                <EntitySet Name="GovtAgcySet" EntityType="ZHTS_SRV.GovtAgcy" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="GovtAgcyCdSet" EntityType="ZHTS_SRV.GovtAgcyCd" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="TrfConfStatusSet" EntityType="ZHTS_SRV.TrfConfStatus" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="TrfCodeSet" EntityType="ZHTS_SRV.TrfCode" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="VendorSet" EntityType="ZHTS_SRV.Vendor" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="CountrySet" EntityType="ZHTS_SRV.Country" sap:addressable="false" sap:content-version="1"/>
+                <EntitySet Name="MatCodeSet" EntityType="ZHTS_SRV.MatCode" sap:addressable="false" sap:content-version="1"/>
+                <AssociationSet Name="Asso_MatCodeAgencySet" Association="ZHTS_SRV.Asso_MatCodeAgency" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="MatCodeSet" Role="FromRole_Asso_MatCodeAgency"/>
+                    <End EntitySet="GovtAgcySet" Role="ToRole_Asso_MatCodeAgency"/>
+                </AssociationSet>
+                <AssociationSet Name="Asso_TrfCodeCntrySet" Association="ZHTS_SRV.Asso_TrfCodeCntry" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="TrfCodeSet" Role="FromRole_Asso_TrfCodeCntry"/>
+                    <End EntitySet="CountrySet" Role="ToRole_Asso_TrfCodeCntry"/>
+                </AssociationSet>
+                <AssociationSet Name="Asso_MatCodeAgcyCdSet" Association="ZHTS_SRV.Asso_MatCodeAgcyCd" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="MatCodeSet" Role="FromRole_Asso_MatCodeAgcyCd"/>
+                    <End EntitySet="GovtAgcyCdSet" Role="ToRole_Asso_MatCodeAgcyCd"/>
+                </AssociationSet>
+                <AssociationSet Name="Asso_MatCodeCntrySet" Association="ZHTS_SRV.Asso_MatCodeCntry" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="MatCodeSet" Role="FromRole_Asso_MatCodeCntry"/>
+                    <End EntitySet="CountrySet" Role="ToRole_Asso_MatCodeCntry"/>
+                </AssociationSet>
+                <AssociationSet Name="Asso_AgcyCntrySet" Association="ZHTS_SRV.Asso_AgcyCntry" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="GovtAgcySet" Role="FromRole_Asso_AgcyCntry"/>
+                    <End EntitySet="CountrySet" Role="ToRole_Asso_AgcyCntry"/>
+                </AssociationSet>
+                <AssociationSet Name="Asso_AgcyCdAgcySet" Association="ZHTS_SRV.Asso_AgcyCdAgcy" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="GovtAgcyCdSet" Role="FromRole_Asso_AgcyCdAgcy"/>
+                    <End EntitySet="GovtAgcySet" Role="ToRole_Asso_AgcyCdAgcy"/>
+                </AssociationSet>
+                <AssociationSet Name="Asso_MatCodeVendorSet" Association="ZHTS_SRV.Asso_MatCodeVendor" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="MatCodeSet" Role="FromRole_Asso_MatCodeVendor"/>
+                    <End EntitySet="VendorSet" Role="ToRole_Asso_MatCodeVendor"/>
+                </AssociationSet>
+                <AssociationSet Name="Asso_VendorContrySet" Association="ZHTS_SRV.Asso_VendorContry" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="VendorSet" Role="FromRole_Asso_VendorContry"/>
+                    <End EntitySet="CountrySet" Role="ToRole_Asso_VendorContry"/>
+                </AssociationSet>
+                <AssociationSet Name="Asso_MatCodeTrfCodeSet" Association="ZHTS_SRV.Asso_MatCodeTrfCode" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="MatCodeSet" Role="FromRole_Asso_MatCodeTrfCode"/>
+                    <End EntitySet="TrfCodeSet" Role="ToRole_Asso_MatCodeTrfCode"/>
+                </AssociationSet>
+            </EntityContainer>
+            <atom:link
+                xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="./sap/ZHTS_SRV/$metadata"/>
+                <atom:link
+                    xmlns:atom="http://www.w3.org/2005/Atom" rel="latest-version" href="./sap/ZHTS_SRV/$metadata"/>
+                </Schema>
+            </edmx:DataServices>
+        </edmx:Edmx>

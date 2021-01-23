@@ -17,13 +17,13 @@ sap.ui.define([
 		 * @override
 		 */
 		init: function() {
-			var that = this;
-			UIComponent.prototype.init.apply(this, arguments);
-			that.getRouter().initialize();
+			// var that = this;
+			UIComponent.prototype.init.apply(this);
+			this.getRouter().initialize();
 			// set the device model
-			that.setModel(models.createDeviceModel(), "device");
-			that.getModel().setUseBatch(false);	
-			that.getModel().setSizeLimit(10);	
+			// that.setModel(models.createDeviceModel(), "device");
+			// that.getModel().setUseBatch(false);	
+			// that.getModel().setSizeLimit(10);	
 			
 			
 		}
