@@ -1,6 +1,32 @@
 <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:tnt="sap.tnt" xmlns:form="sap.ui.layout.form" xmlns="sap.m"
-	xmlns:fb="sap.ui.comp.filterbar" xmlns:t="sap.ui.table"
-	xmlns:l="sap.ui.layout"
-	controllerName="hts.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" >
-	<Button text="Administration Block"/>
+	xmlns:fb="sap.ui.comp.filterbar" xmlns:t="sap.ui.table" xmlns:l="sap.ui.layout" controllerName="hts.controller.Main"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:smartForm="sap.ui.comp.smartform" xmlns:smartLink="sap.ui.comp.navpopover"
+	xmlns:smartField="sap.ui.comp.smartfield" xmlns:app="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1"
+	xmlns:f="sap.ui.layout.form">
+	<!--<Button text="Administration Block"/>-->
+	<!--<Select items="{path: '/EntitySets'}">-->
+	<!--	<core:Item key="{Data}" text="{Data}"/>-->
+	<!--</Select>-->
+	<smartForm:SmartForm id="smartFormProject" app:defaultCheckBoxDisplayBehaviour="OnOff"
+		app:defaultDropDownDisplayBehaviour="idAndDescription" editable="{editable>/editable}">
+		<smartForm:layout>
+			<smartForm:ColumnLayout columnsM="2" columnsL="2" columnsXL="4"/>
+		</smartForm:layout>
+		<smartForm:Group label="Administration">
+			<smartForm:GroupElement label="Administration Entitysets">
+				<ComboBox id="idEntitySet" selectedKey="" enabled="{editable>/editable}" items="{ path: '/MatCodeSet' }">
+					<core:Item key="{MarketCountry}" text="{MarketCountry}"/>
+				</ComboBox>
+			</smartForm:GroupElement>
+		</smartForm:Group>
+	</smartForm:SmartForm>
+	<App>
+		<Page id="page" showHeader="true" enableScrolling="false" class="sapUiContentPadding">
+			<Label id="count" text=" "></Label>
+			<content>
+				<t:Table id="tableid" visibleColumnCount="20" visibleRowCount="20" enableSelectAll="false" threshold="15" enableBusyIndicator="true"
+					ariaLabelledBy="title"></t:Table>
+			</content>
+		</Page>
+	</App>
 </mvc:View>

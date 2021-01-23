@@ -23,10 +23,10 @@
       "path": "/api",
       "target": {
         "type": "destination",
-        "name": "SAPB1",
+        "name": "CFN",
         "entryPath": "/api"
       },
-      "description": "SAPB1"
+      "description": "CFN"
     }
   ],
   "sendWelcomeFileRedirect": true

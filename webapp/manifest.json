@@ -17,7 +17,19 @@
 					"odataVersion": "2.0",
 					"useBatch": false
 				}
+			},
+			"ZHTS_SRV": {
+				"uri": "/sap/opu/odata/sap/ZHTS_SRV/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/ZHTS_SRV/metadata.xml"
+				}
 			}
+		},
+		"sourceTemplate": {
+			"id": "servicecatalog.connectivityComponent",
+			"version": "0.0.0"
 		}
 	},
 	"sap.ui": {
@@ -35,7 +47,10 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": ["sap_hcb", "sap_belize"]
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_belize"
+		]
 	},
 	"sap.ui5": {
 		"dependencies": {
@@ -62,8 +77,7 @@
 				"controlId": "idMain"
 			},
 			"routes": [],
-			"targets": {
-			}
+			"targets": {}
 		},
 		"contentDensities": {
 			"compact": true,
@@ -95,9 +109,11 @@
 			}
 		},
 		"resources": {
-			"css": [{
-				"uri": "css/style.css"
-			}]
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
 		}
 	}
 }
