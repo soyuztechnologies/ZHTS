@@ -148,7 +148,7 @@
 						<Text text="{OtherAgency}"/>
 					</t:template>
 				</t:Column>
-				<t:Column id="idOtherAgencyCode" visible="true" width="9em">
+				<t:Column id="idOtherAgencyCode" visible="true" width="10em">
 					<t:customData>
 						<core:CustomData key="p13nData" value='\{"columnKey": "OtherAgencyCode", "columnIndex":"12", "leadingProperty": "OtherAgencyCode"}'/>
 					</t:customData>
