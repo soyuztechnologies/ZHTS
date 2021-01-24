@@ -26,6 +26,27 @@ sap.ui.define([
 			mBindingParams.filters.push(newFilter);	
 		  }
 		  
+		  var oTariffCodeStatus = oSmtFilter.getControlByKey("TariffCodeStatus");
+		  var sTariffCodeStatus = oTariffCodeStatus.getSelectedKey();
+		  if(sTariffCodeStatus){
+			newFilter = new sap.ui.model.Filter("TariffCodeStatus", sap.ui.model.FilterOperator.EQ, sTariffCodeStatus );
+			mBindingParams.filters.push(newFilter);	
+		  }
+		  
+		  
+		  var oTarrifCode = oSmtFilter.getControlByKey("TarrifCode");
+		  var sTarrifCode = oTarrifCode.getSelectedKey();
+		  if(sTarrifCode){
+			newFilter = new sap.ui.model.Filter("TarrifCode", sap.ui.model.FilterOperator.EQ, sTarrifCode );
+			mBindingParams.filters.push(newFilter);	
+		  }
+		  
+		  var oVendor = oSmtFilter.getControlByKey("Vendor");
+		  var sVendor = oVendor.getSelectedKey();
+		  if(sVendor){
+			newFilter = new sap.ui.model.Filter("Vendor", sap.ui.model.FilterOperator.EQ, sVendor );
+			mBindingParams.filters.push(newFilter);	
+		  }
 		
 		 }
 	

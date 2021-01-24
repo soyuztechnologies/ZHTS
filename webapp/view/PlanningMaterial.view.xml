@@ -7,8 +7,29 @@
 							visibleInAdvancedArea="true" groupId="_BASIC" preventInitialDataFetchInValueHelpDialog="false"/>
 							<smartFilterBar:ControlConfiguration key="Market" label="Market" visibleInAdvancedArea="true" groupId="_BASIC">
 								<smartFilterBar:customControl>
-								<ComboBox id="idFunnel" items="{ path: '/zmm_I_cntry' }">
+								<ComboBox id="idCtry" items="{ path: '/zmm_I_cntry' }">
 									<core:Item key="{mkt_cntry_cd}" text="{mkt_cntry_desc}"/>
+								</ComboBox>
+								</smartFilterBar:customControl>
+							</smartFilterBar:ControlConfiguration>
+							<smartFilterBar:ControlConfiguration key="TariffCodeStatus" label="Configuration Status" visibleInAdvancedArea="true" groupId="_BASIC">
+								<smartFilterBar:customControl>
+								<ComboBox id="idConfigStat" items="{ path: '/zmm_I_conf_st' }">
+									<core:Item key="{trf_cnfrmn_status_desc}" text="{trf_cnfrmn_status_desc}"/>
+								</ComboBox>
+								</smartFilterBar:customControl>
+							</smartFilterBar:ControlConfiguration>
+							<smartFilterBar:ControlConfiguration key="TarrifCode" label="Tarrif Code" visibleInAdvancedArea="true" groupId="_BASIC">
+								<smartFilterBar:customControl>
+								<ComboBox id="idTareffCode" items="{ path: '/zmm_I_trf_cd' }">
+									<core:Item key="{trf_cd_nm}" text="{trf_cd_nm}"/>
+								</ComboBox>
+								</smartFilterBar:customControl>
+							</smartFilterBar:ControlConfiguration>
+							<smartFilterBar:ControlConfiguration key="Vendor" label="Vendor" visibleInAdvancedArea="true" groupId="_BASIC">
+								<smartFilterBar:customControl>
+								<ComboBox id="idVendor" items="{ path: '/zmm_I_vendr' }">
+									<core:Item key="{vndr_cd}" text="{vndr_cd}"/>
 								</ComboBox>
 								</smartFilterBar:customControl>
 							</smartFilterBar:ControlConfiguration>
@@ -102,6 +123,53 @@
 									<Text text="{DetailedDescription}"/>	
 								</t:template>
 							</t:Column>
+							
+							<t:Column id="idPercentageVal" visible="true">
+								<t:customData>
+									<core:CustomData key="p13nData" value='\{"columnKey": "PercentageVal", "columnIndex":"9", "leadingProperty": "PercentageVal"}'/>
+								</t:customData>
+								<Text text="PercentageVal"/>
+								<t:template>
+									<Text text="{PercentageVal}"/>	
+								</t:template>
+							</t:Column>
+							<t:Column id="idTarrifCode" visible="true">
+								<t:customData>
+									<core:CustomData key="p13nData" value='\{"columnKey": "TarrifCode", "columnIndex":"10", "leadingProperty": "TarrifCode"}'/>
+								</t:customData>
+								<Text text="TarrifCode"/>
+								<t:template>
+									<Text text="{TarrifCode}"/>	
+								</t:template>
+							</t:Column>
+							<t:Column id="idOtherAgency" visible="true">
+								<t:customData>
+									<core:CustomData key="p13nData" value='\{"columnKey": "OtherAgency", "columnIndex":"11", "leadingProperty": "OtherAgency"}'/>
+								</t:customData>
+								<Text text="OtherAgency"/>
+								<t:template>
+									<Text text="{OtherAgency}"/>	
+								</t:template>
+							</t:Column>
+							<t:Column id="idOtherAgencyCode" visible="true">
+								<t:customData>
+									<core:CustomData key="p13nData" value='\{"columnKey": "OtherAgencyCode", "columnIndex":"12", "leadingProperty": "OtherAgencyCode"}'/>
+								</t:customData>
+								<Text text="OtherAgencyCode"/>
+								<t:template>
+									<Text text="{OtherAgencyCode}"/>	
+								</t:template>
+							</t:Column>
+							<t:Column id="idVendorC" visible="true">
+								<t:customData>
+									<core:CustomData key="p13nData" value='\{"columnKey": "Vendor", "columnIndex":"13", "leadingProperty": "Vendor"}'/>
+								</t:customData>
+								<Text text="Vendor"/>
+								<t:template>
+									<Text text="{Vendor}"/>	
+								</t:template>
+							</t:Column>
+							
 						</t:columns>
 					</t:Table>
 						<smartTable:layoutData>
