@@ -1,62 +1,111 @@
 <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
-	controllerName="hts.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml"
+	controllerName="hts.controller.PlanningMaterial" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:t="sap.ui.table"
 	xmlns:smartFilterBar="sap.ui.comp.smartfilterbar" xmlns:smartTable="sap.ui.comp.smarttable" xmlns:fb="sap.ui.comp.filterbar">
-	<App>
-		<pages>
-			<Page title="Material Management">
-				<content>
 					<smartFilterBar:SmartFilterBar id="smartFilterBar" entitySet="ZHTS_I_MATCODE" search="handleSearch" showFilterConfiguration="true">
 						<smartFilterBar:controlConfiguration>
 							<smartFilterBar:ControlConfiguration key="Material" label="Material" controlType="input" 
 							visibleInAdvancedArea="true" groupId="_BASIC" preventInitialDataFetchInValueHelpDialog="false"/>
-							<smartFilterBar:ControlConfiguration key="Market" label="Market" controlType="dropDownList"
-							visibleInAdvancedArea="true" groupId="_BASIC"/>
+							<smartFilterBar:ControlConfiguration key="Market" label="Market" visibleInAdvancedArea="true" groupId="_BASIC">
+								<smartFilterBar:customControl>
+								<ComboBox id="idFunnel" items="{ path: '/zmm_I_cntry' }">
+									<core:Item key="{mkt_cntry_cd}" text="{mkt_cntry_desc}"/>
+								</ComboBox>
+								</smartFilterBar:customControl>
+							</smartFilterBar:ControlConfiguration>
 						</smartFilterBar:controlConfiguration>
 						<smartFilterBar:layoutData>
 							<FlexItemData shrinkFactor="0"/>
 						</smartFilterBar:layoutData>
 					</smartFilterBar:SmartFilterBar>
 					<!-- Report Table -->
-					<smartTable:SmartTable id="smartTable" entitySet="ZHTS_I_MATCODE" smartFilterId="smartFilterBar" tableType="ResponsiveTable"
-						useExportToExcel="true" useVariantManagement="false" useTablePersonalisation="true" header="Materials" showRowCount="true"
-						requestAtLeastFields="Material,Market">
+					<smartTable:SmartTable id="smartTable" entitySet="ZHTS_I_MATCODE" smartFilterId="smartFilterBar" useExportToExcel="true" useVariantManagement="true"
+					useTablePersonalisation="true" header="Materials" showRowCount="true" persistencyKey="SmartTableRefApp_Explored" enableAutoBinding="true"
+					class="sapUiResponsiveContentPadding" beforeRebindTable="onBeforeRebindTable">
 						<smartTable:customToolbar>
 							<OverflowToolbar design="Transparent">
 								<ToolbarSpacer/>
 							</OverflowToolbar>
 						</smartTable:customToolbar>
-						<Table mode="SingleSelectLeft" includeItemInSelection="true">
-							<columns>
-								<Column id="idMaterial" width="100px" hAlign="Begin">
-									<customData>
-										<core:CustomData key="p13nData"
-											value='\{"columnKey": "Material", columnIndex":"1", "leadingProperty": "Material", "sortProperty": "Material"}'/>
-									</customData>
-									<Text text="Material"/>
-								</Column>
-								<Column id="idMarket" width="100px" hAlign="Begin">
-									<customData>
-										<core:CustomData key="p13nData"
-											value='\{"columnKey": "Market", columnIndex":"2", "leadingProperty": "Market", "sortProperty": "Market"}'/>
-									</customData>
-									<Text text="Market"/>
-								</Column>
-							</columns>
-							<items>
-								<ColumnListItem>
-									<cells>
-										<Text text="{Material}"/>
-										<Text text="{Market}"/>
-									</cells>
-								</ColumnListItem>
-							</items>
-						</Table>
+						<t:Table id="idOrderItems" rows="{/ZHTS_I_MATCODE}">
+						<t:columns>
+							<t:Column id="idMaterial">
+								<t:customData>
+									<core:CustomData key="p13nData" value='\{"columnKey": "Material", "columnIndex":"1", "leadingProperty": "Material"}'/>
+								</t:customData>
+								<Text text="Material"/>
+								<t:template>
+									<Text text="{Material}"/>	
+								</t:template>
+								
+							</t:Column>
+							<t:Column id="idMarket" visible="true">
+								<t:customData>
+									<core:CustomData key="p13nData" value='\{"columnKey": "Market", "columnIndex":"2", "leadingProperty": "Market"}'/>
+								</t:customData>
+								<Text text="Market"/>
+								<t:template>
+									<Link text="{Market}" press="onLink"/>	
+								</t:template>
+							</t:Column>
+							
+							<t:Column id="idBOMRequired" visible="true">
+								<t:customData>
+									<core:CustomData key="p13nData" value='\{"columnKey": "BOMRequired", "columnIndex":"3", "leadingProperty": "BOMRequired"}'/>
+								</t:customData>
+								<Text text="BOMRequired"/>
+								<t:template>
+									<Text text="{BOMRequired}"/>	
+								</t:template>
+							</t:Column>
+							<t:Column id="idTariffCodeStatus" visible="true">
+								<t:customData>
+									<core:CustomData key="p13nData" value='\{"columnKey": "TariffCodeStatus", "columnIndex":"4", "leadingProperty": "TariffCodeStatus"}'/>
+								</t:customData>
+								<Text text="TariffCodeStatus"/>
+								<t:template>
+									<Text text="{TariffCodeStatus}"/>	
+								</t:template>
+							</t:Column>
+							<t:Column id="idProductImpDesc" visible="true">
+								<t:customData>
+									<core:CustomData key="p13nData" value='\{"columnKey": "ProductImpDesc", "columnIndex":"5", "leadingProperty": "ProductImpDesc"}'/>
+								</t:customData>
+								<Text text="ProductImpDesc"/>
+								<t:template>
+									<Text text="{ProductImpDesc}"/>	
+								</t:template>
+							</t:Column>
+							<t:Column id="idRulingNum" visible="true">
+								<t:customData>
+									<core:CustomData key="p13nData" value='\{"columnKey": "RulingNum", "columnIndex":"6", "leadingProperty": "RulingNum"}'/>
+								</t:customData>
+								<Text text="RulingNum"/>
+								<t:template>
+									<Text text="{RulingNum}"/>	
+								</t:template>
+							</t:Column>
+							<t:Column id="idRulingDate" visible="true">
+								<t:customData>
+									<core:CustomData key="p13nData" value='\{"columnKey": "RulingDate", "columnIndex":"7", "leadingProperty": "RulingDate"}'/>
+								</t:customData>
+								<Text text="RulingDate"/>
+								<t:template>
+									<Text text="{RulingDate}"/>	
+								</t:template>
+							</t:Column>
+							<t:Column id="idDetailedDescription" visible="true">
+								<t:customData>
+									<core:CustomData key="p13nData" value='\{"columnKey": "DetailedDescription", "columnIndex":"8", "leadingProperty": "DetailedDescription"}'/>
+								</t:customData>
+								<Text text="DetailedDescription"/>
+								<t:template>
+									<Text text="{DetailedDescription}"/>	
+								</t:template>
+							</t:Column>
+						</t:columns>
+					</t:Table>
 						<smartTable:layoutData>
 							<FlexItemData growFactor="1" baseSize="0%"/>
 						</smartTable:layoutData>
 					</smartTable:SmartTable>
-				</content>
-			</Page>
-		</pages>
-	</App>
 </mvc:View>
