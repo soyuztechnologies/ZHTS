@@ -72,6 +72,81 @@
 					</Record>
 				</Annotation>
 			</Annotations>
+			<Annotations Target="ZHTS_SRV.ZHTS_I_MATCODEType/TariffCodeStatus">
+				<Annotation Term="Common.ValueList">
+					<Record>
+						<PropertyValue Property="Label" String="TariffCodeStatus"/>
+						<PropertyValue Property="CollectionPath" String="zmm_I_conf_st"/>
+						<PropertyValue Bool="false" Property="SearchSupported"/>
+						<PropertyValue Property="Parameters">
+							<Collection>
+								<Record Type="Common.ValueListParameterOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="trf_cnfrmn_status_id"/>
+									<PropertyValue Property="ValueListProperty" String="trf_cnfrmn_status_id"/>
+								</Record>
+								<Record Type="Common.ValueListParameterOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="trf_cnfrmn_status_desc"/>
+									<PropertyValue Property="ValueListProperty" String="trf_cnfrmn_status_desc"/>
+								</Record>
+								<Record Type="Common.ValueListParameterIn">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="trf_cnfrmn_status_id"/>
+									<PropertyValue Property="ValueListProperty" String="trf_cnfrmn_status_id"/>
+								</Record>
+							</Collection>
+						</PropertyValue>
+					</Record>
+				</Annotation>
+			</Annotations>
+			<Annotations Target="ZHTS_SRV.ZHTS_I_MATCODEType/TarrifCode">
+				<Annotation Term="Common.ValueList">
+					<Record>
+						<PropertyValue Property="Label" String="TarrifCode"/>
+						<PropertyValue Property="CollectionPath" String="zmm_I_trf_cd"/>
+						<PropertyValue Bool="false" Property="SearchSupported"/>
+						<PropertyValue Property="Parameters">
+							<Collection>
+								<Record Type="Common.ValueListParameterOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="trf_cd_nm"/>
+									<PropertyValue Property="ValueListProperty" String="trf_cd_nm"/>
+								</Record>
+								<Record Type="Common.ValueListParameterOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="trf_cd_desc"/>
+									<PropertyValue Property="ValueListProperty" String="trf_cd_desc"/>
+								</Record>
+								<Record Type="Common.ValueListParameterIn">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="trf_cd_nm"/>
+									<PropertyValue Property="ValueListProperty" String="trf_cd_nm"/>
+								</Record>
+							</Collection>
+						</PropertyValue>
+					</Record>
+				</Annotation>
+			</Annotations>
+			<Annotations Target="ZHTS_SRV.ZHTS_I_MATCODEType/Vendor">
+				<Annotation Term="Common.ValueList">
+					<Record>
+						<PropertyValue Property="Label" String="Vendor"/>
+						<PropertyValue Property="CollectionPath" String="zmm_I_vendr"/>
+						<PropertyValue Bool="false" Property="SearchSupported"/>
+						<PropertyValue Property="Parameters">
+							<Collection>
+								<Record Type="Common.ValueListParameterOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="vndr_nm"/>
+									<PropertyValue Property="ValueListProperty" String="vndr_nm"/>
+								</Record>
+								<Record Type="Common.ValueListParameterOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="vndr_cd"/>
+									<PropertyValue Property="ValueListProperty" String="vndr_cd"/>
+								</Record>
+								<Record Type="Common.ValueListParameterIn">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="vndr_nm"/>
+									<PropertyValue Property="ValueListProperty" String="vndr_nm"/>
+								</Record>
+							</Collection>
+						</PropertyValue>
+					</Record>
+				</Annotation>
+			</Annotations>
 		</Schema>
 	</edmx:DataServices>
 </edmx:Edmx>

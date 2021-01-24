@@ -1,16 +1,21 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
-	controllerName="hts.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml"
-	xmlns:smartFilterBar="sap.ui.comp.smartfilterbar" xmlns:smartTable="sap.ui.comp.smarttable" xmlns:fb="sap.ui.comp.filterbar">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="hts.controller.Main"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:smartFilterBar="sap.ui.comp.smartfilterbar" xmlns:smartTable="sap.ui.comp.smarttable"
+	xmlns:fb="sap.ui.comp.filterbar">
 	<App>
 		<pages>
 			<Page title="Material Management">
 				<content>
 					<smartFilterBar:SmartFilterBar id="smartFilterBar" entitySet="ZHTS_I_MATCODE" search="handleSearch" showFilterConfiguration="true">
 						<smartFilterBar:controlConfiguration>
-							<smartFilterBar:ControlConfiguration key="Material" label="Material" controlType="input" 
-							visibleInAdvancedArea="true" groupId="_BASIC" preventInitialDataFetchInValueHelpDialog="false"/>
-							<smartFilterBar:ControlConfiguration key="Market" label="Market" controlType="dropDownList"
-							visibleInAdvancedArea="true" groupId="_BASIC"/>
+							<smartFilterBar:ControlConfiguration key="Material" label="Material" controlType="input" visibleInAdvancedArea="true" groupId="_BASIC"
+								preventInitialDataFetchInValueHelpDialog="false"/>
+							<smartFilterBar:ControlConfiguration key="Market" label="Market" controlType="dropDownList" visibleInAdvancedArea="true" groupId="_BASIC"/>
+							<smartFilterBar:ControlConfiguration key="TariffCodeStatus" label="TariffCodeStatus" controlType="dropDownList" visibleInAdvancedArea="true"
+								groupId="_BASIC"/>
+							<smartFilterBar:ControlConfiguration key="TarrifCode" label="TarrifCode" controlType="dropDownList" visibleInAdvancedArea="true"
+								groupId="_BASIC"/>
+							<smartFilterBar:ControlConfiguration key="Vendor" label="Vendor" controlType="dropDownList" visibleInAdvancedArea="true"
+								groupId="_BASIC"/>
 						</smartFilterBar:controlConfiguration>
 						<smartFilterBar:layoutData>
 							<FlexItemData shrinkFactor="0"/>
@@ -19,7 +24,7 @@
 					<!-- Report Table -->
 					<smartTable:SmartTable id="smartTable" entitySet="ZHTS_I_MATCODE" smartFilterId="smartFilterBar" tableType="ResponsiveTable"
 						useExportToExcel="true" useVariantManagement="false" useTablePersonalisation="true" header="Materials" showRowCount="true"
-						requestAtLeastFields="Material,Market">
+						requestAtLeastFields="Material,Market,TariffCodeStatus,TarrifCode,Vendor">
 						<smartTable:customToolbar>
 							<OverflowToolbar design="Transparent">
 								<ToolbarSpacer/>
@@ -36,10 +41,30 @@
 								</Column>
 								<Column id="idMarket" width="100px" hAlign="Begin">
 									<customData>
-										<core:CustomData key="p13nData"
-											value='\{"columnKey": "Market", columnIndex":"2", "leadingProperty": "Market", "sortProperty": "Market"}'/>
+										<core:CustomData key="p13nData" value='\{"columnKey": "Market", columnIndex":"2", "leadingProperty": "Market", "sortProperty": "Market"}'/>
 									</customData>
 									<Text text="Market"/>
+								</Column>
+								<Column id="idTarifConf" width="100px" hAlign="Begin">
+									<customData>
+										<core:CustomData key="p13nData"
+											value='\{"columnKey": "TariffCodeStatus", columnIndex":"2", "leadingProperty": "TariffCodeStatus", "sortProperty": "TariffCodeStatus"}'/>
+									</customData>
+									<Text text="TariffCodeStatus"/>
+								</Column>
+								<Column id="idTarifCode" width="100px" hAlign="Begin">
+									<customData>
+										<core:CustomData key="p13nData"
+											value='\{"columnKey": "TarrifCode", columnIndex":"2", "leadingProperty": "TarrifCode", "sortProperty": "TarrifCode"}'/>
+									</customData>
+									<Text text="TarrifCode"/>
+								</Column>
+									<Column id="idVendor" width="100px" hAlign="Begin">
+									<customData>
+										<core:CustomData key="p13nData"
+											value='\{"columnKey": "Vendor", columnIndex":"2", "leadingProperty": "Vendor", "sortProperty": "Vendor"}'/>
+									</customData>
+									<Text text="Vendor"/>
 								</Column>
 							</columns>
 							<items>
@@ -47,6 +72,9 @@
 									<cells>
 										<Text text="{Material}"/>
 										<Text text="{Market}"/>
+										<Text text="{TariffCodeStatus}"/>
+										<Text text="{TarrifCode}"></Text>
+										<Text text="{Vendor}"></Text>
 									</cells>
 								</ColumnListItem>
 							</items>
