@@ -62,19 +62,55 @@
 				"sap.uxap": {}
 			}
 		},
-		"rootView": {
-			"viewName": "hts.view.Main",
-			"type": "XML"
+			"rootView": {
+			"viewName": "hts.view.App",
+			"type": "XML",
+			"id": "idAppView"
 		},
 		"routing": {
 			"config": {
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
 				"viewPath": "hts.view",
-				"controlId": "idMain"
+				"controlId": "idApp"
 			},
-			"routes": [],
-			"targets": {}
+			"routes": [{
+				"name": "Main",
+				"pattern": "",
+				"target": ["Main"]
+			}, {
+				"name": "Detail",
+				"pattern": "Details/{key}",
+				"titleTarget": "",
+				"greedy": false,
+				"target": ["Detail"]
+			}],
+			"targets": {
+				"Detail": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "Detail",
+					"viewId": "idDetail",
+					"controlAggregation": "pages"
+				},
+				"Main": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "Main",
+					"viewId": "idMain",
+					"controlAggregation": "pages"
+				},
+				"Home": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "Home",
+					"controlAggregation": "pages",
+					"viewId": "idHome"
+				}
+			}
 		},
 		"contentDensities": {
 			"compact": true,
