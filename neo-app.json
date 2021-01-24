@@ -20,11 +20,11 @@
       "description": "SAPUI5 Test Resources"
     },
     {
-      "path": "/api",
+      "path": "/sap/opu/odata",
       "target": {
         "type": "destination",
         "name": "CFN",
-        "entryPath": "/api"
+        "entryPath": "/sap/opu/odata"
       },
       "description": "CFN"
     }

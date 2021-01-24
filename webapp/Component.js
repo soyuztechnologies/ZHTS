@@ -22,8 +22,8 @@ sap.ui.define([
 			that.getRouter().initialize();
 			// set the device model
 			that.setModel(models.createDeviceModel(), "device");
-			that.getModel().setUseBatch(false);	
-			that.getModel().setSizeLimit(10);	
+			//that.getModel().setUseBatch(false);	
+			//that.getModel().setSizeLimit(10);	
 			
 			
 		}

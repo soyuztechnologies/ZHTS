@@ -1,6 +1,62 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:tnt="sap.tnt" xmlns:form="sap.ui.layout.form" xmlns="sap.m"
-	xmlns:fb="sap.ui.comp.filterbar" xmlns:t="sap.ui.table"
-	xmlns:l="sap.ui.layout"
-	controllerName="hts.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" >
-	<Button text="Planning Material"/>
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="hts.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:smartFilterBar="sap.ui.comp.smartfilterbar" xmlns:smartTable="sap.ui.comp.smarttable" xmlns:fb="sap.ui.comp.filterbar">
+	<App>
+		<pages>
+			<Page title="Material Management">
+				<content>
+					<smartFilterBar:SmartFilterBar id="smartFilterBar" entitySet="ZHTS_I_MATCODE" search="handleSearch" showFilterConfiguration="true">
+						<smartFilterBar:controlConfiguration>
+							<smartFilterBar:ControlConfiguration key="Material" label="Material" controlType="input" 
+							visibleInAdvancedArea="true" groupId="_BASIC" preventInitialDataFetchInValueHelpDialog="false"/>
+							<smartFilterBar:ControlConfiguration key="Market" label="Market" controlType="dropDownList"
+							visibleInAdvancedArea="true" groupId="_BASIC"/>
+						</smartFilterBar:controlConfiguration>
+						<smartFilterBar:layoutData>
+							<FlexItemData shrinkFactor="0"/>
+						</smartFilterBar:layoutData>
+					</smartFilterBar:SmartFilterBar>
+					<!-- Report Table -->
+					<smartTable:SmartTable id="smartTable" entitySet="ZHTS_I_MATCODE" smartFilterId="smartFilterBar" tableType="ResponsiveTable"
+						useExportToExcel="true" useVariantManagement="false" useTablePersonalisation="true" header="Materials" showRowCount="true"
+						requestAtLeastFields="Material,Market">
+						<smartTable:customToolbar>
+							<OverflowToolbar design="Transparent">
+								<ToolbarSpacer/>
+							</OverflowToolbar>
+						</smartTable:customToolbar>
+						<Table mode="SingleSelectLeft" includeItemInSelection="true">
+							<columns>
+								<Column id="idMaterial" width="100px" hAlign="Begin">
+									<customData>
+										<core:CustomData key="p13nData"
+											value='\{"columnKey": "Material", columnIndex":"1", "leadingProperty": "Material", "sortProperty": "Material"}'/>
+									</customData>
+									<Text text="Material"/>
+								</Column>
+								<Column id="idMarket" width="100px" hAlign="Begin">
+									<customData>
+										<core:CustomData key="p13nData"
+											value='\{"columnKey": "Market", columnIndex":"2", "leadingProperty": "Market", "sortProperty": "Market"}'/>
+									</customData>
+									<Text text="Market"/>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{Material}"/>
+										<Text text="{Market}"/>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+						<smartTable:layoutData>
+							<FlexItemData growFactor="1" baseSize="0%"/>
+						</smartTable:layoutData>
+					</smartTable:SmartTable>
+				</content>
+			</Page>
+		</pages>
+	</App>
 </mvc:View>

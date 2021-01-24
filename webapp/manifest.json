@@ -10,20 +10,20 @@
 		"title": "{{appTitle}}",
 		"description": "{{appDescription}}",
 		"dataSources": {
-			"default": {
-				"uri": "/api/odatav2",
-				"type": "OData",
-				"settings": {
-					"odataVersion": "2.0",
-					"useBatch": false
-				}
-			},
 			"ZHTS_SRV": {
 				"uri": "/sap/opu/odata/sap/ZHTS_SRV/",
 				"type": "OData",
 				"settings": {
 					"odataVersion": "2.0",
-					"localUri": "localService/ZHTS_SRV/metadata.xml"
+					"localUri": "localService/ZHTS_SRV/metadata.xml",
+					"annotations": ["annotation0"]
+				}
+			},
+			"annotation0": {
+				"type": "ODataAnnotation",
+				"uri": "annotation0.xml",
+				"settings": {
+					"localUri": "annotation0.xml"
 				}
 			}
 		},
@@ -47,10 +47,7 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": [
-			"sap_hcb",
-			"sap_belize"
-		]
+		"supportedThemes": ["sap_hcb", "sap_belize"]
 	},
 	"sap.ui5": {
 		"dependencies": {
@@ -90,13 +87,6 @@
 					"bundleName": "hts.i18n.i18n"
 				}
 			},
-			"": {
-				"dataSource": "default",
-				"settings": {
-					"defaultBindingMode": "TwoWay"
-				},
-				"preload": true
-			},
 			"@i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"uri": "i18n/i18n.properties"
@@ -106,14 +96,19 @@
 				"settings": {},
 				"uri": "model/mockData.json",
 				"preload": true
+			},
+			"": {
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"settings": {
+				},
+				"dataSource": "ZHTS_SRV",
+				"preload": true
 			}
 		},
 		"resources": {
-			"css": [
-				{
-					"uri": "css/style.css"
-				}
-			]
+			"css": [{
+				"uri": "css/style.css"
+			}]
 		}
 	}
 }
