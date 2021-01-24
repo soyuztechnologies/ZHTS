@@ -12,23 +12,13 @@
     padding-right: 0.5rem;
 }
 
-#__xmlview0--ObjectPageLayout-anchBar-scrollContainer {
+#__component0---idMain--ObjectPageLayout-anchBar-scroll {
     background-color: black;
     color: white;
 }
 
-#__xmlview0--ObjectPageLayout-anchBar-scrollContainer .sapMBtnText * {
+#__component0---idMain--ObjectPageLayout-anchBar-scroll .sapMBtnText * {
+    background-color: black;
     color: white;
 }
 
-/*.sapUiGlobalBackgroundColor,*/
-/*.sapMShellGlobalInnerBackground {*/
-/*    background-image: url(url(https://www.nps.gov/locations/alaska/images/36639616275_24c97a052b_crop.jpgs));*/
-/*    background-size: cover;*/
-/*    background-repeat: no-repeat;*/
-/*}*/
-
-
-/*.cdHome{*/
-/*	background-image:url(url(https://www.nps.gov/locations/alaska/images/36639616275_24c97a052b_crop.jpgs));*/
-/*}*/
