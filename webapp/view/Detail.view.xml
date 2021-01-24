@@ -42,8 +42,8 @@
 					</m:VBox>
 					<m:VBox class="sapUiSmallMarginEnd">
 						<m:Title text="Tariff Code Alt tariff" class="sapUiLargeMarginBegin"/>
-						<m:Select items="{path: '/MatCodeSet',parameters:{expand : 'To_TrfCode'}}" selectedKey="">
-							<core:Item key="{To_TrfCode/TrfCdNm}" text="{To_TrfCode/TrfCdDesc}"/>
+						<m:Select items="{path: '/TrfCodeSet'}" selectedKey="{local>/Detail/HtsNumber}">
+							<core:Item key="{TrfCdId}" text="{TrfCdDesc}"/>
 						</m:Select>
 					</m:VBox>
 					<m:VBox class="sapUiSmallMarginEnd">
