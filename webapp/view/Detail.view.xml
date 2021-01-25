@@ -8,102 +8,112 @@
 		</m:headerContent>
 		<m:content>
 			<m:VBox>
-			<ObjectPageLayout id="ObjectPageLayout">
-				<headerTitle>
-					<ObjectPageHeader id="headerForTest" objectTitle="Tariff Confermation Status - {local>/Detail/0/To_TrfCnfSt/TrfCnfrmnStatusDesc}" showTitleSelector="false"
-						showMarkers="true" objectImageShape="Circle"></ObjectPageHeader>
-				</headerTitle>
-				<headerContent>
-					<layout:VerticalLayout>
-						<m:ObjectStatus title="Vender Name" text="{local>/Detail/0/VendorName}"/>
-						<m:ObjectStatus title="Vender Address"
-							text="{local>/Detail/0/To_Vendor/VndrAddr1},{local>/Detail/0/To_Vendor/VndrCity},{local>/Detail/0/To_Vendor/VndrZipCd}"/>
-					</layout:VerticalLayout>
-					<layout:VerticalLayout>
-						<m:ObjectStatus title="Product Import Description" text="{local>/Detail/0/InvoiceDesc}"/>
-						<m:ObjectStatus title="Product Country Of Origin" text="{local>/Detail/0/To_Country/MktCntryDesc}"/>
-					</layout:VerticalLayout>
-				</headerContent>
-			</ObjectPageLayout>
-			<m:Table items="{path:'local>/Detail'}">
-				<!--<m:infoToolbar>-->
-				<!--	<m:OverflowToolbar>-->
-				<!--		<m:Label text="Material"/>-->
-				<!--	</m:OverflowToolbar>-->
-				<!--</m:infoToolbar>-->
-				<m:columns>
-					<m:Column>
-						<m:header>
-						<m:Label text="Description"></m:Label>
-						</m:header>
-					</m:Column>
-					<m:Column>
-						<m:header>
-						<m:Label text="%"></m:Label>
-						</m:header>
-					</m:Column>
-					<m:Column >
-						<m:header>
-						<m:Label text="Tariff"></m:Label>
-						</m:header>
-					</m:Column>
-					<m:Column minScreenWidth="Tablet" demandPopin="true">
-						<m:header>
-						<m:Label text="Duty"></m:Label>
-						</m:header>
-					</m:Column>
-					<m:Column>
-						<m:header>
-						<m:Label text="Country"></m:Label>
-						</m:header>
-					</m:Column>
-					<m:Column>
-						<m:header>
-						<m:Label text="other"></m:Label>
-						</m:header>
-					</m:Column>
-					<m:Column>
-						<m:header>
-						<m:Label text="Vendor"/>
-						</m:header>
-					</m:Column>
-				</m:columns>
-				<m:items>
-					<m:ColumnListItem>
-						<m:cells>
-							<m:VBox >
-								<m:Input value="{path:'local>Description1'}" editable="false" />
-								<m:Input value="{local>Description2}" editable="false" width=""/>
-							</m:VBox>
-							<m:VBox >
-								<m:Input value="{local>PercentUse}" editable="true" width=""/>
-							</m:VBox>
-							<m:VBox >
-								<m:Select items="{path: '/TrfCodeSet'}" selectedKey="{local>To_TrfCode/TrfCdId}">
-									<core:Item key="{TrfCdId}" text="{TrfCdDesc}"/>
-								</m:Select>
-							</m:VBox>
-							<m:VBox >
-								<m:Input value="{local>To_TrfCode/DutyRate}" editable="false" />
-							</m:VBox>
-							<m:VBox >
-								<m:Input value="{local>To_Country/MktCntryDesc}" editable="false" />
-							</m:VBox>
-							<m:VBox >
-								<m:Select items="{path: '/GovtAgcySet'}" selectedKey="{local>To_Agency/OtherGovtAgcyId}">
-									<core:Item key="{OtherGovtAgcyId}" text="{OtherGovtAgcyDesc}"/>
-								</m:Select>
-							</m:VBox>
-							<m:VBox >
-								<m:Select items="{path: '/VendorSet'}" selectedKey="{local>To_Vendor/VndrId}">
-									<core:Item key="{VndrId}" text="{VndrNm}"/>
-								</m:Select>
-							</m:VBox>
-						</m:cells>
-					</m:ColumnListItem>
-				</m:items>
-			</m:Table>
+				<ObjectPageLayout id="ObjectPageLayout">
+					<headerTitle>
+						<ObjectPageHeader id="headerForTest" objectTitle="Tariff Confermation Status - {local>/Detail/0/To_TrfCnfSt/TrfCnfrmnStatusDesc}"
+							showTitleSelector="false" showMarkers="true" objectImageShape="Circle"></ObjectPageHeader>
+					</headerTitle>
+					<headerContent>
+						<layout:VerticalLayout>
+							<m:ObjectStatus title="Vender Name" text="{local>/Detail/0/VendorName}"/>
+							<m:ObjectStatus title="Vender Address"
+								text="{local>/Detail/0/To_Vendor/VndrAddr1},{local>/Detail/0/To_Vendor/VndrCity},{local>/Detail/0/To_Vendor/VndrZipCd}"/>
+						</layout:VerticalLayout>
+						<layout:VerticalLayout>
+							<m:ObjectStatus title="Product Import Description" text="{local>/Detail/0/InvoiceDesc}"/>
+							<m:ObjectStatus title="Product Country Of Origin" text="{local>/Detail/0/To_Country/MktCntryDesc}"/>
+						</layout:VerticalLayout>
+					</headerContent>
+				</ObjectPageLayout>
+				<m:Table id="idDetailTable" items="{path:'local>/Detail'}" >
+					<!--<m:infoToolbar>-->
+					<!--	<m:OverflowToolbar>-->
+					<!--		<m:Label text="Material"/>-->
+					<!--	</m:OverflowToolbar>-->
+					<!--</m:infoToolbar>-->
+					<m:columns>
+						<m:Column>
+							<m:header>
+								<m:Label text="Description/Comments"></m:Label>
+							</m:header>
+						</m:Column>
+						<m:Column>
+							<m:header>
+								<m:Label text="%"></m:Label>
+							</m:header>
+						</m:Column>
+						<m:Column >
+							<m:header>
+								<m:Label text="Tariff Code Alt Tariff"></m:Label>
+							</m:header>
+						</m:Column>
+						<m:Column minScreenWidth="Tablet" demandPopin="true">
+							<m:header>
+								<m:Label text="Duty/Alt Rate"></m:Label>
+							</m:header>
+						</m:Column>
+						<m:Column>
+							<m:header>
+								<m:Label text="Country of origin"></m:Label>
+							</m:header>
+						</m:Column>
+						<m:Column>
+							<m:header>
+								<m:Label text="Other Govt.Agency/Code FDA Number"></m:Label>
+							</m:header>
+						</m:Column>
+						<m:Column>
+							<m:header>
+								<m:Label text="Vendor"/>
+							</m:header>
+						</m:Column>
+					</m:columns>
+					<m:items>
+						<m:ColumnListItem>
+							<m:cells>
+								<m:VBox >
+									<m:Input value="{path:'local>Description1'}" editable="false"/>
+									<m:Input value="{local>Description2}" editable="false" width=""/>
+								</m:VBox>
+								<m:VBox >
+									<m:Input value="{local>PercentUse}" editable="true" />
+								</m:VBox>
+								<m:VBox >
+									<m:Select items="{path: '/TrfCodeSet'}" selectedKey="{local>HtsNumber}" forceSelection="false" change="onTrfTableSelect">
+										<core:Item key="{TrfCdId}" text="{TrfCdDesc}"/>
+									</m:Select>
+								</m:VBox>
+								<m:VBox >
+									<!--<m:Input value="{local>To_TrfCode/DutyRate}" editable="false"/>-->
+										<m:Select items="{path: '/TrfCodeSet'}" editable="false"  width="200px" selectedKey="{local>HtsNumber}" forceSelection="false" change="onTrfTableSelect">
+										<core:Item key="{TrfCdId}" text="{DutyRate}" />
+									</m:Select>
+								</m:VBox>
+								<m:VBox >
+									<m:Input value="{local>To_MarketCountry/MktCntryDesc}" editable="false"/>
+								</m:VBox>
+								<m:VBox >
+									<m:Select items="{path: '/GovtAgcySet'}" selectedKey="{local>GovAgency}" forceSelection="false" change="onGovtAgcyTableSelect">
+										<core:Item key="{OtherGovtAgcyId}" text="{OtherGovtAgcyDesc}"/>
+									</m:Select>
+								</m:VBox>
+								<m:VBox >
+									<m:Select items="{path: '/VendorSet'}" selectedKey="{local>VendorNumber}" forceSelection="false" change="onVendorTableSelect">
+										<core:Item key="{VndrId}" text="{VndrNm}"/>
+									</m:Select>
+								</m:VBox>
+							</m:cells>
+						</m:ColumnListItem>
+					</m:items>
+				</m:Table>
 			</m:VBox>
 		</m:content>
+		<m:footer>
+			<m:Toolbar>
+				<m:ToolbarSpacer/>
+				<m:Button type="Accept" text="Save" press="onDetailSave"/>
+				<!--<m:Button type="Reject" text="Cancel"/>-->
+			</m:Toolbar>
+		</m:footer>
 	</m:Page>
 </mvc:View>
