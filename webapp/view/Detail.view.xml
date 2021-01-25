@@ -19,94 +19,82 @@
 						<m:ObjectStatus title="Vender Address"
 							text="{local>/Detail/0/To_Vendor/VndrAddr1},{local>/Detail/0/To_Vendor/VndrCity},{local>/Detail/0/To_Vendor/VndrZipCd}"/>
 					</layout:VerticalLayout>
-					<!--<m:ProgressIndicator percentValue="30" displayValue="30%" showValue="true" state="None"/>-->
 					<layout:VerticalLayout>
 						<m:ObjectStatus title="Product Import Description" text="{local>/Detail/0/InvoiceDesc}"/>
 						<m:ObjectStatus title="Product Country Of Origin" text="{local>/Detail/0/To_Country/MktCntryDesc}"/>
-						<!--<m:Label text="{i18n>DocTotal}"/>-->
-						<!--<m:ObjectNumber number="{DocTotal}" numberUnit="EUR"/>-->
 					</layout:VerticalLayout>
-					<!--<m:ObjectAttribute title="{i18n>Status}" text="In Stock"/>-->
-					<!--<m:RatingIndicator maxValue="8" class="sapUiSmallMarginBottom" value="4" tooltip="Rating Tooltip"/>-->
 				</headerContent>
 			</ObjectPageLayout>
-			<m:Table title="Material" items="{path:'local>/Detail'}">
-				<m:infoToolbar>
-					<m:OverflowToolbar>
-						<m:Label text="Material"/>
-					</m:OverflowToolbar>
-				</m:infoToolbar>
+			<m:Table items="{path:'local>/Detail'}">
+				<!--<m:infoToolbar>-->
+				<!--	<m:OverflowToolbar>-->
+				<!--		<m:Label text="Material"/>-->
+				<!--	</m:OverflowToolbar>-->
+				<!--</m:infoToolbar>-->
 				<m:columns>
 					<m:Column>
-						<!--<m:header>-->
+						<m:header>
 						<m:Label text="Description"></m:Label>
-						<!--</m:header>-->
+						</m:header>
 					</m:Column>
 					<m:Column>
-						<!--<m:header>-->
+						<m:header>
 						<m:Label text="%"></m:Label>
-						<!--</m:header>-->
+						</m:header>
 					</m:Column>
 					<m:Column >
-						<!--<m:header>-->
+						<m:header>
 						<m:Label text="Tariff"></m:Label>
-						<!--</m:header>-->
+						</m:header>
 					</m:Column>
 					<m:Column minScreenWidth="Tablet" demandPopin="true">
-						<!--<m:header>-->
+						<m:header>
 						<m:Label text="Duty"></m:Label>
-						<!--</m:h/ader>-->
+						</m:header>
 					</m:Column>
 					<m:Column>
-						<!--<m:header>-->
+						<m:header>
 						<m:Label text="Country"></m:Label>
-						<!--</m:header>-->
+						</m:header>
 					</m:Column>
 					<m:Column>
-						<!--<m:header>-->
+						<m:header>
 						<m:Label text="other"></m:Label>
-						<!--</m:header>-->
+						</m:header>
 					</m:Column>
 					<m:Column>
-						<!--<m:header>-->
+						<m:header>
 						<m:Label text="Vendor"/>
-						<!--</m:header>-->
+						</m:header>
 					</m:Column>
 				</m:columns>
 				<m:items>
 					<m:ColumnListItem>
 						<m:cells>
 							<m:VBox >
-								<!--<m:Title text="Description/Comment"/>-->
 								<m:Input value="{path:'local>Description1'}" editable="false" />
 								<m:Input value="{local>Description2}" editable="false" width=""/>
 							</m:VBox>
 							<m:VBox >
-								<!--<m:Title text="%" class="sapUiSmallMarginBegin"/>-->
 								<m:Input value="{local>PercentUse}" editable="true" width=""/>
 							</m:VBox>
 							<m:VBox >
-								<!--<m:Title text="Tariff Code Alt tariff"/>-->
 								<m:Select items="{path: '/TrfCodeSet'}" selectedKey="{local>To_TrfCode/TrfCdId}">
 									<core:Item key="{TrfCdId}" text="{TrfCdDesc}"/>
 								</m:Select>
 							</m:VBox>
 							<m:VBox >
-								<!--<m:Title text="Duty/Alt Rate"/>-->
 								<m:Input value="{local>To_TrfCode/DutyRate}" editable="false" />
 							</m:VBox>
 							<m:VBox >
-								<!--<m:Title text="Country Of Origin"/>-->
 								<m:Input value="{local>To_Country/MktCntryDesc}" editable="false" />
 							</m:VBox>
 							<m:VBox >
-								<!--<m:Title text="Other Govt. Agcy/Code FDA Num"/>-->
 								<m:Select items="{path: '/GovtAgcySet'}" selectedKey="{local>To_Agency/OtherGovtAgcyId}">
 									<core:Item key="{OtherGovtAgcyId}" text="{OtherGovtAgcyDesc}"/>
 								</m:Select>
 							</m:VBox>
 							<m:VBox >
-								<!--<m:Title text="Vendor"/>-->
 								<m:Select items="{path: '/VendorSet'}" selectedKey="{local>To_Vendor/VndrId}">
 									<core:Item key="{VndrId}" text="{VndrNm}"/>
 								</m:Select>
@@ -115,50 +103,7 @@
 					</m:ColumnListItem>
 				</m:items>
 			</m:Table>
-			<!--<m:HBox class="sapUiTinyMarginTop">-->
-			<!--	<m:VBox class="sapUiSmallMarginEnd">-->
-			<!--		<m:Title text="Description/Comment"/>-->
-			<!--		<m:Input value="{local>/Detail/Description1}" editable="false" width="100%"/>-->
-			<!--		<m:Input value="{local>/Detail/Description2}" editable="false" width="100%"/>-->
-			<!--	</m:VBox>-->
-			<!--	<m:VBox class="sapUiSmallMarginEnd">-->
-			<!--		<m:Title text="%" class="sapUiSmallMarginBegin"/>-->
-			<!--		<m:Input value="{local>/Detail/PercentUse}" editable="true" width="100%"/>-->
-			<!--	</m:VBox>-->
-			<!--	<m:VBox class="sapUiSmallMarginEnd">-->
-			<!--		<m:Title text="Tariff Code Alt tariff" class="sapUiLargeMarginBegin"/>-->
-			<!--		<m:Select items="{path: '/TrfCodeSet'}" selectedKey="{local>/Detail/HtsNumber}">-->
-			<!--			<core:Item key="{TrfCdId}" text="{TrfCdDesc}"/>-->
-			<!--		</m:Select>-->
-			<!--	</m:VBox>-->
-			<!--	<m:VBox class="sapUiSmallMarginEnd">-->
-			<!--		<m:Title text="Duty/Alt Rate"/>-->
-			<!--		<m:Text text="{local>/Detail/To_TrfCode/DutyRate}"></m:Text>-->
-			<!--	</m:VBox>-->
-			<!--	<m:VBox class="sapUiSmallMarginEnd">-->
-			<!--		<m:Title text="Country Of Origin"/>-->
-			<!--		<m:Text text="{local>/Detail/To_Country/MktCntryDesc}"/>-->
-			<!--	</m:VBox>-->
-			<!--	<m:VBox class="sapUiSmallMarginEnd">-->
-			<!--		<m:Title text="Other Govt. Agcy/Code FDA Num"/>-->
-			<!--		<m:Select items="{path: '/MatCodeSet',parameters:{expand : 'To_Agency'}}" selectedKey="">-->
-			<!--			<core:Item key="{To_Agency/OtherGovtAgcyId}" text="{To_Agency/OtherGovtAgcyDesc}"/>-->
-			<!--		</m:Select>-->
-			<!--	</m:VBox>-->
-			<!--	<m:VBox class="sapUiSmallMarginEnd">-->
-			<!--		<m:Title text="Vendor"/>-->
-			<!--		<m:Select items="{path: '/MatCodeSet'}" selectedKey="{/local/Detail/VendorName}">-->
-			<!--			<core:Item key="{VendorName}" text="{VendorName}"/>-->
-			<!--		</m:Select>-->
-			<!--	</m:VBox>-->
-			<!--</m:HBox>-->
 			</m:VBox>
 		</m:content>
-		<!--<m:footer>-->
-		<!--	<m:Toolbar>-->
-		<!--		<m:ToolbarSpacer/>-->
-		<!--		<m:Button id="idonSave" type="Emphasized" text="{i18n>Save}" press="onSave" width="5cm" enabled="false"></m:Button>-->
-		<!--	</m:Toolbar>-->
-		<!--</m:footer>-->
 	</m:Page>
 </mvc:View>
