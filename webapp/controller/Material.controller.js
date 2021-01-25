@@ -58,8 +58,14 @@ sap.ui.define([
 				}
 			},
 			onSearch: function(oEvent){
-				var items=oEvent.getParameter().selectionSet[1].mProperties.value;
-				var newFilter = new sap.ui.model.Filter("Matnr", sap.ui.model.FilterOperator.EQ, items );
+				var items=oEvent.getParameter("selectionSet")[1].getValue();
+				if(items === ""){
+					this.getView().byId("materialTable").getBinding("rows").filter([]);
+				}else{
+					var newFilter = new sap.ui.model.Filter("Matnr", sap.ui.model.FilterOperator.EQ, items );
+					this.getView().byId("materialTable").getBinding("rows").filter(newFilter);	
+				}
+				
 			},
 
 			//routemnatchedhandler

@@ -37,7 +37,8 @@
 			</fb:filterGroupItems>
 		</fb:FilterBar>
 	</l:VerticalLayout>
-	<t:Table rows="{path:'/MatCodeSet', parameters: {'expand': 'To_TrfCode,To_MarketCountry'}}" id="materialTable" selectionMode="Single" rowSelectionChange="onProductSelect" alternateRowColors="true">
+	<t:Table rows="{path:'/MatCodeSet', parameters: {'expand': 'To_TrfCode,To_MarketCountry'}}" id="materialTable" 
+	selectionMode="Single" rowSelectionChange="onProductSelect" alternateRowColors="true">
 		<t:extension>
 			<OverflowToolbar>
 				<Title id="title" text="Material"/>
