@@ -79,7 +79,6 @@ sap.ui.define([
 			// },
 
 			onNext: function(sIndex) {
-				debugger;
 				this._oRouter.navTo("Detail", {
 					key: sIndex
 				});
