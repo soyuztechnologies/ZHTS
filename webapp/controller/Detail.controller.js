@@ -66,10 +66,10 @@ sap.ui.define([
 			oModel.update("/MatCodeSet('" + sPath + "')", payload, {
 				method: "PUT",
 				success: function(data) {
-					alert("success");
+					MessageBox.success("success");
 				},
 				error: function(e) {
-					alert("error");
+					MessageBox.error("error");
 				}
 			});
 
