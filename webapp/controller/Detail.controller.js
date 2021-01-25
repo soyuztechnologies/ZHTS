@@ -20,17 +20,18 @@ sap.ui.define([
 			this.oResource = this.getOwnerComponent().getModel("i18n").getResourceBundle();
 			this.oLocalModel = this.getOwnerComponent().getModel("local");
 		},
+		sObjectId:null,
 		onRouteMatched: function(oEvent) {
-			var sObjectId = oEvent.getParameter("arguments").key;
+			this.sObjectId = oEvent.getParameter("arguments").key;
 			var that = this;
 
 			// oModel.read();
-			var sPath = sObjectId;
+			var sPath =this.sObjectId;
 			var oModel = this.getOwnerComponent().getModel();
 			oModel.read("/MatCodeSet('" + sPath + "')", {
-				urlParameters: {
-					"$expand": "To_MarketCountry"
-				},
+				// urlParameters: {
+				// 	"$expand": "To_MarketCountry"
+				// },
 				success: function(data) {
 					that.oLocalModel.setProperty("/Detail", [data]);
 				},
@@ -52,31 +53,55 @@ sap.ui.define([
 			this.getOwnerComponent().getRouter().navTo("Main");
 		},
 		onDetailSave: function() {
-			var payload = this.getOwnerComponent().getModel("local").getProperty("/Detail");
+			var that = this;
+			var oPayload = this.oLocalModel.getProperty("/Detail/0");
+			var payload = {
+				"HtsNumber": oPayload.HtsNumber,
+				"PercentUse": oPayload.PercentUse,
+				"GovAgency": oPayload.GovAgency,
+				"VendorNumber": oPayload.VendorNumber
+			};
+			var oModel = this.getView().getModel();
+			var sPath=this.sObjectId;
+			oModel.update("/MatCodeSet('" + sPath + "')", payload, {
+				method: "PUT",
+				success: function(data) {
+					alert("success");
+				},
+				error: function(e) {
+					alert("error");
+				}
+			});
+
 			// var newModel = new sap.ui.model.json.JSONModel({
 			// 	t: {
 			// 		"PercentUse": null
 			// 		"To_TrfCode": {
 			// 			"TrfCdId":null
-						
+
 			// 		}
 			// 	}
 			// });
 			// this.getView().setModel(newModel, "t");
 			debugger;
 		},
-		onTrfTableSelect: function(oEvent) {
-			var okey = oEvent.getParameters().selectedItem.mProperties.key;
-			var oText = oEvent.getParameters().selectedItem.mProperties.text;
-		},
-		onGovtAgcyTableSelect: function(oEvent) {
-			var okey = oEvent.getParameters().selectedItem.mProperties.key;
-			var oText = oEvent.getParameters().selectedItem.mProperties.text;
-		},
-		onVendorTableSelect: function(oEvent) {
-			var okey = oEvent.getParameters().selectedItem.mProperties.key;
-			var oText = oEvent.getParameters().selectedItem.mProperties.text;
-		}
+		onInputChange: function(oEvent) {
+				var oValue = oEvent.getParameter("value");
+				this.oLocalModel.setProperty("/Detail/PercentUse", oValue);
+				debugger;
+			}
+			// onTrfTableSelect: function(oEvent) {
+			// 	var okey = oEvent.getParameters().selectedItem.mProperties.key;
+			// 	var oText = oEvent.getParameters().selectedItem.mProperties.text;
+			// },
+			// onGovtAgcyTableSelect: function(oEvent) {
+			// 	var okey = oEvent.getParameters().selectedItem.mProperties.key;
+			// 	var oText = oEvent.getParameters().selectedItem.mProperties.text;
+			// },
+			// onVendorTableSelect: function(oEvent) {
+			// 	var okey = oEvent.getParameters().selectedItem.mProperties.key;
+			// 	var oText = oEvent.getParameters().selectedItem.mProperties.text;
+			// }
 	});
 
 });

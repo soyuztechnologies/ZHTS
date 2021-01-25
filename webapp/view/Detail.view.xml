@@ -76,7 +76,7 @@
 									<m:Input value="{local>Description2}" editable="false" width=""/>
 								</m:VBox>
 								<m:VBox >
-									<m:Input value="{local>PercentUse}" editable="true" />
+									<m:Input id="idInput" value="{local>PercentUse}" editable="true" liveChange="onInputChange" />
 								</m:VBox>
 								<m:VBox >
 									<m:Select items="{path: '/TrfCodeSet'}" selectedKey="{local>HtsNumber}" forceSelection="false" change="onTrfTableSelect">
@@ -90,7 +90,10 @@
 									</m:Select>
 								</m:VBox>
 								<m:VBox >
-									<m:Input value="{local>To_MarketCountry/MktCntryDesc}" editable="false"/>
+									<!--<m:Input value="{local>To_MarketCountry/MktCntryDesc}" editable="false"/>-->
+									<m:Select items="{path: '/CountrySet'}" editable="false"  width="200px" selectedKey="{local>CtryOriginCode}" forceSelection="false" change="onTrfTableSelect">
+										<core:Item key="{MktCntryId}" text="{MktCntryDesc}" />
+									</m:Select>
 								</m:VBox>
 								<m:VBox >
 									<m:Select items="{path: '/GovtAgcySet'}" selectedKey="{local>GovAgency}" forceSelection="false" change="onGovtAgcyTableSelect">
