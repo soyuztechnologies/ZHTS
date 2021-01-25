@@ -23,8 +23,8 @@ sap.ui.define([
 				var sPath = oEvent.getSource().getParent().getRowBindingContext().sPath;
 				this.onNext(sPath.split("'")[1]);
 			},
+			oPopupMaterial: null,
 			onMaterialHelp: function() {
-				debugger;
 				if (!this.oPopupMaterial) {
 					this.oPopupMaterial = new sap.ui.xmlfragment("idMaterialPopup", "hts.fragments.popup", this);
 					this.oPopupMaterial.setTitle("Materials");
@@ -43,9 +43,23 @@ sap.ui.define([
 				this.oPopupMaterial.open();
 			},
 			onSearch: function(oEvent) {
+				debugger;
 				// var sId = oEvent.getSource().getId();
-				var oFilter = new Filter("name", FilterOperator.Contains, oEvent.getParameter("value"));
-				this.oPopupMaterial.getBinding("items").filter([oFilter]);
+				// var oFilter = new Filter("Matnr", FilterOperator.Contains, oEvent.getParameter("value"));
+				// this.oPopupMaterial.getBinding("items").filter([oFilter]);
+				var sValue = oEvent.getParameter("value");
+				var oFilter = new Filter(
+					"Matnr",
+					FilterOperator.Contains, sValue
+				);
+				oEvent.getSource().getBinding("items").filter([oFilter]);
+			},
+			onConfirm: function(oEvent) {
+				var oSelectedItem = oEvent.getParameter("selectedItem");
+				if (oSelectedItem) {
+					var productInput = this.getView().byId("idInput");
+					productInput.setValue(oSelectedItem.getTitle());
+				}
 			},
 
 			//routemnatchedhandler

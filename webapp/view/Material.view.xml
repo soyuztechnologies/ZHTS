@@ -5,30 +5,30 @@
 		<Label text="FilterBar"/>
 		<fb:FilterBar reset="onReset" search="onSearch" showRestoreButton="true" showClearButton="true">
 			<fb:filterGroupItems>
-				<fb:FilterGroupItem groupName="__$INTERNAL$" name="A" label="Parent" mandatory="false" partOfCurrentVariant="true" visibleInFilterBar="true">
+				<fb:FilterGroupItem groupName="__$INTERNAL$" name="Parent" label="Parent" mandatory="false" partOfCurrentVariant="true" visibleInFilterBar="true">
 					<fb:control>
 						<Input/>
 					</fb:control>
 				</fb:FilterGroupItem>
-				<fb:FilterGroupItem groupName="__$INTERNAL$" name="B" label="Material" labelTooltip="" mandatory="true" partOfCurrentVariant="true"
+				<fb:FilterGroupItem groupName="__$INTERNAL$" name="Material" label="Material" labelTooltip="" mandatory="true" partOfCurrentVariant="true"
 					visibleInFilterBar="true">
 					<fb:control>
-						<Input showValueHelp="true" valueHelpRequest="onMaterialHelp"/>
+						<Input id="idInput" showValueHelp="true" valueHelpRequest="onMaterialHelp" suggestionItemSelected="onSelectF4" />
 					</fb:control>
 				</fb:FilterGroupItem>
-				<fb:FilterGroupItem groupName="__$INTERNAL$" name="C" label="Material Name" labelTooltip="" mandatory="false" partOfCurrentVariant="true"
-					visibleInFilterBar="true">
-					<fb:control>
-						<Input/>
-					</fb:control>
-				</fb:FilterGroupItem>
-				<fb:FilterGroupItem groupName="__$INTERNAL$" name="D" label="Project" labelTooltip="" mandatory="false" partOfCurrentVariant="true"
+				<fb:FilterGroupItem groupName="__$INTERNAL$" name="MaterialName" label="Material Name" labelTooltip="" mandatory="false" partOfCurrentVariant="true"
 					visibleInFilterBar="true">
 					<fb:control>
 						<Input/>
 					</fb:control>
 				</fb:FilterGroupItem>
-				<fb:FilterGroupItem groupName="__$INTERNAL$" name="E" label="Global SKU" labelTooltip="" mandatory="false" partOfCurrentVariant="true"
+				<fb:FilterGroupItem groupName="__$INTERNAL$" name="Project" label="Project" labelTooltip="" mandatory="false" partOfCurrentVariant="true"
+					visibleInFilterBar="true">
+					<fb:control>
+						<Input/>
+					</fb:control>
+				</fb:FilterGroupItem>
+				<fb:FilterGroupItem groupName="__$INTERNAL$" name="GlobalSKU" label="Global SKU" labelTooltip="" mandatory="false" partOfCurrentVariant="true"
 					visibleInFilterBar="true">
 					<fb:control>
 						<Input/>
@@ -42,7 +42,7 @@
 			<OverflowToolbar>
 				<Title id="title" text="Material"/>
 				<ToolbarSpacer/>
-				<SearchField width="45%" class="sapUiSmallMargin"/>
+				<!--<SearchField width="45%" class="sapUiSmallMargin"/>-->
 			</OverflowToolbar>
 		</t:extension>
 		<t:columns>
