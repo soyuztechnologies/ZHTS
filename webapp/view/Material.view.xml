@@ -43,6 +43,7 @@
 			<OverflowToolbar>
 				<Title id="title" text="Material"/>
 				<ToolbarSpacer/>
+				<Button text="Copy" press="onCopyPress" />
 				<!--<SearchField width="45%" class="sapUiSmallMargin"/>-->
 			</OverflowToolbar>
 		</t:extension>

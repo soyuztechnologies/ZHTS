@@ -24,6 +24,7 @@ sap.ui.define([
 				this.onNext(sPath.split("'")[1]);
 			},
 			oPopupMaterial: null,
+			oPopupCountry:null,
 			onMaterialHelp: function() {
 				if (!this.oPopupMaterial) {
 					this.oPopupMaterial = new sap.ui.xmlfragment("idMaterialPopup", "hts.fragments.popup", this);
@@ -57,15 +58,35 @@ sap.ui.define([
 					productInput.setValue(oSelectedItem.getTitle());
 				}
 			},
-			onSearch: function(oEvent){
-				var items=oEvent.getParameter("selectionSet")[1].getValue();
-				if(items === ""){
+			onSearch: function(oEvent) {
+				var items = oEvent.getParameter("selectionSet")[1].getValue();
+				if (items === "") {
 					this.getView().byId("materialTable").getBinding("rows").filter([]);
-				}else{
-					var newFilter = new sap.ui.model.Filter("Matnr", sap.ui.model.FilterOperator.EQ, items );
-					this.getView().byId("materialTable").getBinding("rows").filter(newFilter);	
+				} else {
+					var newFilter = new sap.ui.model.Filter("Matnr", sap.ui.model.FilterOperator.EQ, items);
+					this.getView().byId("materialTable").getBinding("rows").filter(newFilter);
 				}
-				
+
+			},
+			onCopyPress: function() {
+				if (!this.oPopupCountry) {
+					this.oPopupCountry = new sap.ui.xmlfragment("idCountrylPopup", "hts.fragments.popup", this);
+					this.oPopupCountry.setTitle("Countries");
+					 this.oPopupCountry.setMultiSelect(true);
+					//giving access to the data which my view has
+					this.getView().addDependent(this.oPopupCountry);
+					this.getView().addDependent(this.oPopupCountry);
+					
+					this.oPopupCountry.bindAggregation("items", {
+						path: "/CountrySet",
+						template: new sap.m.StandardListItem({
+							description: "{MktCntryDesc}",
+							title: "{MktCntryCd}"
+						})
+
+					});
+				}
+				this.oPopupCountry.open();
 			},
 
 			//routemnatchedhandler
