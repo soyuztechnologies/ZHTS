@@ -7,22 +7,22 @@
 			<m:Text text="{i18n>Version}"/>
 		</m:headerContent>
 		<m:content>
-			<!--<m:VBox>-->
+			<m:VBox>
 			<ObjectPageLayout id="ObjectPageLayout">
 				<headerTitle>
-					<ObjectPageHeader id="headerForTest" objectTitle="Tariff Confermation Status - {local>/Detail/LowerAgeText}" showTitleSelector="false"
+					<ObjectPageHeader id="headerForTest" objectTitle="Tariff Confermation Status - {local>/Detail/0/To_TrfCnfSt/TrfCnfrmnStatusDesc}" showTitleSelector="false"
 						showMarkers="true" objectImageShape="Circle"></ObjectPageHeader>
 				</headerTitle>
 				<headerContent>
 					<layout:VerticalLayout>
-						<m:ObjectStatus title="Vender Name" text="{local>/Detail/VendorName}"/>
+						<m:ObjectStatus title="Vender Name" text="{local>/Detail/0/VendorName}"/>
 						<m:ObjectStatus title="Vender Address"
-							text="{local>/Detail/To_Vendor/VndrAddr1},{local>/Detail/To_Vendor/VndrCity},{local>/Detail/To_Vendor/VndrZipCd}"/>
+							text="{local>/Detail/0/To_Vendor/VndrAddr1},{local>/Detail/0/To_Vendor/VndrCity},{local>/Detail/0/To_Vendor/VndrZipCd}"/>
 					</layout:VerticalLayout>
 					<!--<m:ProgressIndicator percentValue="30" displayValue="30%" showValue="true" state="None"/>-->
 					<layout:VerticalLayout>
-						<m:ObjectStatus title="Product Import Description" text="{local>/Detail/InvoiceDesc}"/>
-						<m:ObjectStatus title="Product Country Of Origin" text="{local>/Detail/To_Country/MktCntryDesc}"/>
+						<m:ObjectStatus title="Product Import Description" text="{local>/Detail/0/InvoiceDesc}"/>
+						<m:ObjectStatus title="Product Country Of Origin" text="{local>/Detail/0/To_Country/MktCntryDesc}"/>
 						<!--<m:Label text="{i18n>DocTotal}"/>-->
 						<!--<m:ObjectNumber number="{DocTotal}" numberUnit="EUR"/>-->
 					</layout:VerticalLayout>
@@ -30,43 +30,47 @@
 					<!--<m:RatingIndicator maxValue="8" class="sapUiSmallMarginBottom" value="4" tooltip="Rating Tooltip"/>-->
 				</headerContent>
 			</ObjectPageLayout>
-			
-			<m:Table items="{path:'local>/Detail'}">
+			<m:Table title="Material" items="{path:'local>/Detail'}">
+				<m:infoToolbar>
+					<m:OverflowToolbar>
+						<m:Label text="Material"/>
+					</m:OverflowToolbar>
+				</m:infoToolbar>
 				<m:columns>
 					<m:Column>
-						<m:header>
-							<m:Text text="Description"></m:Text>
-						</m:header>
+						<!--<m:header>-->
+						<m:Label text="Description"></m:Label>
+						<!--</m:header>-->
 					</m:Column>
 					<m:Column>
-						<m:header>
-							<m:Text text="%"></m:Text>
-						</m:header>
+						<!--<m:header>-->
+						<m:Label text="%"></m:Label>
+						<!--</m:header>-->
 					</m:Column>
 					<m:Column >
-						<m:header>
-							<m:Text text="Tariff"></m:Text>
-						</m:header>
+						<!--<m:header>-->
+						<m:Label text="Tariff"></m:Label>
+						<!--</m:header>-->
 					</m:Column>
 					<m:Column minScreenWidth="Tablet" demandPopin="true">
-						<m:header>
-							<m:Text text="Duty"></m:Text>
-						</m:header>
+						<!--<m:header>-->
+						<m:Label text="Duty"></m:Label>
+						<!--</m:h/ader>-->
 					</m:Column>
 					<m:Column>
-						<m:header>
-							<m:Text text="Country"></m:Text>
-						</m:header>
+						<!--<m:header>-->
+						<m:Label text="Country"></m:Label>
+						<!--</m:header>-->
 					</m:Column>
 					<m:Column>
-						<m:header>
-							<m:Text text="other"></m:Text>
-						</m:header>
+						<!--<m:header>-->
+						<m:Label text="other"></m:Label>
+						<!--</m:header>-->
 					</m:Column>
 					<m:Column>
-						<m:header>
-							<m:Text text="Vendor"></m:Text>
-						</m:header>
+						<!--<m:header>-->
+						<m:Label text="Vendor"/>
+						<!--</m:header>-->
 					</m:Column>
 				</m:columns>
 				<m:items>
@@ -74,7 +78,7 @@
 						<m:cells>
 							<m:VBox >
 								<!--<m:Title text="Description/Comment"/>-->
-								<m:Input value="{local>Description1}" editable="false" width=""/>
+								<m:Input value="{path:'local>Description1'}" editable="false" />
 								<m:Input value="{local>Description2}" editable="false" width=""/>
 							</m:VBox>
 							<m:VBox >
@@ -82,28 +86,28 @@
 								<m:Input value="{local>PercentUse}" editable="true" width=""/>
 							</m:VBox>
 							<m:VBox >
-								<!--<m:Title text="Tariff Code Alt tariff" class="sapUiLargeMarginBegin"/>-->
-								<m:Select items="{path: '/TrfCodeSet'}" selectedKey="{local>HtsNumber}">
+								<!--<m:Title text="Tariff Code Alt tariff"/>-->
+								<m:Select items="{path: '/TrfCodeSet'}" selectedKey="{local>To_TrfCode/TrfCdId}">
 									<core:Item key="{TrfCdId}" text="{TrfCdDesc}"/>
 								</m:Select>
 							</m:VBox>
 							<m:VBox >
 								<!--<m:Title text="Duty/Alt Rate"/>-->
-								<m:Text text="{local>To_TrfCode/DutyRate}"></m:Text>
+								<m:Input value="{local>To_TrfCode/DutyRate}" editable="false" />
 							</m:VBox>
 							<m:VBox >
 								<!--<m:Title text="Country Of Origin"/>-->
-								<m:Text text="{local>To_Country/MktCntryDesc}"/>
+								<m:Input value="{local>To_Country/MktCntryDesc}" editable="false" />
 							</m:VBox>
 							<m:VBox >
 								<!--<m:Title text="Other Govt. Agcy/Code FDA Num"/>-->
-								<m:Select items="{path: '/GovtAgcySet}" selectedKey="{local>To_Agency/OtherGovtAgcyId}">
+								<m:Select items="{path: '/GovtAgcySet'}" selectedKey="{local>To_Agency/OtherGovtAgcyId}">
 									<core:Item key="{OtherGovtAgcyId}" text="{OtherGovtAgcyDesc}"/>
 								</m:Select>
 							</m:VBox>
 							<m:VBox >
 								<!--<m:Title text="Vendor"/>-->
-								<m:Select items="{path: '/VendorSet'}" selectedKey="{local>VendorName}">
+								<m:Select items="{path: '/VendorSet'}" selectedKey="{local>To_Vendor/VndrId}">
 									<core:Item key="{VndrId}" text="{VndrNm}"/>
 								</m:Select>
 							</m:VBox>
@@ -148,7 +152,7 @@
 			<!--		</m:Select>-->
 			<!--	</m:VBox>-->
 			<!--</m:HBox>-->
-			<!--</m:VBox>-->
+			</m:VBox>
 		</m:content>
 		<!--<m:footer>-->
 		<!--	<m:Toolbar>-->

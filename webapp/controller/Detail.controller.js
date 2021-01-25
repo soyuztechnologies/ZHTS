@@ -29,10 +29,10 @@ sap.ui.define([
 			var oModel=this.getOwnerComponent().getModel();
 			oModel.read("/MatCodeSet('" + sPath + "')", {
 				urlParameters: {
-					"$expand": "To_TrfCode,To_Country,To_Vendor,To_AgcyCd,To_Agency"
+					"$expand": "To_TrfCode,To_Country,To_Vendor,To_AgcyCd,To_Agency,To_TrfCnfSt"
 				},
 				success: function(data){
-					that.oLocalModel.setProperty("/Detail",data);
+					that.oLocalModel.setProperty("/Detail",[data]);
 				},
 				error:function(oError){
 					
