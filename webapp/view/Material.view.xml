@@ -55,7 +55,7 @@
 			<t:Column >
 				<Label text="Market/Country"/>
 				<t:template>
-					<Button text="{MarketCountry}" press="selectCountry"/>
+					<Link text="{MarketCountry}" press="selectCountry"/>
 				</t:template>
 			</t:Column>
 			<t:Column >
