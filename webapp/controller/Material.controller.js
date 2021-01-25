@@ -42,7 +42,7 @@ sap.ui.define([
 				}
 				this.oPopupMaterial.open();
 			},
-			onSearch: function(oEvent) {
+			onPopUpSearch: function(oEvent) {
 				debugger;
 				// var sId = oEvent.getSource().getId();
 				// var oFilter = new Filter("Matnr", FilterOperator.Contains, oEvent.getParameter("value"));
@@ -54,12 +54,16 @@ sap.ui.define([
 				);
 				oEvent.getSource().getBinding("items").filter([oFilter]);
 			},
-			onConfirm: function(oEvent) {
+			onPopUpConfirm: function(oEvent) {
 				var oSelectedItem = oEvent.getParameter("selectedItem");
 				if (oSelectedItem) {
 					var productInput = this.getView().byId("idInput");
 					productInput.setValue(oSelectedItem.getTitle());
 				}
+			},
+			onSearch: function(oEvent){
+				var items=oEvent.getParameter().selectionSet[1].mProperties.value;
+				var newFilter = new sap.ui.model.Filter("Matnr", sap.ui.model.FilterOperator.EQ, items );
 			},
 
 			//routemnatchedhandler
