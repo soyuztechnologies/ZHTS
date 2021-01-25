@@ -72,36 +72,11 @@ sap.ui.define([
 					MessageBox.error("error");
 				}
 			});
-
-			// var newModel = new sap.ui.model.json.JSONModel({
-			// 	t: {
-			// 		"PercentUse": null
-			// 		"To_TrfCode": {
-			// 			"TrfCdId":null
-
-			// 		}
-			// 	}
-			// });
-			// this.getView().setModel(newModel, "t");
-			debugger;
 		},
 		onInputChange: function(oEvent) {
 				var oValue = oEvent.getParameter("value");
 				this.oLocalModel.setProperty("/Detail/PercentUse", oValue);
-				debugger;
 			}
-			// onTrfTableSelect: function(oEvent) {
-			// 	var okey = oEvent.getParameters().selectedItem.mProperties.key;
-			// 	var oText = oEvent.getParameters().selectedItem.mProperties.text;
-			// },
-			// onGovtAgcyTableSelect: function(oEvent) {
-			// 	var okey = oEvent.getParameters().selectedItem.mProperties.key;
-			// 	var oText = oEvent.getParameters().selectedItem.mProperties.text;
-			// },
-			// onVendorTableSelect: function(oEvent) {
-			// 	var okey = oEvent.getParameters().selectedItem.mProperties.key;
-			// 	var oText = oEvent.getParameters().selectedItem.mProperties.text;
-			// }
 	});
 
 });
