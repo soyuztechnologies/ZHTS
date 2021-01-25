@@ -43,10 +43,6 @@ sap.ui.define([
 				this.oPopupMaterial.open();
 			},
 			onPopUpSearch: function(oEvent) {
-				debugger;
-				// var sId = oEvent.getSource().getId();
-				// var oFilter = new Filter("Matnr", FilterOperator.Contains, oEvent.getParameter("value"));
-				// this.oPopupMaterial.getBinding("items").filter([oFilter]);
 				var sValue = oEvent.getParameter("value");
 				var oFilter = new Filter(
 					"Matnr",
